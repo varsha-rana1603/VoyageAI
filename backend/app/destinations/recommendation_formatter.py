@@ -101,6 +101,7 @@ def generate_cons(destination):
 
 #Build the final recommendation
 def build_recommendation(destination, scores, user_profile):
+    
 
     confidence_label, confidence_percent = get_confidence(
         scores["final_score"]

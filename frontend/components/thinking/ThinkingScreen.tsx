@@ -11,7 +11,12 @@ import {
   Loader2,
 } from "lucide-react";
 
-const pipeline = [
+
+/* -----------------------------
+   Destination Recommendation Flow
+------------------------------ */
+
+export const destinationPipeline = [
   {
     icon: Brain,
     title: "Understanding your travel personality...",
@@ -24,7 +29,7 @@ const pipeline = [
   },
   {
     icon: Globe2,
-    title: "Comparing against 534 destinations...",
+    title: "Comparing against destinations...",
     completed: "Top 20 candidates found",
   },
   {
@@ -39,113 +44,365 @@ const pipeline = [
   },
 ];
 
-export default function ThinkingScreen({
-  onFinished,
-}: {
+
+/* -----------------------------
+   Stay Recommendation Flow
+------------------------------ */
+
+export const stayPipeline = [
+  {
+    icon: Brain,
+    title: "Understanding your ideal stay...",
+    completed: "Preferences extracted",
+  },
+  {
+    icon: Globe2,
+    title: "Searching local accommodations...",
+    completed: "Nearby stays discovered",
+  },
+  {
+    icon: Sparkles,
+    title: "Analyzing views, comfort and amenities...",
+    completed: "Stay profiles created",
+  },
+  {
+    icon: BarChart3,
+    title: "Ranking stays using AI matching...",
+    completed: "Top 10 stays selected",
+  },
+  {
+    icon: CheckCircle2,
+    title: "Preparing your stay recommendations...",
+    completed: "Ready!",
+  },
+];
+
+
+
+interface PipelineStep {
+  icon: any;
+  title: string;
+  completed: string;
+}
+
+
+interface ThinkingScreenProps {
+  title: string;
+  subtitle: string;
+  pipeline: PipelineStep[];
   onFinished: () => void;
-}) {
+}
+
+
+
+export default function ThinkingScreen({
+  title,
+  subtitle,
+  pipeline,
+  onFinished,
+}: ThinkingScreenProps) {
+
+
   const [completedSteps, setCompletedSteps] = useState(0);
 
+
+
   useEffect(() => {
+
+
     if (completedSteps === pipeline.length) {
-      setTimeout(() => {
+
+
+      const timer = setTimeout(() => {
         onFinished();
       }, 800);
 
-      return;
+
+      return () => clearTimeout(timer);
+
     }
 
+
+
     const timer = setTimeout(() => {
+
       setCompletedSteps((prev) => prev + 1);
+
     }, 1200);
 
+
+
     return () => clearTimeout(timer);
-  }, [completedSteps, onFinished]);
+
+
+
+  }, [
+    completedSteps,
+    pipeline.length,
+    onFinished,
+  ]);
+
+
+
+
 
   return (
-    <section className="flex min-h-screen items-center justify-center bg-[#05060b] px-6">
 
-      <div className="w-full max-w-3xl rounded-3xl border border-white/10 bg-white/5 p-10 backdrop-blur-2xl">
+    <section
+      className="
+        flex
+        min-h-screen
+        items-center
+        justify-center
+        bg-[#05060b]
+        px-6
+      "
+    >
 
-        <h1 className="mb-3 text-center text-4xl font-bold">
-          VoyageAI is planning your trip
+
+      <motion.div
+
+        initial={{
+          opacity: 0,
+          scale: 0.95,
+        }}
+
+        animate={{
+          opacity: 1,
+          scale: 1,
+        }}
+
+        className="
+          w-full
+          max-w-3xl
+          rounded-3xl
+          border
+          border-white/10
+          bg-white/5
+          p-10
+          backdrop-blur-2xl
+        "
+
+      >
+
+
+        <h1
+          className="
+            mb-3
+            text-center
+            text-4xl
+            font-bold
+          "
+        >
+          {title}
         </h1>
 
-        <p className="mb-12 text-center text-zinc-400">
-          Running semantic search and hybrid ranking...
+
+
+        <p
+          className="
+            mb-12
+            text-center
+            text-zinc-400
+          "
+        >
+          {subtitle}
         </p>
+
+
+
+
 
         <div className="space-y-8">
 
+
           {pipeline.map((step, index) => {
+
+
             const Icon = step.icon;
+
 
             const done = index < completedSteps;
 
+
             const active = index === completedSteps;
 
+
+
             return (
+
               <motion.div
+
                 key={step.title}
-                initial={{ opacity: 0, y: 15 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="flex items-start gap-5"
+
+                initial={{
+                  opacity: 0,
+                  y: 15,
+                }}
+
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                }}
+
+                transition={{
+                  delay: index * 0.1,
+                }}
+
+                className="
+                  flex
+                  items-start
+                  gap-5
+                "
+
               >
+
+
+
                 <div className="mt-1">
+
+
                   {done ? (
+
                     <CheckCircle2
                       size={28}
                       className="text-green-400"
                     />
+
+
                   ) : active ? (
+
                     <Loader2
                       size={28}
-                      className="animate-spin text-cyan-400"
+                      className="
+                        animate-spin
+                        text-cyan-400
+                      "
                     />
+
+
                   ) : (
+
                     <Icon
                       size={28}
                       className="text-zinc-600"
                     />
+
                   )}
+
+
                 </div>
+
+
+
+
 
                 <div className="flex-1">
 
+
                   <p
-                    className={`text-xl ${
-                      done || active
-                        ? "text-white"
-                        : "text-zinc-500"
-                    }`}
+                    className={`
+                      text-xl
+                      ${
+                        done || active
+                          ? "text-white"
+                          : "text-zinc-500"
+                      }
+                    `}
                   >
+
                     {step.title}
+
                   </p>
 
+
+
+
+
                   {done && (
+
                     <motion.p
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      className="mt-2 text-green-400"
+
+                      initial={{
+                        opacity: 0,
+                      }}
+
+                      animate={{
+                        opacity: 1,
+                      }}
+
+                      className="
+                        mt-2
+                        text-green-400
+                      "
+
                     >
+
                       ✓ {step.completed}
+
                     </motion.p>
+
                   )}
 
+
+
+
+
+
                   {active && (
+
                     <motion.div
-                      initial={{ width: 0 }}
-                      animate={{ width: "100%" }}
-                      transition={{ duration: 1 }}
-                      className="mt-4 h-[3px] rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400"
+
+                      initial={{
+                        width: 0,
+                      }}
+
+                      animate={{
+                        width: "100%",
+                      }}
+
+                      transition={{
+                        duration: 1,
+                      }}
+
+                      className="
+                        mt-4
+                        h-[3px]
+                        rounded-full
+                        bg-gradient-to-r
+                        from-cyan-400
+                        via-blue-500
+                        to-cyan-400
+                      "
+
                     />
+
                   )}
+
+
+
+
                 </div>
+
+
+
               </motion.div>
+
             );
+
+
           })}
+
+
+
         </div>
-      </div>
+
+
+
+      </motion.div>
+
+
     </section>
+
   );
 }

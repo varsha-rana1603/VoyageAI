@@ -2,74 +2,73 @@
 
 import MatchCircle from "./MatchCircle";
 import ScoreBar from "./ScoreBar";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Hotel } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface Props {
   destination: any;
-  onSelect: (destination: any) => void;
+  onExploreStays: (destination: any) => void;
 }
 
 export default function HeroRecommendation({
   destination,
-  onSelect
+  onExploreStays,
 }: Props) {
   return (
     <motion.section
       initial={{
         opacity: 0,
-        y: 80,
+        y: 60,
       }}
       animate={{
         opacity: 1,
         y: 0,
       }}
-      className="rounded-[40px] border border-white/10 bg-white/5 p-10 backdrop-blur-xl"
+      className="rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8 lg:p-10 backdrop-blur-xl"
     >
-      <div className="grid gap-10 lg:grid-cols-2">
-
+      <div className="grid items-start gap-8 lg:grid-cols-[1.15fr_0.85fr]">
+        {/* LEFT */}
         <div>
-
-          <p className="mb-3 text-cyan-400 uppercase tracking-[0.3em]">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-400 md:text-sm">
             Your Perfect Match
           </p>
 
-          <h1 className="text-6xl font-bold">
+          <h1 className="text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
             {destination.name}
           </h1>
 
-          <p className="mt-2 text-zinc-400">
+          <p className="mt-2 text-base text-zinc-400 md:text-lg">
             {destination.state}
           </p>
 
-          <p className="mt-8 text-lg text-zinc-300 leading-8">
+          <p className="mt-6 text-base leading-7 text-zinc-300 md:text-lg">
             {destination.description}
           </p>
 
-          <div className="mt-10 space-y-4">
-
+          <div className="mt-8 space-y-3">
             {destination.reasons.map((reason: string) => (
               <div
                 key={reason}
-                className="flex items-center gap-3"
+                className="flex items-start gap-3"
               >
-                <CheckCircle2 className="text-cyan-400" />
+                <CheckCircle2
+                  size={20}
+                  className="mt-0.5 shrink-0 text-cyan-400"
+                />
 
-                <span>{reason}</span>
-
+                <span className="text-sm leading-6 text-zinc-200 md:text-base">
+                  {reason}
+                </span>
               </div>
             ))}
-
           </div>
-
         </div>
 
+        {/* RIGHT */}
         <div className="flex flex-col items-center">
-
           <MatchCircle score={destination.final_score} />
 
-          <div className="mt-12 w-full space-y-6">
-
+          <div className="mt-8 w-full space-y-4">
             <ScoreBar
               title="Semantic Match"
               score={destination.semantic_score}
@@ -89,11 +88,41 @@ export default function HeroRecommendation({
               title="Crowd Match"
               score={destination.crowd_score}
             />
-
           </div>
 
-        </div>
+          <motion.button
+            whileHover={{
+              scale: 1.03,
+            }}
+            whileTap={{
+              scale: 0.98,
+            }}
+            onClick={() => onExploreStays(destination)}
+            className="
+              mt-8
+              flex
+              w-full
+              items-center
+              justify-center
+              gap-3
+              rounded-2xl
+              bg-gradient-to-r
+              from-cyan-400
+              to-blue-500
+              px-6
+              py-4
+              text-base
+              font-semibold
+              text-black
+              shadow-[0_0_30px_rgba(34,211,238,0.25)]
+              transition
+            "
+          >
+            <Hotel size={20} />
 
+            Explore Recommended Stays
+          </motion.button>
+        </div>
       </div>
     </motion.section>
   );

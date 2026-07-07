@@ -84,12 +84,11 @@ export default function Question({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
-          className="mb-4 text-cyan-400 tracking-widest uppercase"
-        >
+          className="mb-2 text-xs uppercase tracking-[0.3em] text-cyan-400"        >
           VoyageAI is learning your travel personality
         </motion.p>
 
-        <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+        <h1 className="text-3xl font-bold leading-tight md:text-5xl">
           {question}
         </h1>
 
