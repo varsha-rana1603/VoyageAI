@@ -1,5 +1,5 @@
 def get_confidence(score):
-    print("SCORE",score)
+    # print("SCORE",score)
     if score >= 90:
         return "Excellent Match", "95%+"
 
@@ -15,51 +15,61 @@ def generate_reasons(stay, scores, user):
 
     reasons = []
 
-    if scores["budget_score"] >= 90:
+    if scores["budget_score"] >= 80:
         reasons.append(
             f"Fits your {user['budget_level']} budget."
         )
 
-    if scores["semantic_score"] >= 90:
+    if scores["food_score"] >= 80:
         reasons.append(
-            "Matches your travel style."
+            "Great cafés and restaurants nearby."
         )
 
     if scores["distance_score"] >= 90:
         reasons.append(
-            "Located close to the town centre."
+            "Located close to the city centre."
         )
 
-    if scores["amenity_score"] >= 80:
+    if scores["nature_score"] >= 80:
         reasons.append(
-            "Excellent nearby cafés and attractions."
+            "Beautiful natural surroundings."
         )
 
-    if scores["rating_score"] >= 90:
+    if scores["culture_score"] >= 80:
         reasons.append(
-            "Highly rated by travelers."
+            "Close to attractions and cultural places."
         )
 
-    return reasons
+    return reasons[:4]
 
 def generate_pros(stay):
 
     pros = []
 
-    if stay["nature_score"] > 85:
-        pros.append("Beautiful natural surroundings")
+    if stay.get("nature_score",0) > 85:
+        pros.append(
+            "Beautiful natural surroundings"
+        )
 
-    if stay["food_score"] > 80:
-        pros.append("Great nearby cafés")
+    if stay.get("food_score",0) > 80:
+        pros.append(
+            "Great nearby cafés and restaurants"
+        )
 
-    if stay["tourism_score"] > 80:
-        pros.append("Close to major attractions")
+    if stay.get("culture_score",0) > 80:
+        pros.append(
+            "Close to major attractions"
+        )
 
-    if stay["distance_score"] > 80:
-        pros.append("Convenient location")
+    if stay.get("distance_score",0) > 80:
+        pros.append(
+            "Convenient location"
+        )
 
-    if stay["connectivity_score"] > 80:
-        pros.append("Easy transport access")
+    if stay.get("connectivity_score",0) > 80:
+        pros.append(
+            "Easy transport access"
+        )
 
     return pros
 
@@ -67,22 +77,22 @@ def generate_cons(stay):
 
     cons = []
 
-    if stay["distance_score"] < 60:
+    if stay.get("distance_score",0) < 60:
         cons.append(
-            "Far from the town centre"
+            "Far from the city centre"
         )
 
-    if stay["food_score"] < 60:
+    if stay.get("food_score",0) < 60:
         cons.append(
-            "Limited nearby dining options"
+            "Limited dining options nearby"
         )
 
-    if stay["shopping_score"] < 60:
+    if stay.get("shopping_score",0) < 60:
         cons.append(
-            "Few nearby shops"
+            "Few shopping options nearby"
         )
 
-    if stay["connectivity_score"] < 60:
+    if stay.get("connectivity_score",0) < 60:
         cons.append(
             "Limited transport connectivity"
         )
@@ -92,7 +102,7 @@ def generate_cons(stay):
 def build_recommendation(stay, user):
 
     scores = stay["scores"]
-    print("SCORES:",scores)
+    # print("SCORES:",scores)
     confidence, percentage = get_confidence(
         scores["final_score"]
     )
@@ -137,16 +147,46 @@ def build_recommendation(stay, user):
 
         "ranking_breakdown": {
 
-            "semantic": scores["semantic_score"],
+    "overall": scores["final_score"],
 
-            "budget": scores["budget_score"],
+    "food": stay.get(
+        "food_score",
+        50
+    ),
 
-            "rating": scores["rating_score"],
+    "budget": stay.get(
+        "budget_score",
+        50
+    ),
 
-            "distance": scores["distance_score"],
+    "location": stay.get(
+        "distance_score",
+        50
+    ),
 
-            "amenities": scores["amenity_score"],
+    "nature": stay.get(
+        "nature_score",
+        50
+    ),
 
-            "overall": scores["final_score"],
-        },
+    "culture": stay.get(
+        "culture_score",
+        50
+    ),
+
+    "adventure": stay.get(
+        "adventure_score",
+        50
+    ),
+
+    "connectivity": stay.get(
+        "connectivity_score",
+        50
+    ),
+
+    "shopping": stay.get(
+        "shopping_score",
+        50
+    )
+},
     }

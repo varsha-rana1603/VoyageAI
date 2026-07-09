@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from .user_profile import build_user_profile
-from .ranking import calculate_final_score
+from app.destinations.ranking import calculate_final_score
 from .recommendation_formatter import build_recommendation
 
 
@@ -99,6 +99,8 @@ def get_recommendations(
         terrain=terrain,
         free_text=free_text,
     )
+
+    # print("USER PROFILE", user_text)
 
     user_embedding = get_user_embedding(user_text)
 

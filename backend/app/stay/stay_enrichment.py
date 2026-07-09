@@ -1,62 +1,140 @@
-#Enriches normalizes stays with additional attributes used by the VoyageAI ranking engine
+# app/stay/stay_enrichment.py
 
 from typing import Dict
+from concurrent.futures import ThreadPoolExecutor
 
-def infer_price_level(stay_type: str) -> str:
-    #infer an approximate price level from stay type.
 
-    stay_type = stay_type.lower()
-
-    if stay_type in ["hostel","guest house","homestay"]:
-        return "budget"
-    if stay_type in ["hotel", "resort"]:
-        return "medium"
-    
-    return "medium"
-
-def distance_score(distance: float) -> int:
-    #Convert distance from town square into a score.
-    if distance <= 1:
-        return 100
-    if distance <= 3:
-        return 90
-    if distance <= 5:
-        return 80
-    if distance <= 8:
-        return 70
-    return 60
-
-def infer_nature_score(region: str) -> int:
-    region = region.lower()
+def budget_score(stay_type: str) -> int:
     mapping = {
-        "mountains": 95,
-        "beach": 90,
-        "forest": 92,
-        "desert": 80,
-        "city": 45,
-        "backwaters": 88
+        "hostel": 90,
+        "guest house": 80,
+        "homestay": 75,
+        "hotel": 60,
+        "resort": 40,
+        "apartment": 70,
     }
 
-    return mapping.get(region,70)
+    return mapping.get(
+        stay_type.lower(),
+        50
+    )
 
-def enrich_stay(stay:Dict, region_type:str) -> Dict:
-    #Add AI-friendly attributes.
 
-    stay["price_level"] = infer_price_level(stay["type"])
-    stay["distance_score"] = distance_score(stay["distance_from_center"])
-    stay["nature_score"] = infer_nature_score(region_type)
-    stay["tourism_score"] = 70
-    stay["food_score"] = 65
-    stay["shopping_score"] = 55
-    stay["connectivity_score"] = 70
+def distance_score(distance: float) -> int:
+    """
+    Convert distance from city center into score.
+    """
+
+    if distance <= 1:
+        return 100
+
+    if distance <= 3:
+        return 90
+
+    if distance <= 5:
+        return 80
+
+    if distance <= 8:
+        return 70
+
+    return 60
+
+
+
+def enrich_stay(
+        stay: Dict,
+        surroundings: Dict
+) -> Dict:
+
+    # Budget preference score
+    stay["budget_score"] = budget_score(
+        stay.get("type", "")
+    )
+
+
+    # Distance score
+    stay["distance_score"] = distance_score(
+        stay.get(
+            "distance_from_center",
+            10
+        )
+    )
+
+
+    # Destination level POI scores
+    stay["food_score"] = surroundings.get(
+        "food",
+        50
+    )
+
+    stay["shopping_score"] = surroundings.get(
+        "shopping",
+        50
+    )
+
+    stay["culture_score"] = surroundings.get(
+        "culture",
+        50
+    )
+
+    stay["nature_score"] = surroundings.get(
+        "nature",
+        50
+    )
+
+    stay["adventure_score"] = surroundings.get(
+        "adventure",
+        50
+    )
+
+    stay["connectivity_score"] = surroundings.get(
+        "connectivity",
+        50
+    )
+
+
     return stay
 
-def enrich_stays(stays,region_type):
-    enriched = []
 
-    for stay in stays:
-        enriched.append(
-            enrich_stay(stay,region_type)
+
+
+
+def enrich_stays(
+        stays,
+        surroundings
+):
+    """
+    Enrich multiple stays.
+
+    surroundings:
+        {
+            "food":80,
+            "shopping":70,
+            "culture":90,
+            "nature":60,
+            "adventure":50,
+            "connectivity":90
+        }
+
+    is calculated once before this function.
+    """
+
+
+    with ThreadPoolExecutor(
+        max_workers=10
+    ) as executor:
+
+
+        enriched = list(
+            executor.map(
+                lambda stay:
+                    enrich_stay(
+                        stay,
+                        surroundings
+                    ),
+                stays
+            )
         )
+
 
     return enriched

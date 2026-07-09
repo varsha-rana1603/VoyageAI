@@ -39,6 +39,8 @@ export default function Quiz() {
 
   const [fetchDone, setFetchDone] = useState(false);
 
+  const [currentStage, setCurrentStage] = useState("profiling");
+  const [progress, setProgress] = useState(0);
 
 
   function handleAnswer(answer: string) {
@@ -91,10 +93,25 @@ export default function Quiz() {
     let cancelled = false;
 
 
-
     async function fetchRecommendations() {
 
       try {
+
+        setCurrentStage("profiling");
+        setProgress(10);
+
+        await new Promise(r => setTimeout(r, 500));
+
+
+        setCurrentStage("embedding");
+        setProgress(30);
+
+
+        await new Promise(r => setTimeout(r, 500));
+
+
+        setCurrentStage("searching");
+        setProgress(50);
 
 
         const res = await fetch(
@@ -104,86 +121,46 @@ export default function Quiz() {
             headers: {
               "Content-Type": "application/json",
             },
-
             body: JSON.stringify({
-
               travel_style: answers.travel_style,
-
               budget: answers.budget,
-
               crowd_tolerance: answers.crowd_tolerance,
-
               terrain: answers.terrain,
-
               free_text: freeText,
-
             }),
           }
         );
 
 
-
-        const rawText = await res.text();
-
-
-
-        if (!res.ok) {
-
-          throw new Error(
-            `Server Error ${res.status}: ${rawText}`
-          );
-
-        }
+        setCurrentStage("ranking");
+        setProgress(80);
 
 
-
-        const data = JSON.parse(rawText);
-
+        const data = await res.json();
 
 
-        if (!cancelled) {
+        setRecommendations(
+          data.recommendations || data
+        );
 
-          setRecommendations(
-            data.recommendations || data
-          );
 
-        }
-
+        setCurrentStage("finalizing");
+        setProgress(100);
 
 
       } catch (err: any) {
 
-
-        console.error(
-          "FETCH ERROR:",
-          err
-        );
-
-
-        if (!cancelled) {
-
-          setFetchError(
-            err.message ||
-            "Backend connection failed"
-          );
-
-        }
-
+        setFetchError(err.message);
 
       }
+
       finally {
 
-        if (!cancelled) {
-
-          setFetchDone(true);
-
-        }
+        setFetchDone(true);
 
       }
 
-
     }
-
 
 
     fetchRecommendations();
@@ -337,15 +314,17 @@ export default function Quiz() {
             title="VoyageAI is planning your trip"
 
             subtitle="
-            Running semantic search and hybrid ranking...
-            "
+  Running semantic search and hybrid ranking...
+  "
 
             pipeline={destinationPipeline}
 
+            currentStage={currentStage}
+
+            progress={progress}
+
             onFinished={() => {
-
               setAnimationDone(true);
-
             }}
 
           />

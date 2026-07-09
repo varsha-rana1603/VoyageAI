@@ -1,26 +1,62 @@
-from pprint import pprint
+from app.nearby.nearby_service import get_nearby_places
+from app.nearby.preference_engine import compute_category_weights
 
-from app.stay.recommender import get_stay_recommendations
 
-recommendations = get_stay_recommendations(
-    destination_name="Spiti Valley",
-    travel_style="Adventure",
-    budget="Medium",
-    crowd_tolerance="Avoid",
-    terrain="Mountains",
-    free_text="I want a quiet place with mountain views, nearby cafes and good food."
+stays = [
+
+    {
+        "name":"Taj Palace",
+        "lat":28.5988,
+        "lon":77.1734
+    }
+
+]
+
+
+weights = compute_category_weights(
+    travel_style="Cultural",
+    budget="medium",
+    crowd_tolerance="medium",
+    terrain="city",
+    free_text="I want to explore history and architecture"
 )
 
-print("\n==========================================")
-print(f"Found {len(recommendations)} recommendations")
-print("==========================================\n")
 
-for i, stay in enumerate(recommendations, start=1):
+result = get_nearby_places(
 
-    print("=" * 70)
-    print(f"{i}. {stay['name']}")
-    print("=" * 70)
+    destination_lat=28.6139,
 
-    pprint(stay)
+    destination_lon=77.2090,
 
-    print()
+    category_weights=weights,
+
+    recommended_stays=stays
+
+)
+
+
+for sight in result["sights"][:5]:
+
+    print("\n", sight["name"])
+
+    print(
+        sight["why"]
+    )
+
+    print(
+        "Nearby stays:",
+        sight["nearby_stays"]
+    )
+
+
+print("\nSTAYS\n")
+
+for stay in result["stays"]:
+
+    print(
+        stay["name"]
+    )
+
+    print(
+        stay["nearby_sights"]
+    )

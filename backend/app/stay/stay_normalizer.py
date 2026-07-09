@@ -2,6 +2,24 @@
 
 from math import radians,sin,cos,sqrt,atan2
 
+#Infer approximate price category from stay type.
+def infer_price_level(stay_type:str) -> str:
+    stay_type = stay_type.lower()
+
+    mapping = {
+        "hostel": "budget",
+        "guest house": "budget",
+        "homestay": "budget",
+        "hotel": "medium",
+        "apartment": "medium",
+        "resort": "luxury"
+    }
+
+    return mapping.get(
+        stay_type,
+        "medium"
+    )
+
 def haversine(lat1,lon1,lat2,lon2):
     #Returns distance in km between two coordinates
 
@@ -41,23 +59,26 @@ def normalize_stays(stays,center_lat,center_lon):
         props = stay['properties']
         lat = props["lat"]
         lon = props["lon"]
+        stay_type = infer_stay_type(
+            props.get("categories",[])
+        )
 
         normalized.append({
             "id": props.get("place_id"),
 
             "name": props.get("name", "Unknown"),
 
-            "type": infer_stay_type(
-                props.get("categories", [])
-            ),
+            "type": stay_type,
 
             "rating": None,
 
-            "price_level": None,
+            "price_level": infer_price_level(
+                stay_type=stay_type
+            ),
 
             "lat": lat,
 
-            "lng": lon,
+            "lon": lon,
 
             "address": props.get(
                 "formatted",
@@ -78,5 +99,5 @@ def normalize_stays(stays,center_lat,center_lon):
             "categories": props.get("categories", [])
         })
 
-        print("Normalised",normalized)
+        # print("Normalised",normalized)
     return normalized

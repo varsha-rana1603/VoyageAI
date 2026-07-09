@@ -16,6 +16,7 @@ interface Props {
   destination: any;
   answers: Record<string, string>;
   onClose: () => void;
+  onStartPlanning: (destination: any) => void;
 }
 
 function getMatchLabel(score: number): string {
@@ -112,7 +113,7 @@ function ComparisonRow({ comparison }: { comparison: Comparison }) {
   );
 }
 
-export default function DestinationModal({ destination, answers, onClose }: Props) {
+export default function DestinationModal({ destination, answers, onClose,onStartPlanning }: Props) {
   if (!destination) return null;
 
   const matchLabel = getMatchLabel(destination.final_score ?? 0);
@@ -266,6 +267,7 @@ export default function DestinationModal({ destination, answers, onClose }: Prop
                 <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.98 }}
+                  onClick={() => onStartPlanning(destination)}
                   className="mt-6 w-full rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 py-3 text-base font-semibold"
                 >
                   Start Planning →

@@ -8,7 +8,7 @@ def build_stay_text(stay):
         {stay['name']}.{stay["type"]}.{stay["price_level"]} accomodation.
         Located {stay['distance_from_center']} km from the town centre.
         Nature score {stay['nature_score']}.
-        Tourism score {stay['tourism_score']}.
+        Culture score {stay['culture_score']}.
         Food scene score {stay['food_score']}.
         Shopping score {stay['shopping_score']}.
         Connectivity score {stay['connectivity_score']}.

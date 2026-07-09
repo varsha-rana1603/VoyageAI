@@ -46,65 +46,151 @@ export default function ResultsPage({
 
   const [fetchDone, setFetchDone] =
     useState(false);
+  const [currentStage, setCurrentStage] =
+    useState("searching");
 
-useEffect(() => {
-  if (stage !== "stayThinking" || !selectedDestination) return;
+  const [progress, setProgress] =
+    useState(0);
 
-  const requestBody = {
-    destination_name: selectedDestination.name,
-    travel_style: answers.travel_style,
-    budget: answers.budget,
-    crowd_tolerance: answers.crowd_tolerance,
-    terrain: answers.terrain,
-    free_text: answers.free_text ?? "",
-  };
+  useEffect(() => {
+    if (stage !== "stayThinking" || !selectedDestination) return;
 
-  console.log("Stay request body:", requestBody);
+    console.log("Starting stay recommendation fetch");
 
-  let cancelled = false;
+    console.log(
+      "Thinking state:",
+      currentStage,
+      progress,
+      animationDone,
+      fetchDone
+    );
 
-  async function fetchStays() {
-    try {
-      const res = await fetch("http://127.0.0.1:8001/recommend-stays", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(requestBody),
-      });
+    const requestBody = {
+      destination_name: selectedDestination.name,
+      travel_style: answers.travel_style,
+      budget: answers.budget,
+      crowd_tolerance: answers.crowd_tolerance,
+      terrain: answers.terrain,
+      free_text: answers.free_text ?? "",
+    };
 
-      const text = await res.text();
-      console.log("Raw response:", text);
+    console.log("Stay request body:", requestBody);
 
-      if (!res.ok) {
-        throw new Error(`Server Error ${res.status}: ${text}`);
+    let cancelled = false;
+
+    async function fetchStays() {
+
+      const stages = [
+        {
+          stage: "searching",
+          progress: 10,
+        },
+        {
+          stage: "enriching",
+          progress: 30,
+        },
+        {
+          stage: "embedding",
+          progress: 50,
+        },
+        {
+          stage: "matching",
+          progress: 70,
+        },
+        {
+          stage: "finalizing",
+          progress: 90,
+        },
+      ];
+
+
+      let stageIndex = 0;
+
+
+      const timer = setInterval(() => {
+
+        if (stageIndex < stages.length) {
+
+          console.log(
+            "Updating thinking stage:",
+            stages[stageIndex]
+          );
+
+
+          setCurrentStage(
+            stages[stageIndex].stage
+          );
+
+
+          setProgress(
+            stages[stageIndex].progress
+          );
+
+
+          stageIndex++;
+
+        }
+
+      }, 1000);
+
+
+
+      try {
+
+        const res = await fetch(
+          "http://127.0.0.1:8001/recommend-stays",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(requestBody),
+          }
+        );
+
+
+        const data = await res.json();
+
+
+        console.log(
+          "Stay response:",
+          data
+        );
+
+
+        setStayRecommendations(
+          data.recommendations ?? data
+        );
+
+
       }
+      catch (err: any) {
 
-      const data = text ? JSON.parse(text) : null;
-      console.log("Parsed response:", data);
-
-      if (!data) {
-        throw new Error("Backend returned null or an empty response.");
-      }
-
-      if (!cancelled) {
-        setStayRecommendations(data.recommendations ?? data);
-      }
-    } catch (err: any) {
-      if (!cancelled) {
         setStayError(err.message);
+
       }
-    } finally {
-      if (!cancelled) {
+      finally {
+
+
+        clearInterval(timer);
+
+
+        setCurrentStage("complete");
+
+        setProgress(100);
+
+
         setFetchDone(true);
+
       }
+
     }
-  }
+    fetchStays();
 
-  fetchStays();
-
-  return () => {
-    cancelled = true;
-  };
-}, [stage, selectedDestination, answers]);
+    return () => {
+      cancelled = true;
+    };
+  }, [stage, selectedDestination?.name, answers]);
 
   useEffect(() => {
 
@@ -128,27 +214,38 @@ useEffect(() => {
 
     return (
       <ThinkingScreen
-        title="Finding your perfect stay"
-        subtitle="Searching nearby accommodations and ranking them..."
+
+        title="VoyageAI is planning your trip"
+
+        subtitle="
+        Running semantic search and hybrid ranking...
+        "
+
         pipeline={stayPipeline}
+
+        currentStage={currentStage}
+
+        progress={progress}
+
         onFinished={() => {
           setAnimationDone(true);
         }}
+
       />
     );
 
   }
 
-if (stage === "stays") {
-  return (
-    <StayResultsPage
-      recommendations={stayRecommendations}
-      destination={selectedDestination}
-      error={stayError}
-      onBack={() => setStage("destinations")}
-    />
-  );
-}
+  if (stage === "stays") {
+    return (
+      <StayResultsPage
+        recommendations={stayRecommendations}
+        destination={selectedDestination}
+        error={stayError}
+        onBack={() => setStage("destinations")}
+      />
+    );
+  }
 
   if (error) {
 
@@ -190,6 +287,10 @@ if (stage === "stays") {
 
             setStayRecommendations([]);
 
+            setCurrentStage("searching");
+
+            setProgress(0);
+
             setStage("stayThinking");
 
           }}
@@ -217,6 +318,25 @@ if (stage === "stays") {
           onClose={() =>
             setSelectedDestination(null)
           }
+          onStartPlanning={(destination) => {
+
+            setSelectedDestination(destination);
+
+            setAnimationDone(false);
+
+            setFetchDone(false);
+
+            setStayError(null);
+
+            setStayRecommendations([]);
+
+            setCurrentStage("searching");
+
+            setProgress(0);
+
+            setStage("stayThinking");
+
+          }}
         />
       )}
 
