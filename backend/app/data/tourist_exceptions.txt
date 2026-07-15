@@ -1,0 +1,310 @@
+Hallstatt
+Salzburg
+Innsbruck
+Zell am See
+Sankt Wolfgang
+Bad Ischl
+Interlaken
+Lauterbrunnen
+Grindelwald
+Zermatt
+Gstaad
+St. Moritz
+Davos
+Lucerne
+Montreux
+Vevey
+Appenzell
+Chamonix
+Annecy
+Colmar
+Honfleur
+Étretat
+Carcassonne
+Saint-Malo
+Avignon
+Cassis
+Positano
+Amalfi
+Ravello
+Sorrento
+Portofino
+Cinque Terre
+Manarola
+Riomaggiore
+Vernazza
+Monterosso al Mare
+Corniglia
+Bellagio
+Varenna
+Como
+Taormina
+Cefalù
+Matera
+Alberobello
+Orvieto
+San Gimignano
+Siena
+Assisi
+Cortina d'Ampezzo
+Santorini
+Oia
+Fira
+Mykonos
+Naxos
+Paros
+Milos
+Rhodes
+Corfu
+Nafplio
+Meteora
+Bled
+Bohinj
+Piran
+Dubrovnik
+Split
+Hvar
+Korčula
+Rovinj
+Poreč
+Plitvice Lakes
+Kotor
+Perast
+Budva
+Mostar
+Jajce
+Ohrid
+Prizren
+Bran
+Sighișoara
+Brașov
+Sibiu
+Český Krumlov
+Kutná Hora
+Karlovy Vary
+Zakopane
+Budva
+Göreme
+Uçhisar
+Ürgüp
+Pamukkale
+Kaş
+Fethiye
+Ölüdeniz
+Alaçatı
+Petra
+Wadi Rum
+Jericho
+Luxor
+Aswan
+Siwa
+Chefchaouen
+Essaouira
+Merzouga
+Ifrane
+Victoria Falls
+Livingstone
+Arusha
+Moshi
+Zanzibar
+Nungwi
+Paje
+Diani Beach
+Watamu
+Naivasha
+Bwindi
+Jinja
+Banff
+Lake Louise
+Jasper
+Canmore
+Whistler
+Tofino
+Niagara-on-the-Lake
+Sedona
+Aspen
+Jackson
+Moab
+Page
+Bar Harbor
+Napa
+Carmel-by-the-Sea
+Monterey
+Key West
+Mackinac Island
+San Miguel de Allende
+Tulum
+Bacalar
+Holbox
+Isla Mujeres
+Puerto Escondido
+Sayulita
+Oaxaca
+Mérida
+Valle de Bravo
+Antigua Guatemala
+Flores
+Arenal
+Monteverde
+Manuel Antonio
+Puerto Viejo
+Boquete
+Bocas del Toro
+Cusco
+Aguas Calientes
+Machu Picchu
+Sacred Valley
+Arequipa
+Puno
+Huacachina
+Uyuni
+San Pedro de Atacama
+Puerto Varas
+Torres del Paine
+El Calafate
+El Chaltén
+Ushuaia
+Bariloche
+Mendoza
+Colonia del Sacramento
+Punta del Este
+Fernando de Noronha
+Jericoacoara
+Lençóis
+Paraty
+Ilhabela
+Gramado
+Galápagos
+Baños
+Cartagena
+Guatapé
+Salento
+Ubud
+Nusa Penida
+Amed
+Munduk
+Lovina
+Gili Trawangan
+Gili Air
+Gili Meno
+Labuan Bajo
+Komodo
+Raja Ampat
+Bromo
+Ijen
+Yogyakarta
+El Nido
+Coron
+Siargao
+Bohol
+Banaue
+Vigan
+Hoi An
+Sa Pa
+Ninh Bình
+Ha Giang
+Phú Quốc
+Luang Prabang
+Vang Vieng
+Bagan
+Inle Lake
+Ngapali
+Sihanoukville
+Kampot
+Kep
+Siem Reap
+Pai
+Krabi
+Ao Nang
+Railay Beach
+Koh Phi Phi
+Koh Lanta
+Koh Tao
+Koh Samui
+Koh Phangan
+Khao Sok
+Chiang Rai
+Ella
+Nuwara Eliya
+Mirissa
+Tangalle
+Sigiriya
+Trincomalee
+Arugam Bay
+Leh
+Nubra Valley
+Tawang
+Gangtok
+Darjeeling
+Shimla
+Manali
+Kasol
+Bir
+McLeod Ganj
+Spiti
+Rishikesh
+Mussoorie
+Nainital
+Auli
+Munnar
+Wayanad
+Coorg
+Ooty
+Alleppey
+Kumarakom
+Varkala
+Gokarna
+Hampi
+Pondicherry
+Mahabalipuram
+Khajuraho
+Pushkar
+Mount Abu
+Udaipur
+Jaisalmer
+Orchha
+Diu
+Kutch
+Kaziranga
+Pokhara
+Namche Bazaar
+Chitwan
+Lumbini
+Paro
+Punakha
+Bumthang
+Hakone
+Nikko
+Takayama
+Shirakawa-go
+Kanazawa
+Miyajima
+Kamakura
+Beppu
+Yufuin
+Kusatsu
+Naoshima
+Yakushima
+Fuji Five Lakes
+Jeju
+Gyeongju
+Sokcho
+Busan
+Jiufen
+Alishan
+Sun Moon Lake
+Taroko
+Rotorua
+Queenstown
+Wanaka
+Lake Tekapo
+Milford Sound
+Franz Josef
+Kaikōura
+Paihia
+Fiji
+Bora Bora
+Moorea
+Tahiti
+Rarotonga
+Aitutaki
