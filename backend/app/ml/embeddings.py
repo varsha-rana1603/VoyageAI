@@ -21,18 +21,22 @@ def embed_text(text: str) -> list[float]:
     return model.encode(text, normalize_embeddings=True).tolist()
 
 
-def profile_to_embedding_text(travel_style: str | None, budget_tier: str | None, crowd_tolerance: str | None) -> str:
-    """
-    Turns structured profile fields into a single string for embedding.
-    Keeping this in one place means the profile side and the destination
-    side (see seed/destinations_seed.py) stay in sync on phrasing --
-    embeddings only compare well if both sides describe things the same way.
-    """
+from app.conversation.user_profile import UserProfile
+
+
+def profile_to_embedding_text(profile: UserProfile) -> str:
+
     parts = []
-    if travel_style:
-        parts.append(f"{travel_style} travel style")
-    if budget_tier:
-        parts.append(f"{budget_tier} budget")
-    if crowd_tolerance:
-        parts.append(f"prefers {crowd_tolerance} crowd levels")
-    return ", ".join(parts) if parts else "general travel"
+
+    if profile.travel_styles:
+        parts.extend(profile.travel_styles)
+
+    if profile.terrain_preferences:
+        parts.extend(profile.terrain_preferences)
+
+    if profile.crowd_preference:
+        parts.append(
+            f"{profile.crowd_preference} crowd"
+        )
+
+    return ", ".join(parts)

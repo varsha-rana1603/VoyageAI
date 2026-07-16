@@ -29,9 +29,3 @@ class User(Base):
         DateTime,
         default=datetime.utcnow,
     )
-
-    conversations = relationship(
-        "ConversationSession",
-        back_populates="user",
-        cascade="all, delete-orphan",
-    )

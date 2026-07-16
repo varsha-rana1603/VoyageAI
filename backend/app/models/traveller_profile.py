@@ -39,5 +39,5 @@ class TravellerProfile(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-    user = relationship("User", back_populates="profiles")
+    # user = relationship("User", back_populates="profiles")
     trips = relationship("Trip", back_populates="traveller_profile", cascade="all, delete-orphan")
