@@ -20,17 +20,33 @@ def load_destinations():
 
         for i, destination in enumerate(iter_destinations()):
 
-            if i >= 50:
+            if i >= 1000:
                 break
 
             print("Destination:", destination.country)
-            try:
-                query = f"{destination.name} {destination.country}"
-            
+            try:                
 
-                print(
-                    f"\nLoading {query}..."
+                # ----------------------------------------
+                # Skip if already present in database
+                # ----------------------------------------
+
+                existing = (
+                    db.query(Destination)
+                    .filter(
+                        Destination.name == destination.name,
+                        Destination.country == destination.country,
+                    )
+                    .first()
                 )
+
+                if existing:
+                    print("Already exists. Skipping.")
+                    continue
+
+                query = f"{destination.name} {destination.country}"
+
+                print(f"Loading {query}...")
+                        
 
                 # ----------------------------
                 # 1. Google Places

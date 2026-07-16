@@ -16,7 +16,7 @@ from sqlalchemy.orm import Session
 
 from app.config import settings
 from app.ml.embeddings import embed_text, profile_to_embedding_text
-from app.models.profile import TravellerProfile
+from app.models.traveller_profile import TravellerProfile
 
 CANONICAL_TRAVEL_STYLES = [
     "adventure",

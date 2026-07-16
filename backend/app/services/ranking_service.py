@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 
 from app.ml.scoring import compute_match_score, cosine_similarity
 from app.models.destination import Destination
-from app.models.profile import TravellerProfile
+from app.models.traveller_profile import TravellerProfile
 from app.models.trip import Trip
 from app.services.budget_service import budget_tier_to_inr, estimate_trip_cost
 

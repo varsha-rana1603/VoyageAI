@@ -1,16 +1,4 @@
-from dotenv import load_dotenv
-import boto3
-import json
-import os
-
-load_dotenv()
-
-client = boto3.client(
-    "bedrock-runtime",
-    region_name=os.environ["AWS_DEFAULT_REGION"]
-)
-
-MODEL_ID = "amazon.nova-lite-v1:0"
+from app.clients.bedrock import generate_json
 
 
 def build_prompt(city: str, country: str) -> str:
@@ -236,33 +224,9 @@ def generate_destination_profile(
     country: str,
 ) -> dict:
 
-    prompt = build_prompt(city, country)
-
-    response = client.converse(
-        modelId=MODEL_ID,
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "text": prompt
-                    }
-                ]
-            }
-        ],
+    prompt = build_prompt(
+        city,
+        country,
     )
 
-    text = response["output"]["message"]["content"][0]["text"].strip()
-
-    # Remove markdown if the model adds it
-    if text.startswith("```"):
-        lines = text.splitlines()
-
-        lines = lines[1:]
-
-        if lines and lines[-1].strip() == "```":
-            lines = lines[:-1]
-
-        text = "\n".join(lines)
-
-    return json.loads(text)
+    return generate_json(prompt)
