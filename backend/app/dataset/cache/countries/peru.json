@@ -1,0 +1,165 @@
+{
+  "country": "Peru",
+  "destinations": [
+    {
+      "name": "Lima",
+      "category": "city"
+    },
+    {
+      "name": "Cusco",
+      "category": "city"
+    },
+    {
+      "name": "Machu Picchu",
+      "category": "historic"
+    },
+    {
+      "name": "Nazca Lines",
+      "category": "historic"
+    },
+    {
+      "name": "Lake Titicaca",
+      "category": "nature"
+    },
+    {
+      "name": "Colca Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Huacachina",
+      "category": "desert"
+    },
+    {
+      "name": "Amazon Rainforest",
+      "category": "nature"
+    },
+    {
+      "name": "Paracas National Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Chan Chan",
+      "category": "historic"
+    },
+    {
+      "name": "Huaraz",
+      "category": "adventure"
+    },
+    {
+      "name": "Sacsayhuamán",
+      "category": "historic"
+    },
+    {
+      "name": "Rainbow Mountain",
+      "category": "nature"
+    },
+    {
+      "name": "Manu National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Huayna Picchu",
+      "category": "historic"
+    },
+    {
+      "name": "Ballestas Islands",
+      "category": "nature"
+    },
+    {
+      "name": "Choquequirao",
+      "category": "historic"
+    },
+    {
+      "name": "Pacaya-Samiria National Reserve",
+      "category": "national_park"
+    },
+    {
+      "name": "Otuzco",
+      "category": "historic"
+    },
+    {
+      "name": "Huacachina Oasis",
+      "category": "nature"
+    },
+    {
+      "name": "Chachapoyas",
+      "category": "city"
+    },
+    {
+      "name": "Iquitos",
+      "category": "city"
+    },
+    {
+      "name": "Huacachina Lagoon",
+      "category": "nature"
+    },
+    {
+      "name": "Chancay",
+      "category": "historic"
+    },
+    {
+      "name": "Chocavento Tower",
+      "category": "historic"
+    },
+    {
+      "name": "Huaraz National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Huacachina",
+      "category": "desert"
+    },
+    {
+      "name": "Lake Titicaca",
+      "category": "nature"
+    },
+    {
+      "name": "Santuario Histórico de Machu Picchu",
+      "category": "historic"
+    },
+    {
+      "name": "Chachapoyas",
+      "category": "city"
+    },
+    {
+      "name": "Huacachina",
+      "category": "desert"
+    },
+    {
+      "name": "Huaraz",
+      "category": "adventure"
+    },
+    {
+      "name": "Otuzco",
+      "category": "historic"
+    },
+    {
+      "name": "Huacachina Lagoon",
+      "category": "nature"
+    },
+    {
+      "name": "Chancay",
+      "category": "historic"
+    },
+    {
+      "name": "Chocavento Tower",
+      "category": "historic"
+    },
+    {
+      "name": "Huaraz National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Huacachina",
+      "category": "desert"
+    },
+    {
+      "name": "Lake Titicaca",
+      "category": "nature"
+    },
+    {
+      "name": "Santuario Histórico de Machu Picchu",
+      "category": "historic"
+    }
+  ]
+}

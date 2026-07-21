@@ -1,0 +1,165 @@
+{
+  "country": "United States",
+  "destinations": [
+    {
+      "name": "New York City",
+      "category": "city"
+    },
+    {
+      "name": "Miami Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Maui",
+      "category": "island"
+    },
+    {
+      "name": "Mount Rainier",
+      "category": "mountain"
+    },
+    {
+      "name": "Yellowstone National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Grand Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Statue of Liberty",
+      "category": "historic"
+    },
+    {
+      "name": "Santorini",
+      "category": "island"
+    },
+    {
+      "name": "Great Smoky Mountains National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Niagara Falls",
+      "category": "nature"
+    },
+    {
+      "name": "San Francisco",
+      "category": "city"
+    },
+    {
+      "name": "Honolulu",
+      "category": "city"
+    },
+    {
+      "name": "Key West",
+      "category": "island"
+    },
+    {
+      "name": "Yosemite National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Great Barrier Reef",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Rushmore",
+      "category": "historic"
+    },
+    {
+      "name": "Las Vegas",
+      "category": "city"
+    },
+    {
+      "name": "Glacier National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Everglades National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "San Juan Islands",
+      "category": "island"
+    },
+    {
+      "name": "Denali National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Zion National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Great Sand Dunes National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Acadia National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Saguaro National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Mount St. Helens",
+      "category": "mountain"
+    },
+    {
+      "name": "Rocky Mountain National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Great Lakes",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Hood",
+      "category": "mountain"
+    },
+    {
+      "name": "Hawaii Volcanoes National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Arches National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Big Bend National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Death Valley National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Joshua Tree National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Lake Tahoe",
+      "category": "nature"
+    },
+    {
+      "name": "Grand Teton National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Olympic National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Patagonia",
+      "category": "nature"
+    },
+    {
+      "name": "Alcatraz Island",
+      "category": "island"
+    },
+    {
+      "name": "Yellowstone Lake",
+      "category": "nature"
+    }
+  ]
+}

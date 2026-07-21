@@ -1,0 +1,165 @@
+{
+  "country": "Sri Lanka",
+  "destinations": [
+    {
+      "name": "Colombo",
+      "category": "city"
+    },
+    {
+      "name": "Kandy",
+      "category": "city"
+    },
+    {
+      "name": "Galle",
+      "category": "city"
+    },
+    {
+      "name": "Nuwara Eliya",
+      "category": "city"
+    },
+    {
+      "name": "Anuradhapura",
+      "category": "historic"
+    },
+    {
+      "name": "Sigiriya",
+      "category": "historic"
+    },
+    {
+      "name": "Polonnaruwa",
+      "category": "historic"
+    },
+    {
+      "name": "Yala National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Udawalawe National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Sinharaja Forest Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Bundala National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Adam's Peak",
+      "category": "mountain"
+    },
+    {
+      "name": "Pidurangala",
+      "category": "nature"
+    },
+    {
+      "name": "Horton Plains National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Minneriya National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Galle Fort",
+      "category": "historic"
+    },
+    {
+      "name": "Hikkaduwa Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Bentota Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Unawatuna Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Mirissa Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Tangalle Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Arugam Bay",
+      "category": "beach"
+    },
+    {
+      "name": "Trincomalee",
+      "category": "city"
+    },
+    {
+      "name": "Jaffna",
+      "category": "city"
+    },
+    {
+      "name": "Tangalle",
+      "category": "city"
+    },
+    {
+      "name": "Ella",
+      "category": "nature"
+    },
+    {
+      "name": "Arugam Bay",
+      "category": "beach"
+    },
+    {
+      "name": "Dambulla Cave Temple",
+      "category": "historic"
+    },
+    {
+      "name": "Kalutara Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Habarana",
+      "category": "nature"
+    },
+    {
+      "name": "Dambulla",
+      "category": "historic"
+    },
+    {
+      "name": "Kalutara",
+      "category": "city"
+    },
+    {
+      "name": "Galle Face Green",
+      "category": "nature"
+    },
+    {
+      "name": "Bundala National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Sinharaja Forest Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Pinnawala Elephant Orphanage",
+      "category": "nature"
+    },
+    {
+      "name": "Kandy Lake",
+      "category": "nature"
+    },
+    {
+      "name": "Temple of the Tooth",
+      "category": "historic"
+    },
+    {
+      "name": "Ravana Falls",
+      "category": "nature"
+    },
+    {
+      "name": "Kalutara Beach",
+      "category": "beach"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "country": "China",
+  "destinations": [
+    {
+      "name": "Beijing",
+      "category": "city"
+    },
+    {
+      "name": "Shanghai",
+      "category": "city"
+    },
+    {
+      "name": "Xi'an",
+      "category": "city"
+    },
+    {
+      "name": "Guangzhou",
+      "category": "city"
+    },
+    {
+      "name": "Chengdu",
+      "category": "city"
+    },
+    {
+      "name": "Hangzhou",
+      "category": "city"
+    },
+    {
+      "name": "Hong Kong",
+      "category": "city"
+    },
+    {
+      "name": "Macau",
+      "category": "city"
+    },
+    {
+      "name": "Sanya",
+      "category": "beach"
+    },
+    {
+      "name": "Hainan Island",
+      "category": "island"
+    },
+    {
+      "name": "Mount Everest",
+      "category": "mountain"
+    },
+    {
+      "name": "Zhangjiajie National Forest Park",
+      "category": "national_park"
+    },
+    {
+      "name": "The Great Wall",
+      "category": "historic"
+    },
+    {
+      "name": "The Terracotta Army",
+      "category": "historic"
+    },
+    {
+      "name": "The Forbidden City",
+      "category": "historic"
+    },
+    {
+      "name": "The Summer Palace",
+      "category": "historic"
+    },
+    {
+      "name": "The Temple of Heaven",
+      "category": "historic"
+    },
+    {
+      "name": "The Potala Palace",
+      "category": "historic"
+    },
+    {
+      "name": "The Mogao Caves",
+      "category": "historic"
+    },
+    {
+      "name": "The Longmen Grottoes",
+      "category": "historic"
+    },
+    {
+      "name": "The Dazu Rock Carvings",
+      "category": "historic"
+    },
+    {
+      "name": "The Wulingyuan Scenic Area",
+      "category": "nature"
+    },
+    {
+      "name": "The Jiuzhaigou Valley",
+      "category": "nature"
+    },
+    {
+      "name": "The Zhangye Danxia Landform",
+      "category": "nature"
+    },
+    {
+      "name": "The Yellow Mountain",
+      "category": "nature"
+    },
+    {
+      "name": "The Tianmen Mountain",
+      "category": "nature"
+    },
+    {
+      "name": "The Zhangjiajie National Forest Park",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Emei",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Huashan",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Wutai",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Tai",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Lu",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Huangshan",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Cangshan",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Heng",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Mogan",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Sanqing",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Wuyi",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Wudang",
+      "category": "nature"
+    },
+    {
+      "name": "The Mount Emei",
+      "category": "nature"
+    }
+  ]
+}

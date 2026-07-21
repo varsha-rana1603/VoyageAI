@@ -1,0 +1,165 @@
+{
+  "country": "Vietnam",
+  "destinations": [
+    {
+      "name": "Hanoi",
+      "category": "city"
+    },
+    {
+      "name": "Ho Chi Minh City",
+      "category": "city"
+    },
+    {
+      "name": "Hue",
+      "category": "city"
+    },
+    {
+      "name": "Hoi An",
+      "category": "city"
+    },
+    {
+      "name": "Da Nang",
+      "category": "city"
+    },
+    {
+      "name": "Phu Quoc Island",
+      "category": "island"
+    },
+    {
+      "name": "Ha Long Bay",
+      "category": "nature"
+    },
+    {
+      "name": "Cu Chi Tunnels",
+      "category": "historic"
+    },
+    {
+      "name": "My Son Sanctuary",
+      "category": "historic"
+    },
+    {
+      "name": "Phong Nha-Ke Bang National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Cat Ba Island",
+      "category": "island"
+    },
+    {
+      "name": "Nha Trang Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Sapa",
+      "category": "mountain"
+    },
+    {
+      "name": "Mekong Delta",
+      "category": "nature"
+    },
+    {
+      "name": "Ba Be Lake",
+      "category": "nature"
+    },
+    {
+      "name": "Tam Coc",
+      "category": "nature"
+    },
+    {
+      "name": "Dalat",
+      "category": "city"
+    },
+    {
+      "name": "Con Dao Islands",
+      "category": "island"
+    },
+    {
+      "name": "Binh Lieu Waterfall",
+      "category": "nature"
+    },
+    {
+      "name": "Long Son Pagoda",
+      "category": "historic"
+    },
+    {
+      "name": "Imperial City, Hue",
+      "category": "historic"
+    },
+    {
+      "name": "Phu Bai Airport",
+      "category": "historic"
+    },
+    {
+      "name": "Son Doong Cave",
+      "category": "adventure"
+    },
+    {
+      "name": "Red River Delta",
+      "category": "nature"
+    },
+    {
+      "name": "Trang An Grottoes",
+      "category": "nature"
+    },
+    {
+      "name": "Hoi An Ancient Town",
+      "category": "historic"
+    },
+    {
+      "name": "Ba Na Hills",
+      "category": "nature"
+    },
+    {
+      "name": "My Khe Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Cuc Phuong National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Ha Giang Loop",
+      "category": "adventure"
+    },
+    {
+      "name": "Tay Nguyen (Central Highlands)",
+      "category": "nature"
+    },
+    {
+      "name": "Long Son Pagoda",
+      "category": "historic"
+    },
+    {
+      "name": "Ho Tram Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Bac Son Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Hoan Kiem Lake",
+      "category": "nature"
+    },
+    {
+      "name": "Phu Quoc National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Binh Lieu Waterfall",
+      "category": "nature"
+    },
+    {
+      "name": "Long Son Pagoda",
+      "category": "historic"
+    },
+    {
+      "name": "Son Doong Cave",
+      "category": "adventure"
+    },
+    {
+      "name": "Red River Delta",
+      "category": "nature"
+    }
+  ]
+}

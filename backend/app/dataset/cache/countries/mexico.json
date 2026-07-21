@@ -1,0 +1,173 @@
+{
+  "country": "Mexico",
+  "destinations": [
+    {
+      "name": "Mexico City",
+      "category": "city"
+    },
+    {
+      "name": "Cancún",
+      "category": "beach"
+    },
+    {
+      "name": "Playa del Carmen",
+      "category": "beach"
+    },
+    {
+      "name": "Los Cabos",
+      "category": "beach"
+    },
+    {
+      "name": "Puerto Vallarta",
+      "category": "beach"
+    },
+    {
+      "name": "Isla Mujeres",
+      "category": "island"
+    },
+    {
+      "name": "Isla Holbox",
+      "category": "island"
+    },
+    {
+      "name": "Isla Cozumel",
+      "category": "island"
+    },
+    {
+      "name": "Isla Mujeres",
+      "category": "island"
+    },
+    {
+      "name": "Isla Contoy",
+      "category": "island"
+    },
+    {
+      "name": "Isla Mujeres",
+      "category": "island"
+    },
+    {
+      "name": "Isla Holbox",
+      "category": "island"
+    },
+    {
+      "name": "Isla Cozumel",
+      "category": "island"
+    },
+    {
+      "name": "Isla Mujeres",
+      "category": "island"
+    },
+    {
+      "name": "Isla Contoy",
+      "category": "island"
+    },
+    {
+      "name": "Tulum",
+      "category": "beach"
+    },
+    {
+      "name": "Palenque",
+      "category": "historic"
+    },
+    {
+      "name": "Tikal",
+      "category": "historic"
+    },
+    {
+      "name": "Chichen Itza",
+      "category": "historic"
+    },
+    {
+      "name": "Teotihuacan",
+      "category": "historic"
+    },
+    {
+      "name": "Mexico City",
+      "category": "historic"
+    },
+    {
+      "name": "Zinacantán",
+      "category": "historic"
+    },
+    {
+      "name": "Copper Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Barrancas del Cobre",
+      "category": "nature"
+    },
+    {
+      "name": "Valle de Bravo",
+      "category": "nature"
+    },
+    {
+      "name": "Sumidero Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Copper Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Barrancas del Cobre",
+      "category": "nature"
+    },
+    {
+      "name": "Valle de Bravo",
+      "category": "nature"
+    },
+    {
+      "name": "Sumidero Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Copper Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Barrancas del Cobre",
+      "category": "nature"
+    },
+    {
+      "name": "Valle de Bravo",
+      "category": "nature"
+    },
+    {
+      "name": "Sumidero Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Copper Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Barrancas del Cobre",
+      "category": "nature"
+    },
+    {
+      "name": "Valle de Bravo",
+      "category": "nature"
+    },
+    {
+      "name": "Sumidero Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Copper Canyon",
+      "category": "nature"
+    },
+    {
+      "name": "Barrancas del Cobre",
+      "category": "nature"
+    },
+    {
+      "name": "Valle de Bravo",
+      "category": "nature"
+    },
+    {
+      "name": "Sumidero Canyon",
+      "category": "nature"
+    }
+  ]
+}

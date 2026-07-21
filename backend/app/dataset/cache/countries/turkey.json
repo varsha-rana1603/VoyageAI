@@ -1,0 +1,169 @@
+{
+  "country": "Turkey",
+  "destinations": [
+    {
+      "name": "Istanbul",
+      "category": "city"
+    },
+    {
+      "name": "Antalya",
+      "category": "city"
+    },
+    {
+      "name": "Cappadocia",
+      "category": "nature"
+    },
+    {
+      "name": "Pamukkale",
+      "category": "nature"
+    },
+    {
+      "name": "Ephesus",
+      "category": "historic"
+    },
+    {
+      "name": "Bodrum",
+      "category": "city"
+    },
+    {
+      "name": "Marmaris",
+      "category": "city"
+    },
+    {
+      "name": "Aphrodisias",
+      "category": "historic"
+    },
+    {
+      "name": "Goreme Open-Air Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Nemrut",
+      "category": "mountain"
+    },
+    {
+      "name": "Antalya Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Princes' Islands",
+      "category": "island"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Sumela Monastery",
+      "category": "historic"
+    },
+    {
+      "name": "Safranbolu",
+      "category": "historic"
+    },
+    {
+      "name": "Ani Ruins",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Ararat",
+      "category": "mountain"
+    },
+    {
+      "name": "Blue Lagoon",
+      "category": "beach"
+    },
+    {
+      "name": "Cesme",
+      "category": "city"
+    },
+    {
+      "name": "Datca",
+      "category": "city"
+    },
+    {
+      "name": "Gallipoli Peninsula",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Olympus",
+      "category": "mountain"
+    },
+    {
+      "name": "Lake Van",
+      "category": "nature"
+    },
+    {
+      "name": "Göbekli Tepe",
+      "category": "historic"
+    },
+    {
+      "name": "Hattusa",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Ida",
+      "category": "mountain"
+    },
+    {
+      "name": "Sardis",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    },
+    {
+      "name": "Troy",
+      "category": "historic"
+    }
+  ]
+}

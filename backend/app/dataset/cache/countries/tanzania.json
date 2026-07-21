@@ -1,0 +1,161 @@
+{
+  "country": "Tanzania",
+  "destinations": [
+    {
+      "name": "Dar es Salaam",
+      "category": "city"
+    },
+    {
+      "name": "Arusha",
+      "category": "city"
+    },
+    {
+      "name": "Zanzibar",
+      "category": "island"
+    },
+    {
+      "name": "Mount Kilimanjaro",
+      "category": "mountain"
+    },
+    {
+      "name": "Serengeti National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Ngorongoro Crater",
+      "category": "national_park"
+    },
+    {
+      "name": "Stone Town",
+      "category": "historic"
+    },
+    {
+      "name": "Pemba Island",
+      "category": "island"
+    },
+    {
+      "name": "Ruaha National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Lake Manyara National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Selous Game Reserve",
+      "category": "national_park"
+    },
+    {
+      "name": "Tanzania National Parks (TANZANIA NP)",
+      "category": "unesco"
+    },
+    {
+      "name": "Kilwa Kisiwani",
+      "category": "historic"
+    },
+    {
+      "name": "Mahenge Mountains",
+      "category": "nature"
+    },
+    {
+      "name": "Mtwara",
+      "category": "city"
+    },
+    {
+      "name": "Mwanza",
+      "category": "city"
+    },
+    {
+      "name": "Dodoma",
+      "category": "city"
+    },
+    {
+      "name": "Lindi",
+      "category": "city"
+    },
+    {
+      "name": "Morogoro",
+      "category": "city"
+    },
+    {
+      "name": "Mbeya",
+      "category": "city"
+    },
+    {
+      "name": "Shinyanga",
+      "category": "city"
+    },
+    {
+      "name": "Singida",
+      "category": "city"
+    },
+    {
+      "name": "Tabora",
+      "category": "city"
+    },
+    {
+      "name": "Tunduru",
+      "category": "city"
+    },
+    {
+      "name": "Zanzibar City",
+      "category": "city"
+    },
+    {
+      "name": "Paje",
+      "category": "beach"
+    },
+    {
+      "name": "Jambiani",
+      "category": "beach"
+    },
+    {
+      "name": "Matemwe",
+      "category": "beach"
+    },
+    {
+      "name": "Nungwi",
+      "category": "beach"
+    },
+    {
+      "name": "Kendwa",
+      "category": "beach"
+    },
+    {
+      "name": "Pingwe",
+      "category": "beach"
+    },
+    {
+      "name": "Chwaka Bay",
+      "category": "beach"
+    },
+    {
+      "name": "Kilwa Masoko",
+      "category": "historic"
+    },
+    {
+      "name": "Ruaha River",
+      "category": "nature"
+    },
+    {
+      "name": "Udzungwa Mountains National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Katavi National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Ruaha River",
+      "category": "nature"
+    },
+    {
+      "name": "Ruaha River",
+      "category": "nature"
+    },
+    {
+      "name": "Ruaha River",
+      "category": "nature"
+    }
+  ]
+}

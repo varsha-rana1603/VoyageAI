@@ -1,0 +1,165 @@
+{
+  "country": "Austria",
+  "destinations": [
+    {
+      "name": "Vienna",
+      "category": "city"
+    },
+    {
+      "name": "Salzburg",
+      "category": "city"
+    },
+    {
+      "name": "Innsbruck",
+      "category": "city"
+    },
+    {
+      "name": "Hallstatt",
+      "category": "city"
+    },
+    {
+      "name": "Graz",
+      "category": "city"
+    },
+    {
+      "name": "Kitzbühel",
+      "category": "city"
+    },
+    {
+      "name": "Linz",
+      "category": "city"
+    },
+    {
+      "name": "Klagenfurt",
+      "category": "city"
+    },
+    {
+      "name": "Zell am See",
+      "category": "city"
+    },
+    {
+      "name": "Bregenz",
+      "category": "city"
+    },
+    {
+      "name": "Wachau Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Hallstatter See",
+      "category": "nature"
+    },
+    {
+      "name": "Neusiedler See",
+      "category": "nature"
+    },
+    {
+      "name": "Danube River",
+      "category": "nature"
+    },
+    {
+      "name": "Grossglockner",
+      "category": "mountain"
+    },
+    {
+      "name": "Hohe Tauern",
+      "category": "mountain"
+    },
+    {
+      "name": "Zillertal Alps",
+      "category": "mountain"
+    },
+    {
+      "name": "Salzkammergut",
+      "category": "nature"
+    },
+    {
+      "name": "Alps",
+      "category": "mountain"
+    },
+    {
+      "name": "Hallstatt-Dachstein Salzkammergut Cultural Landscape",
+      "category": "unesco"
+    },
+    {
+      "name": "Palace of Schönbrunn",
+      "category": "historic"
+    },
+    {
+      "name": "Historic Center of Vienna",
+      "category": "historic"
+    },
+    {
+      "name": "Historic Center of Salzburg",
+      "category": "historic"
+    },
+    {
+      "name": "Hohensalzburg Fortress",
+      "category": "historic"
+    },
+    {
+      "name": "Graz Old Town",
+      "category": "historic"
+    },
+    {
+      "name": "Burg Hohenwerfen",
+      "category": "historic"
+    },
+    {
+      "name": "Schloss Schönbrunn",
+      "category": "historic"
+    },
+    {
+      "name": "Belvedere Palace",
+      "category": "historic"
+    },
+    {
+      "name": "St. Peter's Abbey",
+      "category": "historic"
+    },
+    {
+      "name": "Hallstatt Salt Mines",
+      "category": "historic"
+    },
+    {
+      "name": "Prater",
+      "category": "nature"
+    },
+    {
+      "name": "Vienna State Opera",
+      "category": "historic"
+    },
+    {
+      "name": "Salzburg Cathedral",
+      "category": "historic"
+    },
+    {
+      "name": "St. Michael's Church",
+      "category": "historic"
+    },
+    {
+      "name": "Mariazell Basilica",
+      "category": "historic"
+    },
+    {
+      "name": "Traunsee",
+      "category": "nature"
+    },
+    {
+      "name": "Achensee",
+      "category": "nature"
+    },
+    {
+      "name": "Nassfeld Ski Resort",
+      "category": "ski"
+    },
+    {
+      "name": "Kitzsteinhorn",
+      "category": "ski"
+    },
+    {
+      "name": "Schladming",
+      "category": "ski"
+    }
+  ]
+}

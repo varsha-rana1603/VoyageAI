@@ -1,0 +1,173 @@
+{
+  "country": "Morocco",
+  "destinations": [
+    {
+      "name": "Marrakech",
+      "category": "city"
+    },
+    {
+      "name": "Fez",
+      "category": "city"
+    },
+    {
+      "name": "Casablanca",
+      "category": "city"
+    },
+    {
+      "name": "Tangier",
+      "category": "city"
+    },
+    {
+      "name": "Agadir",
+      "category": "city"
+    },
+    {
+      "name": "Essaouira",
+      "category": "city"
+    },
+    {
+      "name": "Chefchaouen",
+      "category": "city"
+    },
+    {
+      "name": "Ouarzazate",
+      "category": "city"
+    },
+    {
+      "name": "Meknes",
+      "category": "city"
+    },
+    {
+      "name": "Rabat",
+      "category": "city"
+    },
+    {
+      "name": "Safi",
+      "category": "city"
+    },
+    {
+      "name": "El Jadida",
+      "category": "city"
+    },
+    {
+      "name": "Asilah",
+      "category": "city"
+    },
+    {
+      "name": "Taza",
+      "category": "city"
+    },
+    {
+      "name": "Nador",
+      "category": "city"
+    },
+    {
+      "name": "Oujda",
+      "category": "city"
+    },
+    {
+      "name": "Tiznit",
+      "category": "city"
+    },
+    {
+      "name": "Sidi Ifni",
+      "category": "city"
+    },
+    {
+      "name": "Taroudant",
+      "category": "city"
+    },
+    {
+      "name": "Tafraout",
+      "category": "city"
+    },
+    {
+      "name": "Al Hoceima",
+      "category": "city"
+    },
+    {
+      "name": "Beni Mellal",
+      "category": "city"
+    },
+    {
+      "name": "Erfoud",
+      "category": "city"
+    },
+    {
+      "name": "Zagora",
+      "category": "city"
+    },
+    {
+      "name": "Tata",
+      "category": "city"
+    },
+    {
+      "name": "Tizgui",
+      "category": "city"
+    },
+    {
+      "name": "Tafraout",
+      "category": "city"
+    },
+    {
+      "name": "Sidi Ifni",
+      "category": "city"
+    },
+    {
+      "name": "Taroudant",
+      "category": "city"
+    },
+    {
+      "name": "Tafraout",
+      "category": "city"
+    },
+    {
+      "name": "Sidi Ifni",
+      "category": "city"
+    },
+    {
+      "name": "Taroudant",
+      "category": "city"
+    },
+    {
+      "name": "Tafraout",
+      "category": "city"
+    },
+    {
+      "name": "Sidi Ifni",
+      "category": "city"
+    },
+    {
+      "name": "Taroudant",
+      "category": "city"
+    },
+    {
+      "name": "Tafraout",
+      "category": "city"
+    },
+    {
+      "name": "Sidi Ifni",
+      "category": "city"
+    },
+    {
+      "name": "Taroudant",
+      "category": "city"
+    },
+    {
+      "name": "Tafraout",
+      "category": "city"
+    },
+    {
+      "name": "Sidi Ifni",
+      "category": "city"
+    },
+    {
+      "name": "Taroudant",
+      "category": "city"
+    },
+    {
+      "name": "Tafraout",
+      "category": "city"
+    }
+  ]
+}

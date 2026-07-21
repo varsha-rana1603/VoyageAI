@@ -10,6 +10,7 @@ from app.clients.places_client import get_place_details, search_destination, ext
 from app.loader.climate_processor import get_climate_profile
 from app.loader.cost_loader import load_destination_profile
 from app.loader.destination_source import iter_destinations
+from app.loader.validation import validate_place, validate_climate, validate_metadata, validate_cost_profile, validate_embedding
 
 def load_destinations():
 
@@ -53,13 +54,15 @@ def load_destinations():
                 # ----------------------------
 
                 search_result = search_destination(query)
-                place = get_place_details(search_result["id"])                
+                place = get_place_details(search_result["id"])      
+
+                validate_place(place)
 
                 climate = get_climate_profile(
                     latitude=place["latitude"],
                     longitude=place["longitude"]
                 )
-                print("CLIMATE: ", climate)
+                validate_climate(climate)
 
                 destination_profile = load_destination_profile(
                     place["name"],
@@ -69,7 +72,7 @@ def load_destinations():
                 print("DESTINATION_PROFILE: ", destination_profile)
 
                 metadata = destination_profile["metadata"]
-                print("METADATA: ", metadata)
+                validate_metadata(metadata)
 
                 terrain = metadata["terrain"]
 
@@ -84,6 +87,7 @@ def load_destinations():
                     "updated_at": destination_profile["updated_at"],
 
                 }
+                validate_cost_profile(cost_profile)
 
                 description = metadata["description"]
 
@@ -114,6 +118,8 @@ def load_destinations():
                 embedding = embed_text(
                     embedding_text
                 )
+
+                validate_embedding(embedding)
 
                 #UPSERT DB
 

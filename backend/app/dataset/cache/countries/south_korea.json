@@ -1,0 +1,165 @@
+{
+  "country": "South Korea",
+  "destinations": [
+    {
+      "name": "Seoul",
+      "category": "city"
+    },
+    {
+      "name": "Busan",
+      "category": "city"
+    },
+    {
+      "name": "Incheon",
+      "category": "city"
+    },
+    {
+      "name": "Gyeongju",
+      "category": "historic"
+    },
+    {
+      "name": "Jeju Island",
+      "category": "island"
+    },
+    {
+      "name": "Gangneung",
+      "category": "city"
+    },
+    {
+      "name": "Sokcho",
+      "category": "city"
+    },
+    {
+      "name": "Andong",
+      "category": "city"
+    },
+    {
+      "name": "Suncheon",
+      "category": "city"
+    },
+    {
+      "name": "Nami Island",
+      "category": "nature"
+    },
+    {
+      "name": "Bukhansan National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Gyeongbokgung Palace",
+      "category": "historic"
+    },
+    {
+      "name": "Hahoe Folk Village",
+      "category": "historic"
+    },
+    {
+      "name": "Seoul Forest",
+      "category": "nature"
+    },
+    {
+      "name": "Everland",
+      "category": "adventure"
+    },
+    {
+      "name": "Lotte World",
+      "category": "adventure"
+    },
+    {
+      "name": "Jirisan National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Cheonggyecheon Stream",
+      "category": "nature"
+    },
+    {
+      "name": "Myeongdong",
+      "category": "city"
+    },
+    {
+      "name": "N Seoul Tower",
+      "category": "city"
+    },
+    {
+      "name": "Gyeonggi Province",
+      "category": "nature"
+    },
+    {
+      "name": "Gyeonggi Folk Village",
+      "category": "historic"
+    },
+    {
+      "name": "Ulsanbawi Rock",
+      "category": "nature"
+    },
+    {
+      "name": "Jindo Island",
+      "category": "island"
+    },
+    {
+      "name": "Marado Island",
+      "category": "island"
+    },
+    {
+      "name": "Sinpo Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Haeundae Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Gyeongju World",
+      "category": "unesco"
+    },
+    {
+      "name": "Changdeokgung Palace",
+      "category": "historic"
+    },
+    {
+      "name": "Dongdaemun Design Plaza",
+      "category": "city"
+    },
+    {
+      "name": "Namsan Seoul Tower",
+      "category": "city"
+    },
+    {
+      "name": "Seoul Land",
+      "category": "adventure"
+    },
+    {
+      "name": "Cheongju National Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Boseong Green Tea Field",
+      "category": "nature"
+    },
+    {
+      "name": "Jeonju Hanok Village",
+      "category": "historic"
+    },
+    {
+      "name": "Gyeonggi Province",
+      "category": "nature"
+    },
+    {
+      "name": "Seoraksan National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Daepo Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Ulsanbawi Rock",
+      "category": "nature"
+    },
+    {
+      "name": "Seoul Sky Observatory",
+      "category": "city"
+    }
+  ]
+}

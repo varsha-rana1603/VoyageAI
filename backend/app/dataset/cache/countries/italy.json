@@ -1,0 +1,165 @@
+{
+  "country": "Italy",
+  "destinations": [
+    {
+      "name": "Rome",
+      "category": "city"
+    },
+    {
+      "name": "Florence",
+      "category": "city"
+    },
+    {
+      "name": "Venice",
+      "category": "city"
+    },
+    {
+      "name": "Milan",
+      "category": "city"
+    },
+    {
+      "name": "Naples",
+      "category": "city"
+    },
+    {
+      "name": "Turin",
+      "category": "city"
+    },
+    {
+      "name": "Sorrento",
+      "category": "city"
+    },
+    {
+      "name": "Amalfi Coast",
+      "category": "nature"
+    },
+    {
+      "name": "Cinque Terre",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Como",
+      "category": "nature"
+    },
+    {
+      "name": "Capri",
+      "category": "island"
+    },
+    {
+      "name": "Ischia",
+      "category": "island"
+    },
+    {
+      "name": "Sicily",
+      "category": "island"
+    },
+    {
+      "name": "Sardinia",
+      "category": "island"
+    },
+    {
+      "name": "Mount Vesuvius",
+      "category": "mountain"
+    },
+    {
+      "name": "Gran Paradiso National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Dolomites",
+      "category": "mountain"
+    },
+    {
+      "name": "Gran Sasso e Monti della Laga National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Valle d'Aosta",
+      "category": "nature"
+    },
+    {
+      "name": "Stelvio National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Pompeii",
+      "category": "historic"
+    },
+    {
+      "name": "Colosseum",
+      "category": "historic"
+    },
+    {
+      "name": "Vatican City",
+      "category": "historic"
+    },
+    {
+      "name": "Leaning Tower of Pisa",
+      "category": "historic"
+    },
+    {
+      "name": "Uffizi Gallery",
+      "category": "historic"
+    },
+    {
+      "name": "Sistine Chapel",
+      "category": "historic"
+    },
+    {
+      "name": "Palazzo Vecchio",
+      "category": "historic"
+    },
+    {
+      "name": "Piazza del Campo",
+      "category": "historic"
+    },
+    {
+      "name": "Sassi di Matera",
+      "category": "historic"
+    },
+    {
+      "name": "Burano",
+      "category": "city"
+    },
+    {
+      "name": "Verona",
+      "category": "city"
+    },
+    {
+      "name": "Bologna",
+      "category": "city"
+    },
+    {
+      "name": "Genoa",
+      "category": "city"
+    },
+    {
+      "name": "Trieste",
+      "category": "city"
+    },
+    {
+      "name": "Ravenna",
+      "category": "historic"
+    },
+    {
+      "name": "San Gimignano",
+      "category": "historic"
+    },
+    {
+      "name": "Siena",
+      "category": "historic"
+    },
+    {
+      "name": "Cinque Terre",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Garda",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Etna",
+      "category": "mountain"
+    }
+  ]
+}

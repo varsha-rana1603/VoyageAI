@@ -1,0 +1,169 @@
+{
+  "country": "Portugal",
+  "destinations": [
+    {
+      "name": "Lisbon",
+      "category": "city"
+    },
+    {
+      "name": "Porto",
+      "category": "city"
+    },
+    {
+      "name": "Sintra",
+      "category": "historic"
+    },
+    {
+      "name": "Coimbra",
+      "category": "city"
+    },
+    {
+      "name": "Évora",
+      "category": "historic"
+    },
+    {
+      "name": "Braga",
+      "category": "city"
+    },
+    {
+      "name": "Aveiro",
+      "category": "city"
+    },
+    {
+      "name": "Faro",
+      "category": "city"
+    },
+    {
+      "name": "Leiria",
+      "category": "city"
+    },
+    {
+      "name": "Viseu",
+      "category": "city"
+    },
+    {
+      "name": "Guarda",
+      "category": "city"
+    },
+    {
+      "name": "Castelo Branco",
+      "category": "city"
+    },
+    {
+      "name": "Beja",
+      "category": "city"
+    },
+    {
+      "name": "Portalegre",
+      "category": "city"
+    },
+    {
+      "name": "Viana do Castelo",
+      "category": "city"
+    },
+    {
+      "name": "Santarém",
+      "category": "city"
+    },
+    {
+      "name": "Setúbal",
+      "category": "city"
+    },
+    {
+      "name": "Bragança",
+      "category": "city"
+    },
+    {
+      "name": "Vila Real",
+      "category": "city"
+    },
+    {
+      "name": "Évoramonte",
+      "category": "historic"
+    },
+    {
+      "name": "Mafra",
+      "category": "historic"
+    },
+    {
+      "name": "Azores",
+      "category": "island"
+    },
+    {
+      "name": "Madeira",
+      "category": "island"
+    },
+    {
+      "name": "São Miguel",
+      "category": "island"
+    },
+    {
+      "name": "Porto Santo",
+      "category": "island"
+    },
+    {
+      "name": "São Jorge",
+      "category": "island"
+    },
+    {
+      "name": "Pico",
+      "category": "island"
+    },
+    {
+      "name": "Terceira",
+      "category": "island"
+    },
+    {
+      "name": "Graciosa",
+      "category": "island"
+    },
+    {
+      "name": "Santa Maria",
+      "category": "island"
+    },
+    {
+      "name": "Flores",
+      "category": "island"
+    },
+    {
+      "name": "Corvo",
+      "category": "island"
+    },
+    {
+      "name": "Serra da Estrela",
+      "category": "mountain"
+    },
+    {
+      "name": "Serra do Marão",
+      "category": "mountain"
+    },
+    {
+      "name": "Serra de Montesinho",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Natural do Alvao",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Natural da Serra da Estrela",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Natural das Serras de Aire e Candeeiros",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Natural da Peneda-Gerês",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Natural do Alvao",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Natural da Ria Formosa",
+      "category": "nature"
+    }
+  ]
+}

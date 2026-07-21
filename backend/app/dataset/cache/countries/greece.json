@@ -1,0 +1,165 @@
+{
+  "country": "Greece",
+  "destinations": [
+    {
+      "name": "Athens",
+      "category": "city"
+    },
+    {
+      "name": "Santorini",
+      "category": "island"
+    },
+    {
+      "name": "Mykonos",
+      "category": "island"
+    },
+    {
+      "name": "Crete",
+      "category": "island"
+    },
+    {
+      "name": "Rhodes",
+      "category": "island"
+    },
+    {
+      "name": "Corfu",
+      "category": "island"
+    },
+    {
+      "name": "Naxos",
+      "category": "island"
+    },
+    {
+      "name": "Kefalonia",
+      "category": "island"
+    },
+    {
+      "name": "Paros",
+      "category": "island"
+    },
+    {
+      "name": "Zakynthos",
+      "category": "island"
+    },
+    {
+      "name": "Chania",
+      "category": "city"
+    },
+    {
+      "name": "Heraklion",
+      "category": "city"
+    },
+    {
+      "name": "Thessaloniki",
+      "category": "city"
+    },
+    {
+      "name": "Patras",
+      "category": "city"
+    },
+    {
+      "name": "Mount Olympus",
+      "category": "mountain"
+    },
+    {
+      "name": "Meteora",
+      "category": "nature"
+    },
+    {
+      "name": "Delphi",
+      "category": "historic"
+    },
+    {
+      "name": "Acropolis of Athens",
+      "category": "historic"
+    },
+    {
+      "name": "Palace of Knossos",
+      "category": "historic"
+    },
+    {
+      "name": "Ancient Olympia",
+      "category": "historic"
+    },
+    {
+      "name": "Meteora",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Pelion",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Taygetos",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Parnassus",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Athos",
+      "category": "nature"
+    },
+    {
+      "name": "Samaria Gorge",
+      "category": "nature"
+    },
+    {
+      "name": "Diros Caves",
+      "category": "nature"
+    },
+    {
+      "name": "Almyros Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Elia Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Plaka Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Agioi Apostoloi Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Porto Katsiki Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Navagio Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Alypa Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Tsambika Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Kardamyli",
+      "category": "nature"
+    },
+    {
+      "name": "Monemvasia",
+      "category": "historic"
+    },
+    {
+      "name": "Delphi",
+      "category": "historic"
+    },
+    {
+      "name": "Vergina",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Olympus",
+      "category": "mountain"
+    }
+  ]
+}

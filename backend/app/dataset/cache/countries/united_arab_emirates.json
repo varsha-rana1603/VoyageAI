@@ -1,0 +1,161 @@
+{
+  "country": "United Arab Emirates",
+  "destinations": [
+    {
+      "name": "Dubai",
+      "category": "city"
+    },
+    {
+      "name": "Abu Dhabi",
+      "category": "city"
+    },
+    {
+      "name": "Palm Jumeirah",
+      "category": "island"
+    },
+    {
+      "name": "The Louvre Abu Dhabi",
+      "category": "unesco"
+    },
+    {
+      "name": "Burj Khalifa",
+      "category": "city"
+    },
+    {
+      "name": "Sheikh Zayed Grand Mosque",
+      "category": "historic"
+    },
+    {
+      "name": "The Dubai Mall",
+      "category": "city"
+    },
+    {
+      "name": "Dubai Marina",
+      "category": "city"
+    },
+    {
+      "name": "The Palm Islands",
+      "category": "island"
+    },
+    {
+      "name": "Al Ain",
+      "category": "city"
+    },
+    {
+      "name": "Jebel Hafeet",
+      "category": "mountain"
+    },
+    {
+      "name": "Sharjah",
+      "category": "city"
+    },
+    {
+      "name": "Ras Al Khaimah",
+      "category": "city"
+    },
+    {
+      "name": "Fujairah",
+      "category": "city"
+    },
+    {
+      "name": "Khor Fakkan",
+      "category": "city"
+    },
+    {
+      "name": "Saadiyat Island",
+      "category": "island"
+    },
+    {
+      "name": "Sir Bani Yas Island",
+      "category": "island"
+    },
+    {
+      "name": "Al Marjan Island",
+      "category": "island"
+    },
+    {
+      "name": "Dubai Desert Conservation Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Liwa Oasis",
+      "category": "nature"
+    },
+    {
+      "name": "Jebel Ali",
+      "category": "city"
+    },
+    {
+      "name": "Dubai Creek",
+      "category": "city"
+    },
+    {
+      "name": "Al Fahidi Historical Neighborhood",
+      "category": "historic"
+    },
+    {
+      "name": "Dubai Frame",
+      "category": "city"
+    },
+    {
+      "name": "Dubai Miracle Garden",
+      "category": "nature"
+    },
+    {
+      "name": "The World Islands",
+      "category": "island"
+    },
+    {
+      "name": "Hatta",
+      "category": "nature"
+    },
+    {
+      "name": "Al Ain Oasis",
+      "category": "nature"
+    },
+    {
+      "name": "Emirates Towers",
+      "category": "city"
+    },
+    {
+      "name": "Jumeirah Beach",
+      "category": "beach"
+    },
+    {
+      "name": "The Corniche",
+      "category": "beach"
+    },
+    {
+      "name": "Dubai Marina Yacht Club",
+      "category": "city"
+    },
+    {
+      "name": "Dubai Fountain",
+      "category": "city"
+    },
+    {
+      "name": "Dubai Miracle Garden",
+      "category": "nature"
+    },
+    {
+      "name": "Dubai Miracle Garden",
+      "category": "nature"
+    },
+    {
+      "name": "Dubai Miracle Garden",
+      "category": "nature"
+    },
+    {
+      "name": "Dubai Miracle Garden",
+      "category": "nature"
+    },
+    {
+      "name": "Dubai Miracle Garden",
+      "category": "nature"
+    },
+    {
+      "name": "Dubai Miracle Garden",
+      "category": "nature"
+    }
+  ]
+}

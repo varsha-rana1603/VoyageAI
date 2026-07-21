@@ -1,0 +1,165 @@
+{
+  "country": "Nepal",
+  "destinations": [
+    {
+      "name": "Kathmandu",
+      "category": "city"
+    },
+    {
+      "name": "Pokhara",
+      "category": "city"
+    },
+    {
+      "name": "Lumbini",
+      "category": "historic"
+    },
+    {
+      "name": "Everest Base Camp",
+      "category": "mountain"
+    },
+    {
+      "name": "Annapurna Circuit",
+      "category": "adventure"
+    },
+    {
+      "name": "Chitwan National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Sagarmatha National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Manaslu Circuit Trek",
+      "category": "adventure"
+    },
+    {
+      "name": "Rara National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Bardia National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Langtang National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Gokyo Lakes",
+      "category": "nature"
+    },
+    {
+      "name": "Mardi Himal Trek",
+      "category": "adventure"
+    },
+    {
+      "name": "Manaslu",
+      "category": "mountain"
+    },
+    {
+      "name": "Annapurna",
+      "category": "mountain"
+    },
+    {
+      "name": "Kanchenjunga",
+      "category": "mountain"
+    },
+    {
+      "name": "Makalu",
+      "category": "mountain"
+    },
+    {
+      "name": "Dolpo",
+      "category": "nature"
+    },
+    {
+      "name": "Rolwaling Valley",
+      "category": "adventure"
+    },
+    {
+      "name": "Ghandruk",
+      "category": "nature"
+    },
+    {
+      "name": "Mustang",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Everest Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Annapurna Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Langtang Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Makalu Barun Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Kanchenjunga Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Dolpa Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Dolpo Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Khumbu Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Manaslu Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Rara Region",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Barun Valley",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Upper Dolpo",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Solu Khumbu",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Khumbu Valley",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Annapurna Base Camp",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Everest Base Camp",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Gokyo Valley",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Langtang Valley",
+      "category": "adventure"
+    },
+    {
+      "name": "Trekking in the Makalu Base Camp",
+      "category": "adventure"
+    }
+  ]
+}

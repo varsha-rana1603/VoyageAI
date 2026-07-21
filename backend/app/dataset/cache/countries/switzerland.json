@@ -1,0 +1,161 @@
+{
+  "country": "Switzerland",
+  "destinations": [
+    {
+      "name": "Zurich",
+      "category": "city"
+    },
+    {
+      "name": "Geneva",
+      "category": "city"
+    },
+    {
+      "name": "Interlaken",
+      "category": "city"
+    },
+    {
+      "name": "Lucerne",
+      "category": "city"
+    },
+    {
+      "name": "Bern",
+      "category": "city"
+    },
+    {
+      "name": "Lauterbrunnen",
+      "category": "nature"
+    },
+    {
+      "name": "Zermatt",
+      "category": "city"
+    },
+    {
+      "name": "St. Moritz",
+      "category": "city"
+    },
+    {
+      "name": "Lake Geneva",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Lucerne",
+      "category": "nature"
+    },
+    {
+      "name": "Rhine Falls",
+      "category": "nature"
+    },
+    {
+      "name": "Jungfraujoch",
+      "category": "mountain"
+    },
+    {
+      "name": "Matterhorn",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Pilatus",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Rigi",
+      "category": "mountain"
+    },
+    {
+      "name": "Bernese Oberland",
+      "category": "nature"
+    },
+    {
+      "name": "Swiss Alps",
+      "category": "mountain"
+    },
+    {
+      "name": "Swiss National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Glacier Express",
+      "category": "adventure"
+    },
+    {
+      "name": "Schynige Platte",
+      "category": "nature"
+    },
+    {
+      "name": "Gruyères",
+      "category": "city"
+    },
+    {
+      "name": "Chillon Castle",
+      "category": "historic"
+    },
+    {
+      "name": "Old Town of Bern",
+      "category": "historic"
+    },
+    {
+      "name": "Lavaux Vineyards",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Maggiore",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Como",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Bled",
+      "category": "nature"
+    },
+    {
+      "name": "Valais Wine Country",
+      "category": "nature"
+    },
+    {
+      "name": "Engadin Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Brienz",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Thun",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Zug",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Neuchâtel",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Constance",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Sils",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Oeschinen",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Oeschinen",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Oeschinen",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Oeschinen",
+      "category": "nature"
+    }
+  ]
+}

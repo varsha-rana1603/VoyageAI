@@ -1,0 +1,173 @@
+{
+  "country": "Maldives",
+  "destinations": [
+    {
+      "name": "Male",
+      "category": "city"
+    },
+    {
+      "name": "Malé Island",
+      "category": "island"
+    },
+    {
+      "name": "Huvahendhoo Island",
+      "category": "island"
+    },
+    {
+      "name": "Vaadhoo Island",
+      "category": "island"
+    },
+    {
+      "name": "Eydhafushi Island",
+      "category": "island"
+    },
+    {
+      "name": "Dhigufaru Island",
+      "category": "island"
+    },
+    {
+      "name": "Thulusdhoo Island",
+      "category": "island"
+    },
+    {
+      "name": "Maafushi Island",
+      "category": "island"
+    },
+    {
+      "name": "Kulhudhuffushi Island",
+      "category": "island"
+    },
+    {
+      "name": "Funadhoo Island",
+      "category": "island"
+    },
+    {
+      "name": "Gan Island",
+      "category": "island"
+    },
+    {
+      "name": "Hithadhoo Island",
+      "category": "island"
+    },
+    {
+      "name": "Dhaalu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Baa Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Laamu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Meedhoo Island",
+      "category": "island"
+    },
+    {
+      "name": "Komandoo Island",
+      "category": "island"
+    },
+    {
+      "name": "Kuramathi Island",
+      "category": "island"
+    },
+    {
+      "name": "Nilandhe Atholhu Dhekunuburi",
+      "category": "island"
+    },
+    {
+      "name": "Nilandhe Atholhu Uthuruburi",
+      "category": "island"
+    },
+    {
+      "name": "Thaa Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Maamigili Island",
+      "category": "island"
+    },
+    {
+      "name": "Velana International Airport",
+      "category": "nature"
+    },
+    {
+      "name": "Mulaku Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Ari Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Shaviyani Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Raa Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Alif Alif Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Alif Dhaal Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Haa Alifu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Haa Dhaalu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Noonu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Shaviyani Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Lhaviyani Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Seenu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Gnaviyani Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Meemu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Daalu Atoll",
+      "category": "island"
+    },
+    {
+      "name": "Fuvahmulah Island",
+      "category": "island"
+    },
+    {
+      "name": "Kuda Huraa Island",
+      "category": "island"
+    },
+    {
+      "name": "Baros Island",
+      "category": "island"
+    },
+    {
+      "name": "Vakkaru Island",
+      "category": "island"
+    }
+  ]
+}

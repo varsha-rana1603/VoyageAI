@@ -1,0 +1,161 @@
+{
+  "country": "Jordan",
+  "destinations": [
+    {
+      "name": "Amman",
+      "category": "city"
+    },
+    {
+      "name": "Petra",
+      "category": "historic"
+    },
+    {
+      "name": "Wadi Rum",
+      "category": "desert"
+    },
+    {
+      "name": "Aqaba",
+      "category": "city"
+    },
+    {
+      "name": "Dead Sea",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Nebo",
+      "category": "mountain"
+    },
+    {
+      "name": "Jerash",
+      "category": "historic"
+    },
+    {
+      "name": "Madaba",
+      "category": "historic"
+    },
+    {
+      "name": "Mount St. Catherine",
+      "category": "mountain"
+    },
+    {
+      "name": "Sweimah",
+      "category": "beach"
+    },
+    {
+      "name": "Little Petra",
+      "category": "historic"
+    },
+    {
+      "name": "Azraq Wetland Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Shaumari Wildlife Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Dana Biosphere Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Um Qais",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Karak",
+      "category": "historic"
+    },
+    {
+      "name": "Wadi Mujib",
+      "category": "nature"
+    },
+    {
+      "name": "Azraq",
+      "category": "city"
+    },
+    {
+      "name": "Zarqa",
+      "category": "city"
+    },
+    {
+      "name": "Irbid",
+      "category": "city"
+    },
+    {
+      "name": "Mafraq",
+      "category": "city"
+    },
+    {
+      "name": "Ma'in Hot Springs",
+      "category": "nature"
+    },
+    {
+      "name": "Dhiban",
+      "category": "historic"
+    },
+    {
+      "name": "Kursi",
+      "category": "historic"
+    },
+    {
+      "name": "Wadi Araba",
+      "category": "nature"
+    },
+    {
+      "name": "Qasr Al-Abd",
+      "category": "historic"
+    },
+    {
+      "name": "Wadi Rum Protected Area",
+      "category": "nature"
+    },
+    {
+      "name": "Wadi Hasa",
+      "category": "nature"
+    },
+    {
+      "name": "Ayla",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Salt",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Shobak",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Jafr",
+      "category": "nature"
+    },
+    {
+      "name": "Al-Batra",
+      "category": "nature"
+    },
+    {
+      "name": "Al-Hussein Spring",
+      "category": "nature"
+    },
+    {
+      "name": "Al-Azraq Wetland",
+      "category": "nature"
+    },
+    {
+      "name": "Al-Azraq",
+      "category": "city"
+    },
+    {
+      "name": "Al-Karak Castle",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Shaumari",
+      "category": "nature"
+    },
+    {
+      "name": "Al-Dana",
+      "category": "nature"
+    }
+  ]
+}

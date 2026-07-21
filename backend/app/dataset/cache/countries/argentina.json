@@ -1,0 +1,169 @@
+{
+  "country": "Argentina",
+  "destinations": [
+    {
+      "name": "Buenos Aires",
+      "category": "city"
+    },
+    {
+      "name": "Iguazu Falls",
+      "category": "nature"
+    },
+    {
+      "name": "Patagonia",
+      "category": "nature"
+    },
+    {
+      "name": "Bariloche",
+      "category": "city"
+    },
+    {
+      "name": "Mendoza",
+      "category": "city"
+    },
+    {
+      "name": "Ushuaia",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Tierra del Fuego",
+      "category": "island"
+    },
+    {
+      "name": "Córdoba",
+      "category": "city"
+    },
+    {
+      "name": "Los Glaciares National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Jujuy",
+      "category": "city"
+    },
+    {
+      "name": "Mar del Plata",
+      "category": "beach"
+    },
+    {
+      "name": "Catamarca",
+      "category": "city"
+    },
+    {
+      "name": "San Juan",
+      "category": "city"
+    },
+    {
+      "name": "Quebrada del Condorito",
+      "category": "nature"
+    },
+    {
+      "name": "Cafayate Wine Region",
+      "category": "nature"
+    },
+    {
+      "name": "El Chaltén",
+      "category": "city"
+    },
+    {
+      "name": "Ischigualasto Provincial Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Córdoba Mountains",
+      "category": "mountain"
+    },
+    {
+      "name": "Aconcagua",
+      "category": "mountain"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Tierra del Fuego National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Nahuel Huapi National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Jujuy",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    },
+    {
+      "name": "Cafayate",
+      "category": "city"
+    }
+  ]
+}

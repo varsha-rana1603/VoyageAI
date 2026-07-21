@@ -1,0 +1,165 @@
+{
+  "country": "Germany",
+  "destinations": [
+    {
+      "name": "Berlin",
+      "category": "city"
+    },
+    {
+      "name": "Munich",
+      "category": "city"
+    },
+    {
+      "name": "Hamburg",
+      "category": "city"
+    },
+    {
+      "name": "Dresden",
+      "category": "city"
+    },
+    {
+      "name": "Cologne",
+      "category": "city"
+    },
+    {
+      "name": "Frankfurt",
+      "category": "city"
+    },
+    {
+      "name": "Leipzig",
+      "category": "city"
+    },
+    {
+      "name": "Stuttgart",
+      "category": "city"
+    },
+    {
+      "name": "Nuremberg",
+      "category": "city"
+    },
+    {
+      "name": "Heidelberg",
+      "category": "city"
+    },
+    {
+      "name": "Düsseldorf",
+      "category": "city"
+    },
+    {
+      "name": "Bremen",
+      "category": "city"
+    },
+    {
+      "name": "Hanover",
+      "category": "city"
+    },
+    {
+      "name": "Dresden Frauenkirche",
+      "category": "historic"
+    },
+    {
+      "name": "Neuschwanstein Castle",
+      "category": "historic"
+    },
+    {
+      "name": "Black Forest",
+      "category": "nature"
+    },
+    {
+      "name": "Bavarian Alps",
+      "category": "mountain"
+    },
+    {
+      "name": "Lake Constance",
+      "category": "nature"
+    },
+    {
+      "name": "Hamburg Port",
+      "category": "city"
+    },
+    {
+      "name": "Rügen Island",
+      "category": "island"
+    },
+    {
+      "name": "Sylt Island",
+      "category": "island"
+    },
+    {
+      "name": "Usedom Island",
+      "category": "island"
+    },
+    {
+      "name": "Baltic Sea Coast",
+      "category": "beach"
+    },
+    {
+      "name": "North Sea Coast",
+      "category": "beach"
+    },
+    {
+      "name": "Zugspitze",
+      "category": "mountain"
+    },
+    {
+      "name": "Teufelsmauer",
+      "category": "nature"
+    },
+    {
+      "name": "Würzburg Residence",
+      "category": "historic"
+    },
+    {
+      "name": "Reichstag Building",
+      "category": "historic"
+    },
+    {
+      "name": "Brandenburg Gate",
+      "category": "historic"
+    },
+    {
+      "name": "Cologne Cathedral",
+      "category": "historic"
+    },
+    {
+      "name": "Miniatur Wunderland",
+      "category": "adventure"
+    },
+    {
+      "name": "Berlin Wall",
+      "category": "historic"
+    },
+    {
+      "name": "Hamburg Reeperbahn",
+      "category": "adventure"
+    },
+    {
+      "name": "Saxon Switzerland",
+      "category": "nature"
+    },
+    {
+      "name": "Triberg Waterfalls",
+      "category": "nature"
+    },
+    {
+      "name": "Augsburg",
+      "category": "city"
+    },
+    {
+      "name": "Wiesbaden",
+      "category": "city"
+    },
+    {
+      "name": "Potsdam",
+      "category": "city"
+    },
+    {
+      "name": "Lübeck",
+      "category": "city"
+    },
+    {
+      "name": "Rothenburg ob der Tauber",
+      "category": "historic"
+    }
+  ]
+}

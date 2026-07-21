@@ -1,0 +1,169 @@
+{
+  "country": "France",
+  "destinations": [
+    {
+      "name": "Paris",
+      "category": "city"
+    },
+    {
+      "name": "Nice",
+      "category": "city"
+    },
+    {
+      "name": "Cannes",
+      "category": "city"
+    },
+    {
+      "name": "Marseille",
+      "category": "city"
+    },
+    {
+      "name": "Lyon",
+      "category": "city"
+    },
+    {
+      "name": "Bordeaux",
+      "category": "city"
+    },
+    {
+      "name": "Strasbourg",
+      "category": "city"
+    },
+    {
+      "name": "Montpellier",
+      "category": "city"
+    },
+    {
+      "name": "Toulouse",
+      "category": "city"
+    },
+    {
+      "name": "Aix-en-Provence",
+      "category": "city"
+    },
+    {
+      "name": "Côte d'Azur",
+      "category": "beach"
+    },
+    {
+      "name": "Île de Ré",
+      "category": "island"
+    },
+    {
+      "name": "Île d'Oléron",
+      "category": "island"
+    },
+    {
+      "name": "Corsica",
+      "category": "island"
+    },
+    {
+      "name": "Mont Blanc",
+      "category": "mountain"
+    },
+    {
+      "name": "The French Alps",
+      "category": "mountain"
+    },
+    {
+      "name": "Pyrenees",
+      "category": "mountain"
+    },
+    {
+      "name": "Vanoise National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Port-Cros National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Cévennes National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Loire Valley",
+      "category": "unesco"
+    },
+    {
+      "name": "Palace of Versailles",
+      "category": "unesco"
+    },
+    {
+      "name": "Mont-Saint-Michel",
+      "category": "unesco"
+    },
+    {
+      "name": "Canal du Midi",
+      "category": "unesco"
+    },
+    {
+      "name": "Champagne Hillsides, Houses and Cellars",
+      "category": "unesco"
+    },
+    {
+      "name": "Historic Fortified City of Carcassonne",
+      "category": "unesco"
+    },
+    {
+      "name": "Chamonix",
+      "category": "ski"
+    },
+    {
+      "name": "Les Trois Vallées",
+      "category": "ski"
+    },
+    {
+      "name": "Les Arcs",
+      "category": "ski"
+    },
+    {
+      "name": "La Plagne",
+      "category": "ski"
+    },
+    {
+      "name": "Gorges du Verdon",
+      "category": "nature"
+    },
+    {
+      "name": "Camargue",
+      "category": "nature"
+    },
+    {
+      "name": "The Dune of Pilat",
+      "category": "nature"
+    },
+    {
+      "name": "Loire River Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Palace of Fontainebleau",
+      "category": "historic"
+    },
+    {
+      "name": "Château de Chenonceau",
+      "category": "historic"
+    },
+    {
+      "name": "Château de Chambord",
+      "category": "historic"
+    },
+    {
+      "name": "Louvre Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Notre-Dame Cathedral",
+      "category": "historic"
+    },
+    {
+      "name": "Dune of Pilat",
+      "category": "adventure"
+    },
+    {
+      "name": "Grotte de Lascaux",
+      "category": "adventure"
+    }
+  ]
+}

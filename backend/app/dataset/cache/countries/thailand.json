@@ -1,0 +1,165 @@
+{
+  "country": "Thailand",
+  "destinations": [
+    {
+      "name": "Bangkok",
+      "category": "city"
+    },
+    {
+      "name": "Phuket",
+      "category": "island"
+    },
+    {
+      "name": "Chiang Mai",
+      "category": "city"
+    },
+    {
+      "name": "Krabi",
+      "category": "city"
+    },
+    {
+      "name": "Koh Samui",
+      "category": "island"
+    },
+    {
+      "name": "Pattaya",
+      "category": "city"
+    },
+    {
+      "name": "Koh Phi Phi",
+      "category": "island"
+    },
+    {
+      "name": "Doi Inthanon",
+      "category": "mountain"
+    },
+    {
+      "name": "Khao Sok National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Ayutthaya",
+      "category": "historic"
+    },
+    {
+      "name": "Sukhothai",
+      "category": "historic"
+    },
+    {
+      "name": "Phang Nga Bay",
+      "category": "nature"
+    },
+    {
+      "name": "Koh Tao",
+      "category": "island"
+    },
+    {
+      "name": "Chiang Rai",
+      "category": "city"
+    },
+    {
+      "name": "Hua Hin",
+      "category": "city"
+    },
+    {
+      "name": "Koh Lanta",
+      "category": "island"
+    },
+    {
+      "name": "Koh Chang",
+      "category": "island"
+    },
+    {
+      "name": "Pai",
+      "category": "city"
+    },
+    {
+      "name": "Koh Samet",
+      "category": "island"
+    },
+    {
+      "name": "Koh Phangan",
+      "category": "island"
+    },
+    {
+      "name": "Koh Lipe",
+      "category": "island"
+    },
+    {
+      "name": "Khao Lak",
+      "category": "city"
+    },
+    {
+      "name": "Ranong",
+      "category": "city"
+    },
+    {
+      "name": "Ubon Ratchathani",
+      "category": "city"
+    },
+    {
+      "name": "Surat Thani",
+      "category": "city"
+    },
+    {
+      "name": "Udon Thani",
+      "category": "city"
+    },
+    {
+      "name": "Lampang",
+      "category": "city"
+    },
+    {
+      "name": "Lamphun",
+      "category": "city"
+    },
+    {
+      "name": "Nakhon Sawan",
+      "category": "city"
+    },
+    {
+      "name": "Phitsanulok",
+      "category": "city"
+    },
+    {
+      "name": "Sukhothai Historical Park",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Phra That Doi Suthep",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Phra Kaew",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Pho",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Arun",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Phra That Doi Suthep",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Phra That Doi Suthep",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Phra That Doi Suthep",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Phra That Doi Suthep",
+      "category": "historic"
+    },
+    {
+      "name": "Wat Phra That Doi Suthep",
+      "category": "historic"
+    }
+  ]
+}

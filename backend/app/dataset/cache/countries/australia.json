@@ -1,0 +1,165 @@
+{
+  "country": "Australia",
+  "destinations": [
+    {
+      "name": "Sydney",
+      "category": "city"
+    },
+    {
+      "name": "Melbourne",
+      "category": "city"
+    },
+    {
+      "name": "Brisbane",
+      "category": "city"
+    },
+    {
+      "name": "Perth",
+      "category": "city"
+    },
+    {
+      "name": "Adelaide",
+      "category": "city"
+    },
+    {
+      "name": "Cairns",
+      "category": "city"
+    },
+    {
+      "name": "Gold Coast",
+      "category": "city"
+    },
+    {
+      "name": "Great Barrier Reef",
+      "category": "nature"
+    },
+    {
+      "name": "Uluru (Ayers Rock)",
+      "category": "nature"
+    },
+    {
+      "name": "Kakadu National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Blue Mountains",
+      "category": "nature"
+    },
+    {
+      "name": "Fraser Island",
+      "category": "island"
+    },
+    {
+      "name": "Tasmanian Wilderness",
+      "category": "nature"
+    },
+    {
+      "name": "Great Ocean Road",
+      "category": "nature"
+    },
+    {
+      "name": "Sydney Opera House",
+      "category": "historic"
+    },
+    {
+      "name": "Bondi Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Whitsunday Islands",
+      "category": "island"
+    },
+    {
+      "name": "Port Douglas",
+      "category": "city"
+    },
+    {
+      "name": "Daintree Rainforest",
+      "category": "nature"
+    },
+    {
+      "name": "Kangaroo Island",
+      "category": "island"
+    },
+    {
+      "name": "Great Sandy Desert",
+      "category": "desert"
+    },
+    {
+      "name": "Blue Mountains National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Taorona National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Loch Ard Gorge",
+      "category": "nature"
+    },
+    {
+      "name": "Kimberley",
+      "category": "nature"
+    },
+    {
+      "name": "Fraser Island National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Tasmania",
+      "category": "island"
+    },
+    {
+      "name": "Broome",
+      "category": "city"
+    },
+    {
+      "name": "Margaret River",
+      "category": "city"
+    },
+    {
+      "name": "Kangaroo Island",
+      "category": "island"
+    },
+    {
+      "name": "Byron Bay",
+      "category": "city"
+    },
+    {
+      "name": "Coral Sea Islands",
+      "category": "island"
+    },
+    {
+      "name": "Kakadu National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Great Barrier Reef",
+      "category": "nature"
+    },
+    {
+      "name": "Purnululu National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Fraser Island",
+      "category": "island"
+    },
+    {
+      "name": "Tasman Peninsula",
+      "category": "nature"
+    },
+    {
+      "name": "Kimberley",
+      "category": "nature"
+    },
+    {
+      "name": "Broome",
+      "category": "city"
+    },
+    {
+      "name": "Margaret River",
+      "category": "city"
+    }
+  ]
+}

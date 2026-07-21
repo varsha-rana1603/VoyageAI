@@ -1,0 +1,169 @@
+{
+  "country": "New Zealand",
+  "destinations": [
+    {
+      "name": "Auckland",
+      "category": "city"
+    },
+    {
+      "name": "Wellington",
+      "category": "city"
+    },
+    {
+      "name": "Christchurch",
+      "category": "city"
+    },
+    {
+      "name": "Queenstown",
+      "category": "city"
+    },
+    {
+      "name": "Rotorua",
+      "category": "city"
+    },
+    {
+      "name": "Milford Sound",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Cook",
+      "category": "mountain"
+    },
+    {
+      "name": "Lake Tekapo",
+      "category": "nature"
+    },
+    {
+      "name": "Bay of Islands",
+      "category": "nature"
+    },
+    {
+      "name": "Abel Tasman National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Tongariro National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Fiordland National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Whanganui River",
+      "category": "nature"
+    },
+    {
+      "name": "Kaikoura",
+      "category": "nature"
+    },
+    {
+      "name": "Waitomo Caves",
+      "category": "nature"
+    },
+    {
+      "name": "White Island",
+      "category": "nature"
+    },
+    {
+      "name": "Cape Reinga",
+      "category": "nature"
+    },
+    {
+      "name": "Franz Josef Glacier",
+      "category": "nature"
+    },
+    {
+      "name": "Fox Glacier",
+      "category": "nature"
+    },
+    {
+      "name": "Stewart Island",
+      "category": "island"
+    },
+    {
+      "name": "Great Barrier Island",
+      "category": "island"
+    },
+    {
+      "name": "Waipoua Forest",
+      "category": "nature"
+    },
+    {
+      "name": "Kapiti Island",
+      "category": "island"
+    },
+    {
+      "name": "Coromandel Peninsula",
+      "category": "nature"
+    },
+    {
+      "name": "Kawerau",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Maunganui",
+      "category": "beach"
+    },
+    {
+      "name": "Piha Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Whites Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Abel Tasman Coast Track",
+      "category": "adventure"
+    },
+    {
+      "name": "Routeburn Track",
+      "category": "adventure"
+    },
+    {
+      "name": "Milford Track",
+      "category": "adventure"
+    },
+    {
+      "name": "Robert Burns Fellowship",
+      "category": "historic"
+    },
+    {
+      "name": "Old St. Paul's",
+      "category": "historic"
+    },
+    {
+      "name": "Christchurch Cathedral",
+      "category": "historic"
+    },
+    {
+      "name": "Te Anau",
+      "category": "city"
+    },
+    {
+      "name": "Blenheim",
+      "category": "city"
+    },
+    {
+      "name": "Dunedin",
+      "category": "city"
+    },
+    {
+      "name": "Nelson",
+      "category": "city"
+    },
+    {
+      "name": "Gisborne",
+      "category": "city"
+    },
+    {
+      "name": "Wanaka",
+      "category": "city"
+    },
+    {
+      "name": "Hastings",
+      "category": "city"
+    }
+  ]
+}

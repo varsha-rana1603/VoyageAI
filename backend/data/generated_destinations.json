@@ -1,0 +1,6823 @@
+[
+  {
+    "country": "India",
+    "destinations": [
+      {
+        "name": "Mumbai",
+        "category": "city"
+      },
+      {
+        "name": "Delhi",
+        "category": "city"
+      },
+      {
+        "name": "Jaipur",
+        "category": "city"
+      },
+      {
+        "name": "Agra",
+        "category": "city"
+      },
+      {
+        "name": "Varanasi",
+        "category": "city"
+      },
+      {
+        "name": "Kolkata",
+        "category": "city"
+      },
+      {
+        "name": "Chennai",
+        "category": "city"
+      },
+      {
+        "name": "Goa",
+        "category": "beach"
+      },
+      {
+        "name": "Coorg",
+        "category": "nature"
+      },
+      {
+        "name": "Rishikesh",
+        "category": "adventure"
+      },
+      {
+        "name": "Kerala Backwaters",
+        "category": "nature"
+      },
+      {
+        "name": "Ranthambore National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Sholavaram National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Tadoba Andhari Tiger Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Keoladeo National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Sundarbans National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Kaziranga National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Jim Corbett National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Rann of Kutch",
+        "category": "desert"
+      },
+      {
+        "name": "Thar Desert",
+        "category": "desert"
+      },
+      {
+        "name": "Leh",
+        "category": "city"
+      },
+      {
+        "name": "Ladakh",
+        "category": "nature"
+      },
+      {
+        "name": "Munnar",
+        "category": "nature"
+      },
+      {
+        "name": "Alleppey",
+        "category": "nature"
+      },
+      {
+        "name": "Udaipur",
+        "category": "city"
+      },
+      {
+        "name": "Jaipur",
+        "category": "historic"
+      },
+      {
+        "name": "Ajanta and Ellora Caves",
+        "category": "historic"
+      },
+      {
+        "name": "Hampi",
+        "category": "historic"
+      },
+      {
+        "name": "Khajuraho",
+        "category": "historic"
+      },
+      {
+        "name": "Amarnath Cave",
+        "category": "nature"
+      },
+      {
+        "name": "Dal Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Andaman and Nicobar Islands",
+        "category": "island"
+      },
+      {
+        "name": "Lakshadweep",
+        "category": "island"
+      },
+      {
+        "name": "Sholavaram",
+        "category": "nature"
+      },
+      {
+        "name": "Tadoba Andhari Tiger Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Keoladeo National Park",
+        "category": "nature"
+      },
+      {
+        "name": "Sundarbans National Park",
+        "category": "nature"
+      },
+      {
+        "name": "Kaziranga National Park",
+        "category": "nature"
+      },
+      {
+        "name": "Jim Corbett National Park",
+        "category": "nature"
+      },
+      {
+        "name": "Rann of Kutch",
+        "category": "desert"
+      },
+      {
+        "name": "Thar Desert",
+        "category": "desert"
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "destinations": [
+      {
+        "name": "Tokyo",
+        "category": "city"
+      },
+      {
+        "name": "Kyoto",
+        "category": "city"
+      },
+      {
+        "name": "Osaka",
+        "category": "city"
+      },
+      {
+        "name": "Hiroshima",
+        "category": "city"
+      },
+      {
+        "name": "Nara",
+        "category": "city"
+      },
+      {
+        "name": "Sapporo",
+        "category": "city"
+      },
+      {
+        "name": "Fukuoka",
+        "category": "city"
+      },
+      {
+        "name": "Okinawa",
+        "category": "island"
+      },
+      {
+        "name": "Shikoku",
+        "category": "island"
+      },
+      {
+        "name": "Hokkaido",
+        "category": "island"
+      },
+      {
+        "name": "Mount Fuji",
+        "category": "mountain"
+      },
+      {
+        "name": "Shiretoko National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Himeji Castle",
+        "category": "historic"
+      },
+      {
+        "name": "Kiyomizu-dera",
+        "category": "historic"
+      },
+      {
+        "name": "Gion District",
+        "category": "historic"
+      },
+      {
+        "name": "Arashiyama Bamboo Grove",
+        "category": "nature"
+      },
+      {
+        "name": "Ise Grand Shrine",
+        "category": "historic"
+      },
+      {
+        "name": "Nikko National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Yakushima",
+        "category": "nature"
+      },
+      {
+        "name": "Miyajima",
+        "category": "island"
+      },
+      {
+        "name": "Kanazawa",
+        "category": "city"
+      },
+      {
+        "name": "Takayama",
+        "category": "city"
+      },
+      {
+        "name": "Nagasaki",
+        "category": "city"
+      },
+      {
+        "name": "Kobe",
+        "category": "city"
+      },
+      {
+        "name": "Kamikochi",
+        "category": "nature"
+      },
+      {
+        "name": "Asahikawa",
+        "category": "city"
+      },
+      {
+        "name": "Tsukuba",
+        "category": "mountain"
+      },
+      {
+        "name": "Shirahama",
+        "category": "beach"
+      },
+      {
+        "name": "Kumano Kodo",
+        "category": "nature"
+      },
+      {
+        "name": "Sado Island",
+        "category": "island"
+      },
+      {
+        "name": "Aoshima",
+        "category": "island"
+      },
+      {
+        "name": "Izu Peninsula",
+        "category": "nature"
+      },
+      {
+        "name": "Nikko",
+        "category": "city"
+      },
+      {
+        "name": "Matsumoto",
+        "category": "city"
+      },
+      {
+        "name": "Tateyama Kurobe Alpine Route",
+        "category": "nature"
+      },
+      {
+        "name": "Miyazaki",
+        "category": "city"
+      },
+      {
+        "name": "Akita",
+        "category": "city"
+      },
+      {
+        "name": "Kanazawa Castle",
+        "category": "historic"
+      },
+      {
+        "name": "Koya-san",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "destinations": [
+      {
+        "name": "Paris",
+        "category": "city"
+      },
+      {
+        "name": "Nice",
+        "category": "city"
+      },
+      {
+        "name": "Cannes",
+        "category": "city"
+      },
+      {
+        "name": "Lyon",
+        "category": "city"
+      },
+      {
+        "name": "Marseille",
+        "category": "city"
+      },
+      {
+        "name": "Strasbourg",
+        "category": "city"
+      },
+      {
+        "name": "Bordeaux",
+        "category": "city"
+      },
+      {
+        "name": "Toulouse",
+        "category": "city"
+      },
+      {
+        "name": "Montpellier",
+        "category": "city"
+      },
+      {
+        "name": "Aix-en-Provence",
+        "category": "city"
+      },
+      {
+        "name": "Côte d'Azur",
+        "category": "beach"
+      },
+      {
+        "name": "Île de Ré",
+        "category": "island"
+      },
+      {
+        "name": "Île d'Oléron",
+        "category": "island"
+      },
+      {
+        "name": "Île de Noirmoutier",
+        "category": "island"
+      },
+      {
+        "name": "Mont Blanc",
+        "category": "mountain"
+      },
+      {
+        "name": "Pyrenees Mountains",
+        "category": "mountain"
+      },
+      {
+        "name": "Vanoise National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Port-Cros National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Cevennes National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Loire Valley",
+        "category": "unesco"
+      },
+      {
+        "name": "Champagne Hillsides, Houses and Cellars",
+        "category": "unesco"
+      },
+      {
+        "name": "Palace and Park of Fontainebleau",
+        "category": "unesco"
+      },
+      {
+        "name": "Amiens Cathedral",
+        "category": "historic"
+      },
+      {
+        "name": "Mont-Saint-Michel",
+        "category": "historic"
+      },
+      {
+        "name": "Palace of Versailles",
+        "category": "historic"
+      },
+      {
+        "name": "Notre-Dame de Paris",
+        "category": "historic"
+      },
+      {
+        "name": "Louvre Museum",
+        "category": "historic"
+      },
+      {
+        "name": "Eiffel Tower",
+        "category": "historic"
+      },
+      {
+        "name": "Château de Chenonceau",
+        "category": "historic"
+      },
+      {
+        "name": "Château de Chambord",
+        "category": "historic"
+      },
+      {
+        "name": "Dune of Pilat",
+        "category": "nature"
+      },
+      {
+        "name": "Gorges du Verdon",
+        "category": "nature"
+      },
+      {
+        "name": "The Camargue",
+        "category": "nature"
+      },
+      {
+        "name": "The Dune of Kyllinga",
+        "category": "nature"
+      },
+      {
+        "name": "Les Baux-de-Provence",
+        "category": "adventure"
+      },
+      {
+        "name": "The Via Ferrata des Drus",
+        "category": "adventure"
+      },
+      {
+        "name": "The Verdon Gorge",
+        "category": "adventure"
+      },
+      {
+        "name": "The Dune du Pilat",
+        "category": "adventure"
+      },
+      {
+        "name": "The Cirque de Gavarnie",
+        "category": "adventure"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "destinations": [
+      {
+        "name": "Rome",
+        "category": "city"
+      },
+      {
+        "name": "Florence",
+        "category": "city"
+      },
+      {
+        "name": "Venice",
+        "category": "city"
+      },
+      {
+        "name": "Milan",
+        "category": "city"
+      },
+      {
+        "name": "Naples",
+        "category": "city"
+      },
+      {
+        "name": "Turin",
+        "category": "city"
+      },
+      {
+        "name": "Sorrento",
+        "category": "city"
+      },
+      {
+        "name": "Amalfi Coast",
+        "category": "nature"
+      },
+      {
+        "name": "Cinque Terre",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Como",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Garda",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Maggiore",
+        "category": "nature"
+      },
+      {
+        "name": "Capri",
+        "category": "island"
+      },
+      {
+        "name": "Ischia",
+        "category": "island"
+      },
+      {
+        "name": "Sicily",
+        "category": "island"
+      },
+      {
+        "name": "Sardinia",
+        "category": "island"
+      },
+      {
+        "name": "Mont Blanc",
+        "category": "mountain"
+      },
+      {
+        "name": "Dolomites",
+        "category": "mountain"
+      },
+      {
+        "name": "Gran Paradiso National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Cinque Terre National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Gargano National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Valle d'Aosta",
+        "category": "unesco"
+      },
+      {
+        "name": "Historic Centre of Florence",
+        "category": "unesco"
+      },
+      {
+        "name": "Venetian Works of Defence between 16th and 17th centuries: Stato da Terra – western Stato da Mar",
+        "category": "unesco"
+      },
+      {
+        "name": "Historic Centre of Rome",
+        "category": "unesco"
+      },
+      {
+        "name": "Portovenere, Cinque Terre, and the Islands (Palmaria, Tino and Tinetto)",
+        "category": "unesco"
+      },
+      {
+        "name": "Sacro Monte di Varese",
+        "category": "unesco"
+      },
+      {
+        "name": "The Arab-Norman Palermo and the Cathedral Churches of Cefalù and Monreale",
+        "category": "unesco"
+      },
+      {
+        "name": "Villa Romana del Casale",
+        "category": "unesco"
+      },
+      {
+        "name": "Historic Centre of San Gimignano",
+        "category": "unesco"
+      },
+      {
+        "name": "Trulli of Alberobello",
+        "category": "unesco"
+      },
+      {
+        "name": "Mount Etna",
+        "category": "nature"
+      },
+      {
+        "name": "Stelvio Pass",
+        "category": "adventure"
+      },
+      {
+        "name": "Sella Pass",
+        "category": "adventure"
+      },
+      {
+        "name": "Campo Imperatore",
+        "category": "ski"
+      },
+      {
+        "name": "Sella Nevea",
+        "category": "ski"
+      },
+      {
+        "name": "Livigno",
+        "category": "ski"
+      },
+      {
+        "name": "Sauze d'Oulx",
+        "category": "ski"
+      },
+      {
+        "name": "San Candido",
+        "category": "ski"
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "destinations": [
+      {
+        "name": "Barcelona",
+        "category": "city"
+      },
+      {
+        "name": "Madrid",
+        "category": "city"
+      },
+      {
+        "name": "Seville",
+        "category": "city"
+      },
+      {
+        "name": "Valencia",
+        "category": "city"
+      },
+      {
+        "name": "Granada",
+        "category": "city"
+      },
+      {
+        "name": "Bilbao",
+        "category": "city"
+      },
+      {
+        "name": "San Sebastián",
+        "category": "city"
+      },
+      {
+        "name": "Palma de Mallorca",
+        "category": "city"
+      },
+      {
+        "name": "Ibiza",
+        "category": "island"
+      },
+      {
+        "name": "Tenerife",
+        "category": "island"
+      },
+      {
+        "name": "Mallorca",
+        "category": "island"
+      },
+      {
+        "name": "La Palma",
+        "category": "island"
+      },
+      {
+        "name": "Picos de Europa",
+        "category": "mountain"
+      },
+      {
+        "name": "Sierra Nevada",
+        "category": "mountain"
+      },
+      {
+        "name": "Montserrat",
+        "category": "mountain"
+      },
+      {
+        "name": "Doñana National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Cabo de Gata-Níjar Natural Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Garajonay National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Pyrenees",
+        "category": "nature"
+      },
+      {
+        "name": "Costa Brava",
+        "category": "nature"
+      },
+      {
+        "name": "Ronda",
+        "category": "historic"
+      },
+      {
+        "name": "Toledo",
+        "category": "historic"
+      },
+      {
+        "name": "Alhambra",
+        "category": "historic"
+      },
+      {
+        "name": "Cuenca",
+        "category": "historic"
+      },
+      {
+        "name": "Salamanca",
+        "category": "historic"
+      },
+      {
+        "name": "Segovia",
+        "category": "historic"
+      },
+      {
+        "name": "Caceres",
+        "category": "historic"
+      },
+      {
+        "name": "Antequera",
+        "category": "historic"
+      },
+      {
+        "name": "Bardenas Reales",
+        "category": "desert"
+      },
+      {
+        "name": "Tabernas Desert",
+        "category": "desert"
+      },
+      {
+        "name": "Aigüestortes i Estany de Sant Maurici National Park",
+        "category": "unesco"
+      },
+      {
+        "name": "Cathedral of Burgos",
+        "category": "unesco"
+      },
+      {
+        "name": "Old Town of Ávila with its Extra-Muros Churches",
+        "category": "unesco"
+      },
+      {
+        "name": "Old Town of Cáceres",
+        "category": "unesco"
+      },
+      {
+        "name": "Historic Centre of Córdoba",
+        "category": "unesco"
+      },
+      {
+        "name": "Historic Centre of Toledo",
+        "category": "unesco"
+      },
+      {
+        "name": "Old Town of Segovia and its Aqueduct",
+        "category": "unesco"
+      },
+      {
+        "name": "Rock Art of the Iberian Peninsula",
+        "category": "unesco"
+      },
+      {
+        "name": "Picos de Europa/Montañas de Asturias",
+        "category": "unesco"
+      },
+      {
+        "name": "Sierra de Guara and Monte Perdido",
+        "category": "unesco"
+      }
+    ]
+  },
+  {
+    "country": "Portugal",
+    "destinations": [
+      {
+        "name": "Lisbon",
+        "category": "city"
+      },
+      {
+        "name": "Porto",
+        "category": "city"
+      },
+      {
+        "name": "Sintra",
+        "category": "historic"
+      },
+      {
+        "name": "Coimbra",
+        "category": "city"
+      },
+      {
+        "name": "Évora",
+        "category": "historic"
+      },
+      {
+        "name": "Braga",
+        "category": "city"
+      },
+      {
+        "name": "Aveiro",
+        "category": "city"
+      },
+      {
+        "name": "Faro",
+        "category": "city"
+      },
+      {
+        "name": "Leiria",
+        "category": "city"
+      },
+      {
+        "name": "Viseu",
+        "category": "city"
+      },
+      {
+        "name": "Madeira",
+        "category": "island"
+      },
+      {
+        "name": "Porto Santo",
+        "category": "island"
+      },
+      {
+        "name": "Azores",
+        "category": "island"
+      },
+      {
+        "name": "São Miguel",
+        "category": "island"
+      },
+      {
+        "name": "Santa Maria",
+        "category": "island"
+      },
+      {
+        "name": "Pico",
+        "category": "island"
+      },
+      {
+        "name": "Terceira",
+        "category": "island"
+      },
+      {
+        "name": "São Jorge",
+        "category": "island"
+      },
+      {
+        "name": "Flores",
+        "category": "island"
+      },
+      {
+        "name": "Graciosa",
+        "category": "island"
+      },
+      {
+        "name": "Corvo",
+        "category": "island"
+      },
+      {
+        "name": "Flores",
+        "category": "island"
+      },
+      {
+        "name": "Serra da Estrela",
+        "category": "mountain"
+      },
+      {
+        "name": "Serra do Marão",
+        "category": "mountain"
+      },
+      {
+        "name": "Serra de Montemuro",
+        "category": "mountain"
+      },
+      {
+        "name": "Serra de Aire e Candeeiros",
+        "category": "mountain"
+      },
+      {
+        "name": "Serra de Montesinho",
+        "category": "mountain"
+      },
+      {
+        "name": "Parque Natural do Alvao",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural das Serras de Aire e Candeeiros",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural do Alvao",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural do Alvao",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Serra da Estrela",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Ria Formosa",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Serra de Aire e Candeeiros",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Serra de Montesinho",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Serra da Estrela",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Serra de Aire e Candeeiros",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Ria Formosa",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Serra de Montesinho",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Serra de Aire e Candeeiros",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Natural da Ria Formosa",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Germany",
+    "destinations": [
+      {
+        "name": "Berlin",
+        "category": "city"
+      },
+      {
+        "name": "Munich",
+        "category": "city"
+      },
+      {
+        "name": "Hamburg",
+        "category": "city"
+      },
+      {
+        "name": "Cologne",
+        "category": "city"
+      },
+      {
+        "name": "Frankfurt",
+        "category": "city"
+      },
+      {
+        "name": "Dresden",
+        "category": "city"
+      },
+      {
+        "name": "Leipzig",
+        "category": "city"
+      },
+      {
+        "name": "Stuttgart",
+        "category": "city"
+      },
+      {
+        "name": "Nuremberg",
+        "category": "city"
+      },
+      {
+        "name": "Düsseldorf",
+        "category": "city"
+      },
+      {
+        "name": "Heidelberg",
+        "category": "city"
+      },
+      {
+        "name": "Rothenburg ob der Tauber",
+        "category": "historic"
+      },
+      {
+        "name": "Neuschwanstein Castle",
+        "category": "historic"
+      },
+      {
+        "name": "Black Forest",
+        "category": "nature"
+      },
+      {
+        "name": "Bavarian Alps",
+        "category": "mountain"
+      },
+      {
+        "name": "Lake Constance",
+        "category": "nature"
+      },
+      {
+        "name": "Hamburg Port",
+        "category": "nature"
+      },
+      {
+        "name": "Zugspitze",
+        "category": "mountain"
+      },
+      {
+        "name": "Rügen Island",
+        "category": "island"
+      },
+      {
+        "name": "Sylt Island",
+        "category": "island"
+      },
+      {
+        "name": "Usedom Island",
+        "category": "island"
+      },
+      {
+        "name": "Baltic Sea Coast",
+        "category": "beach"
+      },
+      {
+        "name": "North Sea Coast",
+        "category": "beach"
+      },
+      {
+        "name": "Saxon Switzerland",
+        "category": "nature"
+      },
+      {
+        "name": "Hamburg Harbor",
+        "category": "nature"
+      },
+      {
+        "name": "The Rhine River",
+        "category": "nature"
+      },
+      {
+        "name": "The Moselle River",
+        "category": "nature"
+      },
+      {
+        "name": "The Elbe River",
+        "category": "nature"
+      },
+      {
+        "name": "The Main River",
+        "category": "nature"
+      },
+      {
+        "name": "The Neckar River",
+        "category": "nature"
+      },
+      {
+        "name": "The Spree River",
+        "category": "nature"
+      },
+      {
+        "name": "The Havel River",
+        "category": "nature"
+      },
+      {
+        "name": "The Weser River",
+        "category": "nature"
+      },
+      {
+        "name": "The Ems River",
+        "category": "nature"
+      },
+      {
+        "name": "The Main-Danube Canal",
+        "category": "nature"
+      },
+      {
+        "name": "The Romantic Road",
+        "category": "historic"
+      },
+      {
+        "name": "The Castle Road",
+        "category": "historic"
+      },
+      {
+        "name": "The Wine Route",
+        "category": "historic"
+      },
+      {
+        "name": "The German Timber-Frame Road",
+        "category": "historic"
+      },
+      {
+        "name": "The Romantic Rhine",
+        "category": "historic"
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "destinations": [
+      {
+        "name": "Zurich",
+        "category": "city"
+      },
+      {
+        "name": "Geneva",
+        "category": "city"
+      },
+      {
+        "name": "Interlaken",
+        "category": "city"
+      },
+      {
+        "name": "Lucerne",
+        "category": "city"
+      },
+      {
+        "name": "Bern",
+        "category": "city"
+      },
+      {
+        "name": "St. Moritz",
+        "category": "city"
+      },
+      {
+        "name": "Lauterbrunnen",
+        "category": "city"
+      },
+      {
+        "name": "Zermatt",
+        "category": "city"
+      },
+      {
+        "name": "Grindelwald",
+        "category": "city"
+      },
+      {
+        "name": "Lugano",
+        "category": "city"
+      },
+      {
+        "name": "Lake Geneva",
+        "category": "nature"
+      },
+      {
+        "name": "Rhine Falls",
+        "category": "nature"
+      },
+      {
+        "name": "Jungfraujoch",
+        "category": "mountain"
+      },
+      {
+        "name": "Matterhorn",
+        "category": "mountain"
+      },
+      {
+        "name": "Piz Bernina",
+        "category": "mountain"
+      },
+      {
+        "name": "Lake Maggiore",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Lucerne",
+        "category": "nature"
+      },
+      {
+        "name": "Swiss Alps",
+        "category": "nature"
+      },
+      {
+        "name": "Swiss National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lauterbrunnen Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Bernese Oberland",
+        "category": "nature"
+      },
+      {
+        "name": "Valais",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Como",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Thun",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Brienz",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Zurich",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Neuchatel",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Gruyère",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Sils",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Oeschinen",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Resia",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Silvaplana",
+        "category": "nature"
+      },
+      {
+        "name": "Lake St. Moritz",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Walen",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Wohlen",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Zug",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Zurich",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Maggiore",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Geneva",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Lucerne",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Austria",
+    "destinations": [
+      {
+        "name": "Vienna",
+        "category": "city"
+      },
+      {
+        "name": "Salzburg",
+        "category": "city"
+      },
+      {
+        "name": "Innsbruck",
+        "category": "city"
+      },
+      {
+        "name": "Hallstatt",
+        "category": "city"
+      },
+      {
+        "name": "Graz",
+        "category": "city"
+      },
+      {
+        "name": "Kitzbühel",
+        "category": "city"
+      },
+      {
+        "name": "Linz",
+        "category": "city"
+      },
+      {
+        "name": "Klagenfurt",
+        "category": "city"
+      },
+      {
+        "name": "Zell am See",
+        "category": "city"
+      },
+      {
+        "name": "Bad Gastein",
+        "category": "city"
+      },
+      {
+        "name": "Wachau Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Hallstatter See",
+        "category": "nature"
+      },
+      {
+        "name": "Neusiedler See",
+        "category": "nature"
+      },
+      {
+        "name": "Grossglockner",
+        "category": "mountain"
+      },
+      {
+        "name": "Hohe Tauern",
+        "category": "mountain"
+      },
+      {
+        "name": "Zillertal Alps",
+        "category": "mountain"
+      },
+      {
+        "name": "Salzkammergut",
+        "category": "nature"
+      },
+      {
+        "name": "Danube River",
+        "category": "nature"
+      },
+      {
+        "name": "Hallstatt-Dachstein Salzkammergut Cultural Landscape",
+        "category": "unesco"
+      },
+      {
+        "name": "Palace and Gardens of Schönbrunn",
+        "category": "unesco"
+      },
+      {
+        "name": "Historic Centre of Vienna",
+        "category": "unesco"
+      },
+      {
+        "name": "Semmering Railway",
+        "category": "unesco"
+      },
+      {
+        "name": "Cultural Landscape of Hallstatt-Dachstein/Salzkammergut",
+        "category": "unesco"
+      },
+      {
+        "name": "Vaduz",
+        "category": "city"
+      },
+      {
+        "name": "Lake Como",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Garda",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Bled",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Attersee",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Grundlsee",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Königssee",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Bohinj",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Starnberg",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Chiemsee",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Traunsee",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Wolfgang",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Achensee",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Faaker",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Ossiacher",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Millstätter",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Grundlsee",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Greece",
+    "destinations": [
+      {
+        "name": "Athens",
+        "category": "city"
+      },
+      {
+        "name": "Santorini",
+        "category": "island"
+      },
+      {
+        "name": "Mykonos",
+        "category": "island"
+      },
+      {
+        "name": "Crete",
+        "category": "island"
+      },
+      {
+        "name": "Rhodes",
+        "category": "island"
+      },
+      {
+        "name": "Corfu",
+        "category": "island"
+      },
+      {
+        "name": "Naxos",
+        "category": "island"
+      },
+      {
+        "name": "Kefalonia",
+        "category": "island"
+      },
+      {
+        "name": "Zakynthos",
+        "category": "island"
+      },
+      {
+        "name": "Paros",
+        "category": "island"
+      },
+      {
+        "name": "Chania",
+        "category": "city"
+      },
+      {
+        "name": "Heraklion",
+        "category": "city"
+      },
+      {
+        "name": "Thessaloniki",
+        "category": "city"
+      },
+      {
+        "name": "Patras",
+        "category": "city"
+      },
+      {
+        "name": "Meteora",
+        "category": "nature"
+      },
+      {
+        "name": "Mount Olympus",
+        "category": "mountain"
+      },
+      {
+        "name": "Delphi",
+        "category": "historic"
+      },
+      {
+        "name": "Acropolis of Athens",
+        "category": "historic"
+      },
+      {
+        "name": "Palace of Knossos",
+        "category": "historic"
+      },
+      {
+        "name": "Ancient Olympia",
+        "category": "historic"
+      },
+      {
+        "name": "Meteora",
+        "category": "nature"
+      },
+      {
+        "name": "Mount Olympus",
+        "category": "mountain"
+      },
+      {
+        "name": "Samos",
+        "category": "island"
+      },
+      {
+        "name": "Lefkada",
+        "category": "island"
+      },
+      {
+        "name": "Milos",
+        "category": "island"
+      },
+      {
+        "name": "Skiathos",
+        "category": "island"
+      },
+      {
+        "name": "Skopelos",
+        "category": "island"
+      },
+      {
+        "name": "Limnos",
+        "category": "island"
+      },
+      {
+        "name": "Ios",
+        "category": "island"
+      },
+      {
+        "name": "Lemnos",
+        "category": "island"
+      },
+      {
+        "name": "Paros",
+        "category": "island"
+      },
+      {
+        "name": "Astypalaia",
+        "category": "island"
+      },
+      {
+        "name": "Kasos",
+        "category": "island"
+      },
+      {
+        "name": "Karpathos",
+        "category": "island"
+      },
+      {
+        "name": "Kastellorizo",
+        "category": "island"
+      },
+      {
+        "name": "Samos",
+        "category": "island"
+      },
+      {
+        "name": "Tinos",
+        "category": "island"
+      },
+      {
+        "name": "Folegandros",
+        "category": "island"
+      },
+      {
+        "name": "Sifnos",
+        "category": "island"
+      },
+      {
+        "name": "Serifos",
+        "category": "island"
+      }
+    ]
+  },
+  {
+    "country": "Croatia",
+    "destinations": [
+      {
+        "name": "Dubrovnik",
+        "category": "city"
+      },
+      {
+        "name": "Split",
+        "category": "city"
+      },
+      {
+        "name": "Zagreb",
+        "category": "city"
+      },
+      {
+        "name": "Hvar",
+        "category": "island"
+      },
+      {
+        "name": "Korčula",
+        "category": "island"
+      },
+      {
+        "name": "Brač",
+        "category": "island"
+      },
+      {
+        "name": "Plitvička Jezera",
+        "category": "national_park"
+      },
+      {
+        "name": "Krka",
+        "category": "nature"
+      },
+      {
+        "name": "Mljet",
+        "category": "nature"
+      },
+      {
+        "name": "Šibenik",
+        "category": "city"
+      },
+      {
+        "name": "Rovinj",
+        "category": "city"
+      },
+      {
+        "name": "Zadar",
+        "category": "city"
+      },
+      {
+        "name": "Trogir",
+        "category": "historic"
+      },
+      {
+        "name": "Pula",
+        "category": "historic"
+      },
+      {
+        "name": "Vis",
+        "category": "island"
+      },
+      {
+        "name": "Cres",
+        "category": "island"
+      },
+      {
+        "name": "Lošinj",
+        "category": "island"
+      },
+      {
+        "name": "Biograd na Moru",
+        "category": "city"
+      },
+      {
+        "name": "Pag",
+        "category": "island"
+      },
+      {
+        "name": "Rovinj",
+        "category": "city"
+      },
+      {
+        "name": "Makarska",
+        "category": "city"
+      },
+      {
+        "name": "Poreč",
+        "category": "city"
+      },
+      {
+        "name": "Rovinj",
+        "category": "city"
+      },
+      {
+        "name": "Omiš",
+        "category": "city"
+      },
+      {
+        "name": "Sinj",
+        "category": "city"
+      },
+      {
+        "name": "Kaštelir",
+        "category": "city"
+      },
+      {
+        "name": "Vis",
+        "category": "island"
+      },
+      {
+        "name": "Korčula",
+        "category": "island"
+      },
+      {
+        "name": "Šibenik",
+        "category": "city"
+      },
+      {
+        "name": "Biograd na Moru",
+        "category": "city"
+      },
+      {
+        "name": "Makarska",
+        "category": "city"
+      },
+      {
+        "name": "Poreč",
+        "category": "city"
+      },
+      {
+        "name": "Omiš",
+        "category": "city"
+      },
+      {
+        "name": "Sinj",
+        "category": "city"
+      },
+      {
+        "name": "Kaštelir",
+        "category": "city"
+      },
+      {
+        "name": "Vis",
+        "category": "island"
+      },
+      {
+        "name": "Korčula",
+        "category": "island"
+      },
+      {
+        "name": "Šibenik",
+        "category": "city"
+      },
+      {
+        "name": "Biograd na Moru",
+        "category": "city"
+      },
+      {
+        "name": "Makarska",
+        "category": "city"
+      },
+      {
+        "name": "Poreč",
+        "category": "city"
+      },
+      {
+        "name": "Omiš",
+        "category": "city"
+      },
+      {
+        "name": "Sinj",
+        "category": "city"
+      }
+    ]
+  },
+  {
+    "country": "Turkey",
+    "destinations": [
+      {
+        "name": "Istanbul",
+        "category": "city"
+      },
+      {
+        "name": "Antalya",
+        "category": "city"
+      },
+      {
+        "name": "Cappadocia",
+        "category": "nature"
+      },
+      {
+        "name": "Pamukkale",
+        "category": "nature"
+      },
+      {
+        "name": "Ephesus",
+        "category": "historic"
+      },
+      {
+        "name": "Bodrum",
+        "category": "city"
+      },
+      {
+        "name": "Antalya Coast",
+        "category": "beach"
+      },
+      {
+        "name": "Princes' Islands",
+        "category": "island"
+      },
+      {
+        "name": "Mount Nemrut",
+        "category": "mountain"
+      },
+      {
+        "name": "Goreme Open-Air Museum",
+        "category": "unesco"
+      },
+      {
+        "name": "Aphrodisias",
+        "category": "historic"
+      },
+      {
+        "name": "Troy",
+        "category": "historic"
+      },
+      {
+        "name": "Sumela Monastery",
+        "category": "historic"
+      },
+      {
+        "name": "Blue Lagoon",
+        "category": "beach"
+      },
+      {
+        "name": "Safranbolu",
+        "category": "historic"
+      },
+      {
+        "name": "Adapazarı",
+        "category": "city"
+      },
+      {
+        "name": "Marmaris",
+        "category": "city"
+      },
+      {
+        "name": "Bozcaada",
+        "category": "island"
+      },
+      {
+        "name": "Göbekli Tepe",
+        "category": "historic"
+      },
+      {
+        "name": "Mount Ararat",
+        "category": "mountain"
+      },
+      {
+        "name": "Cirali",
+        "category": "beach"
+      },
+      {
+        "name": "Datca",
+        "category": "city"
+      },
+      {
+        "name": "Lake Van",
+        "category": "nature"
+      },
+      {
+        "name": "Hattusa",
+        "category": "historic"
+      },
+      {
+        "name": "Mount Olympus",
+        "category": "mountain"
+      },
+      {
+        "name": "Troy",
+        "category": "historic"
+      },
+      {
+        "name": "Mount Ida",
+        "category": "mountain"
+      },
+      {
+        "name": "Sardis",
+        "category": "historic"
+      },
+      {
+        "name": "Kuşadası",
+        "category": "city"
+      },
+      {
+        "name": "Patara",
+        "category": "historic"
+      },
+      {
+        "name": "Mount Sipylus",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Erciyes",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Hasan",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Nemrut",
+        "category": "mountain"
+      },
+      {
+        "name": "Lake Bafa",
+        "category": "nature"
+      },
+      {
+        "name": "Ani",
+        "category": "historic"
+      },
+      {
+        "name": "Mount Nemrut",
+        "category": "mountain"
+      },
+      {
+        "name": "Troy",
+        "category": "historic"
+      },
+      {
+        "name": "Sumela Monastery",
+        "category": "historic"
+      },
+      {
+        "name": "Blue Lagoon",
+        "category": "beach"
+      },
+      {
+        "name": "Safranbolu",
+        "category": "historic"
+      }
+    ]
+  },
+  {
+    "country": "Thailand",
+    "destinations": [
+      {
+        "name": "Bangkok",
+        "category": "city"
+      },
+      {
+        "name": "Phuket",
+        "category": "island"
+      },
+      {
+        "name": "Chiang Mai",
+        "category": "city"
+      },
+      {
+        "name": "Koh Samui",
+        "category": "island"
+      },
+      {
+        "name": "Krabi",
+        "category": "city"
+      },
+      {
+        "name": "Koh Phi Phi",
+        "category": "island"
+      },
+      {
+        "name": "Ayutthaya",
+        "category": "historic"
+      },
+      {
+        "name": "Sukhothai",
+        "category": "historic"
+      },
+      {
+        "name": "Doi Inthanon",
+        "category": "mountain"
+      },
+      {
+        "name": "Khao Sok National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Phang Nga Bay",
+        "category": "nature"
+      },
+      {
+        "name": "Chiang Rai",
+        "category": "city"
+      },
+      {
+        "name": "Koh Tao",
+        "category": "island"
+      },
+      {
+        "name": "Pattaya",
+        "category": "city"
+      },
+      {
+        "name": "Hua Hin",
+        "category": "city"
+      },
+      {
+        "name": "Koh Chang",
+        "category": "island"
+      },
+      {
+        "name": "Lopburi",
+        "category": "historic"
+      },
+      {
+        "name": "Pai",
+        "category": "nature"
+      },
+      {
+        "name": "Koh Lanta",
+        "category": "island"
+      },
+      {
+        "name": "Kanchanaburi",
+        "category": "city"
+      },
+      {
+        "name": "Erawan National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Koh Samet",
+        "category": "island"
+      },
+      {
+        "name": "Udon Thani",
+        "category": "city"
+      },
+      {
+        "name": "Koh Pha Ngan",
+        "category": "island"
+      },
+      {
+        "name": "Surat Thani",
+        "category": "city"
+      },
+      {
+        "name": "Koh Lipe",
+        "category": "island"
+      },
+      {
+        "name": "Nan",
+        "category": "city"
+      },
+      {
+        "name": "Ubon Ratchathani",
+        "category": "city"
+      },
+      {
+        "name": "Koh Tao",
+        "category": "island"
+      },
+      {
+        "name": "Mae Hong Son",
+        "category": "city"
+      },
+      {
+        "name": "Koh Mak",
+        "category": "island"
+      },
+      {
+        "name": "Koh Samet",
+        "category": "island"
+      },
+      {
+        "name": "Koh Tao",
+        "category": "island"
+      },
+      {
+        "name": "Koh Chang",
+        "category": "island"
+      },
+      {
+        "name": "Koh Lanta",
+        "category": "island"
+      },
+      {
+        "name": "Koh Phi Phi",
+        "category": "island"
+      },
+      {
+        "name": "Koh Samet",
+        "category": "island"
+      },
+      {
+        "name": "Koh Tao",
+        "category": "island"
+      },
+      {
+        "name": "Koh Chang",
+        "category": "island"
+      },
+      {
+        "name": "Koh Lanta",
+        "category": "island"
+      },
+      {
+        "name": "Koh Phi Phi",
+        "category": "island"
+      }
+    ]
+  },
+  {
+    "country": "Indonesia",
+    "destinations": [
+      {
+        "name": "Bali",
+        "category": "island"
+      },
+      {
+        "name": "Jakarta",
+        "category": "city"
+      },
+      {
+        "name": "Yogyakarta",
+        "category": "city"
+      },
+      {
+        "name": "Lombok",
+        "category": "island"
+      },
+      {
+        "name": "Komodo Island",
+        "category": "island"
+      },
+      {
+        "name": "Ubud",
+        "category": "city"
+      },
+      {
+        "name": "Gili Trawangan",
+        "category": "island"
+      },
+      {
+        "name": "Mount Bromo",
+        "category": "mountain"
+      },
+      {
+        "name": "Raja Ampat",
+        "category": "island"
+      },
+      {
+        "name": "Borobudur",
+        "category": "historic"
+      },
+      {
+        "name": "Prambanan",
+        "category": "historic"
+      },
+      {
+        "name": "Tanah Lot",
+        "category": "historic"
+      },
+      {
+        "name": "Ijen",
+        "category": "nature"
+      },
+      {
+        "name": "Komodo National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Kelimutu National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Gunung Rinjani National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lorentz National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lake Toba",
+        "category": "nature"
+      },
+      {
+        "name": "Sentani Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Banyuwangi",
+        "category": "city"
+      },
+      {
+        "name": "Denpasar",
+        "category": "city"
+      },
+      {
+        "name": "Pemuteran",
+        "category": "beach"
+      },
+      {
+        "name": "Gili Air",
+        "category": "island"
+      },
+      {
+        "name": "Bintan Island",
+        "category": "island"
+      },
+      {
+        "name": "Belitung Island",
+        "category": "island"
+      },
+      {
+        "name": "Nusa Penida",
+        "category": "island"
+      },
+      {
+        "name": "Semeru",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Merapi",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Agung",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Batur",
+        "category": "mountain"
+      },
+      {
+        "name": "Sangihe Islands",
+        "category": "island"
+      },
+      {
+        "name": "Serang",
+        "category": "city"
+      },
+      {
+        "name": "Sukabumi",
+        "category": "city"
+      },
+      {
+        "name": "Semarang",
+        "category": "city"
+      },
+      {
+        "name": "Surabaya",
+        "category": "city"
+      },
+      {
+        "name": "Makassar",
+        "category": "city"
+      },
+      {
+        "name": "Tangerang",
+        "category": "city"
+      },
+      {
+        "name": "Bandung",
+        "category": "city"
+      },
+      {
+        "name": "Palembang",
+        "category": "city"
+      },
+      {
+        "name": "Batam",
+        "category": "island"
+      }
+    ]
+  },
+  {
+    "country": "Vietnam",
+    "destinations": [
+      {
+        "name": "Hanoi",
+        "category": "city"
+      },
+      {
+        "name": "Ho Chi Minh City",
+        "category": "city"
+      },
+      {
+        "name": "Hue",
+        "category": "city"
+      },
+      {
+        "name": "Da Nang",
+        "category": "city"
+      },
+      {
+        "name": "Sapa",
+        "category": "mountain"
+      },
+      {
+        "name": "Phu Quoc Island",
+        "category": "island"
+      },
+      {
+        "name": "Ha Long Bay",
+        "category": "nature"
+      },
+      {
+        "name": "Cu Chi Tunnels",
+        "category": "historic"
+      },
+      {
+        "name": "My Son Sanctuary",
+        "category": "historic"
+      },
+      {
+        "name": "Hoi An Ancient Town",
+        "category": "historic"
+      },
+      {
+        "name": "Imperial City, Hue",
+        "category": "historic"
+      },
+      {
+        "name": "Phong Nha-Ke Bang National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Cat Ba Island",
+        "category": "island"
+      },
+      {
+        "name": "Nha Trang Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Dalat",
+        "category": "city"
+      },
+      {
+        "name": "Mekong Delta",
+        "category": "nature"
+      },
+      {
+        "name": "Ba Be Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Tam Coc",
+        "category": "nature"
+      },
+      {
+        "name": "Con Dao Islands",
+        "category": "island"
+      },
+      {
+        "name": "Hoi An",
+        "category": "city"
+      },
+      {
+        "name": "Dalat Flower Gardens",
+        "category": "nature"
+      },
+      {
+        "name": "Binh Thuan Sand Dunes",
+        "category": "nature"
+      },
+      {
+        "name": "Son Doong Cave",
+        "category": "adventure"
+      },
+      {
+        "name": "Ha Giang Loop",
+        "category": "adventure"
+      },
+      {
+        "name": "Hue Imperial Palace",
+        "category": "historic"
+      },
+      {
+        "name": "My Khe Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Long Son Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Bac Son Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Tam Coc - Bich Dong",
+        "category": "nature"
+      },
+      {
+        "name": "Red River Delta",
+        "category": "nature"
+      },
+      {
+        "name": "Cat Cat Village",
+        "category": "nature"
+      },
+      {
+        "name": "Lan Ha Bay",
+        "category": "nature"
+      },
+      {
+        "name": "Hoi An Lantern Festival",
+        "category": "historic"
+      },
+      {
+        "name": "Hoi An Night Market",
+        "category": "city"
+      },
+      {
+        "name": "Hoi An Ancient Town",
+        "category": "historic"
+      },
+      {
+        "name": "Hue Festival",
+        "category": "historic"
+      },
+      {
+        "name": "Hanoi Opera House",
+        "category": "historic"
+      },
+      {
+        "name": "Reunification Palace",
+        "category": "historic"
+      },
+      {
+        "name": "Hue Imperial City",
+        "category": "historic"
+      },
+      {
+        "name": "Phu Quoc National Park",
+        "category": "national_park"
+      }
+    ]
+  },
+  {
+    "country": "Malaysia",
+    "destinations": [
+      {
+        "name": "Kuala Lumpur",
+        "category": "city"
+      },
+      {
+        "name": "Penang Island",
+        "category": "island"
+      },
+      {
+        "name": "Langkawi Island",
+        "category": "island"
+      },
+      {
+        "name": "Cameron Highlands",
+        "category": "nature"
+      },
+      {
+        "name": "Batu Caves",
+        "category": "historic"
+      },
+      {
+        "name": "Kota Kinabalu",
+        "category": "city"
+      },
+      {
+        "name": "Borneo",
+        "category": "nature"
+      },
+      {
+        "name": "George Town",
+        "category": "city"
+      },
+      {
+        "name": "Perhentian Islands",
+        "category": "island"
+      },
+      {
+        "name": "Mount Kinabalu",
+        "category": "mountain"
+      },
+      {
+        "name": "Melaka",
+        "category": "historic"
+      },
+      {
+        "name": "Tioman Island",
+        "category": "island"
+      },
+      {
+        "name": "Lang Bawan",
+        "category": "beach"
+      },
+      {
+        "name": "Sepilok",
+        "category": "nature"
+      },
+      {
+        "name": "Putrajaya",
+        "category": "city"
+      },
+      {
+        "name": "Ipoh",
+        "category": "city"
+      },
+      {
+        "name": "Redang Island",
+        "category": "island"
+      },
+      {
+        "name": "Kuah",
+        "category": "city"
+      },
+      {
+        "name": "Taman Negara National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Danum Valley Conservation Area",
+        "category": "nature"
+      },
+      {
+        "name": "Gunung Mulu National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lankapuri Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Bako National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Kinabalu Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Sipadan Island",
+        "category": "island"
+      },
+      {
+        "name": "Pangkor Island",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Tioman",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Perhentian",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Langkawi",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Pinang",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Pangkor",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Redang",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Tioman",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Lang Bawan",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Manukan",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Sapi",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Mamutik",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Gaya",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Manukan",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Mabul",
+        "category": "island"
+      },
+      {
+        "name": "Pulau Banggi",
+        "category": "island"
+      }
+    ]
+  },
+  {
+    "country": "Singapore",
+    "destinations": [
+      {
+        "name": "Marina Bay Sands",
+        "category": "city"
+      },
+      {
+        "name": "Sentosa Island",
+        "category": "island"
+      },
+      {
+        "name": "Gardens by the Bay",
+        "category": "nature"
+      },
+      {
+        "name": "Chinatown",
+        "category": "city"
+      },
+      {
+        "name": "Little India",
+        "category": "city"
+      },
+      {
+        "name": "Clarke Quay",
+        "category": "city"
+      },
+      {
+        "name": "Singapore Zoo",
+        "category": "nature"
+      },
+      {
+        "name": "Universal Studios Singapore",
+        "category": "adventure"
+      },
+      {
+        "name": "Night Safari",
+        "category": "nature"
+      },
+      {
+        "name": "Pulau Ubin",
+        "category": "island"
+      },
+      {
+        "name": "Singapore Botanic Gardens",
+        "category": "nature"
+      },
+      {
+        "name": "Orchard Road",
+        "category": "city"
+      },
+      {
+        "name": "Joo Chiat",
+        "category": "city"
+      },
+      {
+        "name": "Kampong Glam",
+        "category": "city"
+      },
+      {
+        "name": "Singapore Flyer",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore River",
+        "category": "nature"
+      },
+      {
+        "name": "Changi Beach",
+        "category": "beach"
+      },
+      {
+        "name": "East Coast Park",
+        "category": "beach"
+      },
+      {
+        "name": "Sentosa Beaches",
+        "category": "beach"
+      },
+      {
+        "name": "Mount Faber",
+        "category": "mountain"
+      },
+      {
+        "name": "Singapore Cable Car",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore Botanic Gardens",
+        "category": "nature"
+      },
+      {
+        "name": "Singapore National Museum",
+        "category": "historic"
+      },
+      {
+        "name": "Singapore Science Centre",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore River Cruise",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore Zoo",
+        "category": "nature"
+      },
+      {
+        "name": "Singapore Flyer",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore Botanic Gardens",
+        "category": "nature"
+      },
+      {
+        "name": "Singapore River",
+        "category": "nature"
+      },
+      {
+        "name": "Singapore Cable Car",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore National Museum",
+        "category": "historic"
+      },
+      {
+        "name": "Singapore Science Centre",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore River Cruise",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore Zoo",
+        "category": "nature"
+      },
+      {
+        "name": "Singapore Flyer",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore Botanic Gardens",
+        "category": "nature"
+      },
+      {
+        "name": "Singapore River",
+        "category": "nature"
+      },
+      {
+        "name": "Singapore Cable Car",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore National Museum",
+        "category": "historic"
+      },
+      {
+        "name": "Singapore Science Centre",
+        "category": "adventure"
+      },
+      {
+        "name": "Singapore River Cruise",
+        "category": "adventure"
+      }
+    ]
+  },
+  {
+    "country": "South Korea",
+    "destinations": [
+      {
+        "name": "Seoul",
+        "category": "city"
+      },
+      {
+        "name": "Busan",
+        "category": "city"
+      },
+      {
+        "name": "Incheon",
+        "category": "city"
+      },
+      {
+        "name": "Gyeongju",
+        "category": "historic"
+      },
+      {
+        "name": "Jeju Island",
+        "category": "island"
+      },
+      {
+        "name": "Seoraksan National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Jirisan National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Hallasan National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Gyeongbokgung Palace",
+        "category": "historic"
+      },
+      {
+        "name": "Nami Island",
+        "category": "nature"
+      },
+      {
+        "name": "Bukhansan National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Andong Hahoe Folk Village",
+        "category": "historic"
+      },
+      {
+        "name": "Ulsanbawi Rock",
+        "category": "nature"
+      },
+      {
+        "name": "Gwanghallu Pavilion",
+        "category": "historic"
+      },
+      {
+        "name": "Jeonju Hanok Village",
+        "category": "historic"
+      },
+      {
+        "name": "Sinpo Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Donghak Revolution Memorial Hall",
+        "category": "historic"
+      },
+      {
+        "name": "Cheonggyecheon Stream",
+        "category": "nature"
+      },
+      {
+        "name": "Namsan Seoul Tower",
+        "category": "city"
+      },
+      {
+        "name": "Gyeonggijeon Shrine",
+        "category": "historic"
+      },
+      {
+        "name": "Gyeonggi-do Island",
+        "category": "island"
+      },
+      {
+        "name": "Marado Island",
+        "category": "island"
+      },
+      {
+        "name": "Mara Island",
+        "category": "island"
+      },
+      {
+        "name": "Sokcho Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Mt. Jiri",
+        "category": "mountain"
+      },
+      {
+        "name": "Mt. Seorak",
+        "category": "mountain"
+      },
+      {
+        "name": "Mt. Halla",
+        "category": "mountain"
+      },
+      {
+        "name": "Mungyeong Saejae",
+        "category": "nature"
+      },
+      {
+        "name": "Hahoe Mask Dance Festival",
+        "category": "historic"
+      },
+      {
+        "name": "Haeinsa Temple",
+        "category": "historic"
+      },
+      {
+        "name": "Bulguksa Temple",
+        "category": "historic"
+      },
+      {
+        "name": "Seoul Land",
+        "category": "adventure"
+      },
+      {
+        "name": "Everland",
+        "category": "adventure"
+      },
+      {
+        "name": "Lotte World Adventure",
+        "category": "adventure"
+      },
+      {
+        "name": "Dongdaemun Design Plaza",
+        "category": "city"
+      },
+      {
+        "name": "Dongdaemun Market",
+        "category": "city"
+      },
+      {
+        "name": "N Seoul Tower",
+        "category": "city"
+      },
+      {
+        "name": "Cheonggyecheon",
+        "category": "nature"
+      },
+      {
+        "name": "Gyeonghoeru Pavilion",
+        "category": "historic"
+      },
+      {
+        "name": "Seoul Forest",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "China",
+    "destinations": [
+      {
+        "name": "Beijing",
+        "category": "city"
+      },
+      {
+        "name": "Shanghai",
+        "category": "city"
+      },
+      {
+        "name": "Xi'an",
+        "category": "city"
+      },
+      {
+        "name": "Hong Kong",
+        "category": "city"
+      },
+      {
+        "name": "Guangzhou",
+        "category": "city"
+      },
+      {
+        "name": "Chengdu",
+        "category": "city"
+      },
+      {
+        "name": "Sanya",
+        "category": "city"
+      },
+      {
+        "name": "Hangzhou",
+        "category": "city"
+      },
+      {
+        "name": "Shenzhen",
+        "category": "city"
+      },
+      {
+        "name": "Tianjin",
+        "category": "city"
+      },
+      {
+        "name": "Chongqing",
+        "category": "city"
+      },
+      {
+        "name": "Hainan Island",
+        "category": "island"
+      },
+      {
+        "name": "Mount Everest",
+        "category": "mountain"
+      },
+      {
+        "name": "Zhangjiajie National Forest Park",
+        "category": "national_park"
+      },
+      {
+        "name": "The Great Wall",
+        "category": "historic"
+      },
+      {
+        "name": "The Terracotta Army",
+        "category": "historic"
+      },
+      {
+        "name": "The Forbidden City",
+        "category": "historic"
+      },
+      {
+        "name": "The Summer Palace",
+        "category": "historic"
+      },
+      {
+        "name": "The Temple of Heaven",
+        "category": "historic"
+      },
+      {
+        "name": "The Potala Palace",
+        "category": "historic"
+      },
+      {
+        "name": "The Bund",
+        "category": "historic"
+      },
+      {
+        "name": "The Yellow Mountains",
+        "category": "nature"
+      },
+      {
+        "name": "The Three Gorges",
+        "category": "nature"
+      },
+      {
+        "name": "The Li River",
+        "category": "nature"
+      },
+      {
+        "name": "The Zhangye Danxia Landform",
+        "category": "nature"
+      },
+      {
+        "name": "The Jiuzhaigou Valley",
+        "category": "nature"
+      },
+      {
+        "name": "The Tianmen Mountain",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Wutai",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Hua",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Tai",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Emei",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Lu",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Qingcheng",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Wuyi",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Cangshan",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Huangshan",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Sanqing",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Mogan",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Putuo",
+        "category": "nature"
+      },
+      {
+        "name": "The Mount Wudang",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Nepal",
+    "destinations": [
+      {
+        "name": "Kathmandu",
+        "category": "city"
+      },
+      {
+        "name": "Pokhara",
+        "category": "city"
+      },
+      {
+        "name": "Lumbini",
+        "category": "historic"
+      },
+      {
+        "name": "Everest Base Camp",
+        "category": "adventure"
+      },
+      {
+        "name": "Annapurna Circuit",
+        "category": "adventure"
+      },
+      {
+        "name": "Chitwan National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Sagarmatha National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Bardia National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Rara National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Manaslu Circuit Trek",
+        "category": "adventure"
+      },
+      {
+        "name": "Langtang National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Gokyo Lakes",
+        "category": "nature"
+      },
+      {
+        "name": "Mardi Himal Trek",
+        "category": "adventure"
+      },
+      {
+        "name": "Manaslu Trek",
+        "category": "adventure"
+      },
+      {
+        "name": "Mount Everest",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Kanchenjunga",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Annapurna",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Makalu",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Lhotse",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Dhaulagiri",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Manaslu",
+        "category": "mountain"
+      },
+      {
+        "name": "Trisuli River",
+        "category": "nature"
+      },
+      {
+        "name": "Dudh Kosi River",
+        "category": "nature"
+      },
+      {
+        "name": "Phewa Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Gokyo Ri",
+        "category": "mountain"
+      },
+      {
+        "name": "Rolwaling Valley",
+        "category": "adventure"
+      },
+      {
+        "name": "Manaslu Conservation Area",
+        "category": "nature"
+      },
+      {
+        "name": "Langtang Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Gosainkunda Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Thulo Syabru",
+        "category": "nature"
+      },
+      {
+        "name": "Thulo Dhara Water Falls",
+        "category": "nature"
+      },
+      {
+        "name": "Begnas Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Bindhyabasini Temple",
+        "category": "historic"
+      },
+      {
+        "name": "Pashupatinath Temple",
+        "category": "historic"
+      },
+      {
+        "name": "Swayambhunath Temple",
+        "category": "historic"
+      },
+      {
+        "name": "Boudhanath Stupa",
+        "category": "historic"
+      },
+      {
+        "name": "Janakpur",
+        "category": "historic"
+      },
+      {
+        "name": "Rara Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Dhulikhel",
+        "category": "city"
+      },
+      {
+        "name": "Bhaktapur",
+        "category": "historic"
+      }
+    ]
+  },
+  {
+    "country": "Bhutan",
+    "destinations": [
+      {
+        "name": "Thimphu",
+        "category": "city"
+      },
+      {
+        "name": "Punakha",
+        "category": "city"
+      },
+      {
+        "name": "Paro",
+        "category": "city"
+      },
+      {
+        "name": "Gangtey Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Phobjikha Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Tiger's Nest Monastery",
+        "category": "historic"
+      },
+      {
+        "name": "Tashichho Dzong",
+        "category": "historic"
+      },
+      {
+        "name": "Punakha Dzong",
+        "category": "historic"
+      },
+      {
+        "name": "Gangtey Monastery",
+        "category": "historic"
+      },
+      {
+        "name": "Kurjey Lhakhang",
+        "category": "historic"
+      },
+      {
+        "name": "Jambay Lhakhang",
+        "category": "historic"
+      },
+      {
+        "name": "Dochula Pass",
+        "category": "nature"
+      },
+      {
+        "name": "Taktshang Monastery (Tiger's Nest)",
+        "category": "historic"
+      },
+      {
+        "name": "Bumthang Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Jigme Dorji National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Royal Manas National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Phobjikha Glacier",
+        "category": "nature"
+      },
+      {
+        "name": "Haa Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Punakha Suspension Bridge",
+        "category": "nature"
+      },
+      {
+        "name": "Chukha Hydroelectric Plant",
+        "category": "nature"
+      },
+      {
+        "name": "Punakha Dzong",
+        "category": "historic"
+      },
+      {
+        "name": "Gangtey Monastery",
+        "category": "historic"
+      },
+      {
+        "name": "Kurjey Lhakhang",
+        "category": "historic"
+      },
+      {
+        "name": "Jambay Lhakhang",
+        "category": "historic"
+      },
+      {
+        "name": "Dochula Pass",
+        "category": "nature"
+      },
+      {
+        "name": "Taktshang Monastery (Tiger's Nest)",
+        "category": "historic"
+      },
+      {
+        "name": "Bumthang Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Jigme Dorji National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Royal Manas National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Phobjikha Glacier",
+        "category": "nature"
+      },
+      {
+        "name": "Haa Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Punakha Suspension Bridge",
+        "category": "nature"
+      },
+      {
+        "name": "Chukha Hydroelectric Plant",
+        "category": "nature"
+      },
+      {
+        "name": "Punakha Dzong",
+        "category": "historic"
+      },
+      {
+        "name": "Gangtey Monastery",
+        "category": "historic"
+      },
+      {
+        "name": "Kurjey Lhakhang",
+        "category": "historic"
+      },
+      {
+        "name": "Jambay Lhakhang",
+        "category": "historic"
+      },
+      {
+        "name": "Dochula Pass",
+        "category": "nature"
+      },
+      {
+        "name": "Taktshang Monastery (Tiger's Nest)",
+        "category": "historic"
+      },
+      {
+        "name": "Bumthang Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Jigme Dorji National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Royal Manas National Park",
+        "category": "national_park"
+      }
+    ]
+  },
+  {
+    "country": "Sri Lanka",
+    "destinations": [
+      {
+        "name": "Colombo",
+        "category": "city"
+      },
+      {
+        "name": "Galle",
+        "category": "city"
+      },
+      {
+        "name": "Kandy",
+        "category": "city"
+      },
+      {
+        "name": "Anuradhapura",
+        "category": "historic"
+      },
+      {
+        "name": "Sigiriya",
+        "category": "historic"
+      },
+      {
+        "name": "Polonnaruwa",
+        "category": "historic"
+      },
+      {
+        "name": "Dambulla",
+        "category": "historic"
+      },
+      {
+        "name": "Yala National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Udawalawe National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Bundala National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Sinharaja Forest Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Adam's Peak",
+        "category": "mountain"
+      },
+      {
+        "name": "Pidurangala",
+        "category": "nature"
+      },
+      {
+        "name": "Horton Plains National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Minneriya National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Wilpattu National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Sinharaja Rainforest",
+        "category": "nature"
+      },
+      {
+        "name": "Arugam Bay",
+        "category": "beach"
+      },
+      {
+        "name": "Unawatuna",
+        "category": "beach"
+      },
+      {
+        "name": "Bentota",
+        "category": "beach"
+      },
+      {
+        "name": "Mirissa",
+        "category": "beach"
+      },
+      {
+        "name": "Tangalle",
+        "category": "beach"
+      },
+      {
+        "name": "Hikkaduwa",
+        "category": "beach"
+      },
+      {
+        "name": "Negombo",
+        "category": "beach"
+      },
+      {
+        "name": "Tangalle Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Jaffna",
+        "category": "city"
+      },
+      {
+        "name": "Trincomalee",
+        "category": "city"
+      },
+      {
+        "name": "Nuwara Eliya",
+        "category": "city"
+      },
+      {
+        "name": "Galle Fort",
+        "category": "historic"
+      },
+      {
+        "name": "Sigiriya Rock Fortress",
+        "category": "historic"
+      },
+      {
+        "name": "Temple of the Tooth",
+        "category": "historic"
+      },
+      {
+        "name": "Ravana Falls",
+        "category": "nature"
+      },
+      {
+        "name": "Kalutara Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Koggala Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Ahungalla Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Dambulla Cave Temple",
+        "category": "historic"
+      },
+      {
+        "name": "Kandy Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Pinnawala Elephant Orphanage",
+        "category": "nature"
+      },
+      {
+        "name": "Bundala Bird Sanctuary",
+        "category": "nature"
+      },
+      {
+        "name": "Habarana",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Maldives",
+    "destinations": [
+      {
+        "name": "Male",
+        "category": "city"
+      },
+      {
+        "name": "Malé Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Huvahendhoo Island",
+        "category": "island"
+      },
+      {
+        "name": "Vaadhoo Island",
+        "category": "island"
+      },
+      {
+        "name": "Eydhafushi Island",
+        "category": "island"
+      },
+      {
+        "name": "Dhigufaru Island",
+        "category": "island"
+      },
+      {
+        "name": "Maafushi Island",
+        "category": "island"
+      },
+      {
+        "name": "Kuramathi Island",
+        "category": "island"
+      },
+      {
+        "name": "Thulusdhoo Island",
+        "category": "island"
+      },
+      {
+        "name": "Funadhoo Island",
+        "category": "island"
+      },
+      {
+        "name": "Komandoo Island",
+        "category": "island"
+      },
+      {
+        "name": "Baros Island",
+        "category": "island"
+      },
+      {
+        "name": "Nilandhe Atholhu Dhekunuburi",
+        "category": "island"
+      },
+      {
+        "name": "Nilandhe Atholhu Uthuruburi",
+        "category": "island"
+      },
+      {
+        "name": "Mulaku Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Meedhoo Island",
+        "category": "island"
+      },
+      {
+        "name": "Gan Island",
+        "category": "island"
+      },
+      {
+        "name": "Hithadhoo Island",
+        "category": "island"
+      },
+      {
+        "name": "Addu City",
+        "category": "city"
+      },
+      {
+        "name": "Addu Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Fuvahmulah Island",
+        "category": "island"
+      },
+      {
+        "name": "Dhaalu Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Thaa Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Laamu Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Baa Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Raa Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Alif Alif Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Alif Dhaal Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Shaviyani Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Noonu Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Raa Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Lhaviyani Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Dhaalu Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Thaa Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Laamu Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Baa Atoll",
+        "category": "island"
+      },
+      {
+        "name": "Maagiri Island",
+        "category": "island"
+      },
+      {
+        "name": "Olhuveli Island",
+        "category": "island"
+      },
+      {
+        "name": "Vakkaru Island",
+        "category": "island"
+      },
+      {
+        "name": "Kuda Huraa Island",
+        "category": "island"
+      },
+      {
+        "name": "Mirihi Island",
+        "category": "island"
+      },
+      {
+        "name": "Biyadoo Island",
+        "category": "island"
+      }
+    ]
+  },
+  {
+    "country": "United Arab Emirates",
+    "destinations": [
+      {
+        "name": "Dubai",
+        "category": "city"
+      },
+      {
+        "name": "Abu Dhabi",
+        "category": "city"
+      },
+      {
+        "name": "Sharjah",
+        "category": "city"
+      },
+      {
+        "name": "Ras Al Khaimah",
+        "category": "city"
+      },
+      {
+        "name": "Ajman",
+        "category": "city"
+      },
+      {
+        "name": "Fujairah",
+        "category": "city"
+      },
+      {
+        "name": "Umm Al Quwain",
+        "category": "city"
+      },
+      {
+        "name": "Palm Jumeirah",
+        "category": "island"
+      },
+      {
+        "name": "The World Islands",
+        "category": "island"
+      },
+      {
+        "name": "Sir Bani Yas Island",
+        "category": "island"
+      },
+      {
+        "name": "Lulu Island",
+        "category": "island"
+      },
+      {
+        "name": "Hatta",
+        "category": "mountain"
+      },
+      {
+        "name": "Jebel Jais",
+        "category": "mountain"
+      },
+      {
+        "name": "Al Ain",
+        "category": "nature"
+      },
+      {
+        "name": "Wadi Wurayah National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Ras Al Khor Wildlife Sanctuary",
+        "category": "nature"
+      },
+      {
+        "name": "Sharjah Desert Park",
+        "category": "desert"
+      },
+      {
+        "name": "Liwa Oasis",
+        "category": "nature"
+      },
+      {
+        "name": "Al Marmoom Desert Conservation Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Dubai Miracle Garden",
+        "category": "nature"
+      },
+      {
+        "name": "Al Fahidi Historical Neighborhood",
+        "category": "historic"
+      },
+      {
+        "name": "Sheikh Zayed Grand Mosque",
+        "category": "historic"
+      },
+      {
+        "name": "Al Ain Oasis",
+        "category": "nature"
+      },
+      {
+        "name": "Saadiyat Island",
+        "category": "island"
+      },
+      {
+        "name": "Jebel Hafeet",
+        "category": "mountain"
+      },
+      {
+        "name": "Dubai Marina",
+        "category": "beach"
+      },
+      {
+        "name": "Jumeirah Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Khor Fakkan Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Al Mamzar Park",
+        "category": "nature"
+      },
+      {
+        "name": "Dubai Desert Conservation Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Al Qudra Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Dubai Frame",
+        "category": "historic"
+      },
+      {
+        "name": "The Corniche",
+        "category": "beach"
+      },
+      {
+        "name": "Jebel Ali",
+        "category": "nature"
+      },
+      {
+        "name": "Dubai Creek",
+        "category": "nature"
+      },
+      {
+        "name": "The Louvre Abu Dhabi",
+        "category": "unesco"
+      },
+      {
+        "name": "Ferrari World Abu Dhabi",
+        "category": "adventure"
+      },
+      {
+        "name": "Yas Waterworld",
+        "category": "adventure"
+      },
+      {
+        "name": "Dubai Fountain",
+        "category": "nature"
+      },
+      {
+        "name": "Burj Khalifa",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Oman",
+    "destinations": [
+      {
+        "name": "Muscat",
+        "category": "city"
+      },
+      {
+        "name": "Salalah",
+        "category": "city"
+      },
+      {
+        "name": "Nizwa",
+        "category": "city"
+      },
+      {
+        "name": "Wadi Bani Khalid",
+        "category": "nature"
+      },
+      {
+        "name": "Jebel Shams",
+        "category": "mountain"
+      },
+      {
+        "name": "Wahiba Sands",
+        "category": "desert"
+      },
+      {
+        "name": "Muttrah Souq",
+        "category": "historic"
+      },
+      {
+        "name": "Qurum Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Bait Al Zubair Museum",
+        "category": "historic"
+      },
+      {
+        "name": "Royal Opera House Muscat",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Alam Palace",
+        "category": "historic"
+      },
+      {
+        "name": "Sultan Qaboos Grand Mosque",
+        "category": "historic"
+      },
+      {
+        "name": "Ras Al Jinz",
+        "category": "nature"
+      },
+      {
+        "name": "Khasab",
+        "category": "city"
+      },
+      {
+        "name": "Tanuf",
+        "category": "nature"
+      },
+      {
+        "name": "Misfat al Abriyeen",
+        "category": "city"
+      },
+      {
+        "name": "Jebel Akhdar",
+        "category": "mountain"
+      },
+      {
+        "name": "Al Hazm Castle",
+        "category": "historic"
+      },
+      {
+        "name": "Bidiyah Mosque",
+        "category": "historic"
+      },
+      {
+        "name": "Wahiba Sands",
+        "category": "desert"
+      },
+      {
+        "name": "Dibba",
+        "category": "city"
+      },
+      {
+        "name": "Sur",
+        "category": "city"
+      },
+      {
+        "name": "Al-Balad",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Mirani Fort",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Jahili Fort",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Suwaiq",
+        "category": "city"
+      },
+      {
+        "name": "Ibra",
+        "category": "city"
+      },
+      {
+        "name": "Al-Rustaq",
+        "category": "city"
+      },
+      {
+        "name": "Shinas",
+        "category": "city"
+      },
+      {
+        "name": "Sohar",
+        "category": "city"
+      },
+      {
+        "name": "Tiwi",
+        "category": "beach"
+      },
+      {
+        "name": "Yitti Hills",
+        "category": "nature"
+      },
+      {
+        "name": "Bidiyah",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Busayri",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Hajar Mountains",
+        "category": "mountain"
+      },
+      {
+        "name": "Al-Khaboura",
+        "category": "city"
+      },
+      {
+        "name": "Al-Seeb",
+        "category": "city"
+      },
+      {
+        "name": "Al-Suwaiq",
+        "category": "city"
+      },
+      {
+        "name": "Al-Suwaiq Industrial Park",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Jordan",
+    "destinations": [
+      {
+        "name": "Amman",
+        "category": "city"
+      },
+      {
+        "name": "Petra",
+        "category": "historic"
+      },
+      {
+        "name": "Wadi Rum",
+        "category": "desert"
+      },
+      {
+        "name": "Dead Sea",
+        "category": "nature"
+      },
+      {
+        "name": "Aqaba",
+        "category": "city"
+      },
+      {
+        "name": "Mount Nebo",
+        "category": "mountain"
+      },
+      {
+        "name": "Jerash",
+        "category": "historic"
+      },
+      {
+        "name": "Sweimah",
+        "category": "beach"
+      },
+      {
+        "name": "Madaba",
+        "category": "historic"
+      },
+      {
+        "name": "Mount Saint Catherine",
+        "category": "mountain"
+      },
+      {
+        "name": "Little Petra",
+        "category": "historic"
+      },
+      {
+        "name": "Um Qais",
+        "category": "historic"
+      },
+      {
+        "name": "Zarqa",
+        "category": "city"
+      },
+      {
+        "name": "Irbid",
+        "category": "city"
+      },
+      {
+        "name": "Azraq",
+        "category": "desert"
+      },
+      {
+        "name": "Al-Salt",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Karak",
+        "category": "historic"
+      },
+      {
+        "name": "Dana Biosphere Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Shaumari Wildlife Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Wadi Mujib",
+        "category": "nature"
+      },
+      {
+        "name": "Royal Automobile Museum",
+        "category": "museum"
+      },
+      {
+        "name": "Royal Tank Museum",
+        "category": "museum"
+      },
+      {
+        "name": "Al-Beidha",
+        "category": "historic"
+      },
+      {
+        "name": "Kursi",
+        "category": "historic"
+      },
+      {
+        "name": "Wadi Araba",
+        "category": "nature"
+      },
+      {
+        "name": "Ajloun Castle",
+        "category": "historic"
+      },
+      {
+        "name": "Wadi Rum Protected Area",
+        "category": "nature"
+      },
+      {
+        "name": "Qasr Al-Abd",
+        "category": "historic"
+      },
+      {
+        "name": "Wadi Al-Mujib",
+        "category": "nature"
+      },
+      {
+        "name": "Wadi Hasa",
+        "category": "nature"
+      },
+      {
+        "name": "Al-Jafr",
+        "category": "desert"
+      },
+      {
+        "name": "Al-Hussein Sport City",
+        "category": "sports"
+      },
+      {
+        "name": "Al-Husseiniya",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Muwaqqar",
+        "category": "city"
+      },
+      {
+        "name": "Al-Balqa",
+        "category": "city"
+      },
+      {
+        "name": "Al-Karak Castle",
+        "category": "historic"
+      },
+      {
+        "name": "Al-Azraq Wetland Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Al-Azraq",
+        "category": "city"
+      },
+      {
+        "name": "Al-Jafr",
+        "category": "desert"
+      }
+    ]
+  },
+  {
+    "country": "United States",
+    "destinations": [
+      {
+        "name": "New York City",
+        "category": "city"
+      },
+      {
+        "name": "Miami Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Maui",
+        "category": "island"
+      },
+      {
+        "name": "Mount Rushmore",
+        "category": "mountain"
+      },
+      {
+        "name": "Yellowstone National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Grand Canyon",
+        "category": "nature"
+      },
+      {
+        "name": "Statue of Liberty",
+        "category": "historic"
+      },
+      {
+        "name": "Santorini",
+        "category": "island"
+      },
+      {
+        "name": "Great Smoky Mountains National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "San Francisco",
+        "category": "city"
+      },
+      {
+        "name": "Niagara Falls",
+        "category": "nature"
+      },
+      {
+        "name": "Honolulu",
+        "category": "city"
+      },
+      {
+        "name": "Key West",
+        "category": "island"
+      },
+      {
+        "name": "Rocky Mountain National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Yosemite National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Great Barrier Reef",
+        "category": "nature"
+      },
+      {
+        "name": "Las Vegas",
+        "category": "city"
+      },
+      {
+        "name": "San Juan Islands",
+        "category": "island"
+      },
+      {
+        "name": "Mount Rainier National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "New Orleans",
+        "category": "city"
+      },
+      {
+        "name": "Everglades National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Great Salt Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Saguaro National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Mount McKinley",
+        "category": "mountain"
+      },
+      {
+        "name": "Acadia National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Great Sand Dunes National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Death Valley National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Zion National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Glacier National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Hawaii Volcanoes National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Smoky Mountains",
+        "category": "mountain"
+      },
+      {
+        "name": "Grand Teton National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Joshua Tree National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Olympic National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Arches National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Canyonlands National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Denali National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Everglades",
+        "category": "nature"
+      },
+      {
+        "name": "Yellowstone",
+        "category": "national_park"
+      },
+      {
+        "name": "Yosemite",
+        "category": "national_park"
+      }
+    ]
+  },
+  {
+    "country": "Canada",
+    "destinations": [
+      {
+        "name": "Toronto",
+        "category": "city"
+      },
+      {
+        "name": "Vancouver",
+        "category": "city"
+      },
+      {
+        "name": "Montreal",
+        "category": "city"
+      },
+      {
+        "name": "Niagara Falls",
+        "category": "nature"
+      },
+      {
+        "name": "Banff National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Jasper National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Whistler",
+        "category": "ski"
+      },
+      {
+        "name": "Gros Morne National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Banff",
+        "category": "city"
+      },
+      {
+        "name": "Victoria",
+        "category": "city"
+      },
+      {
+        "name": "Calgary",
+        "category": "city"
+      },
+      {
+        "name": "Ottawa",
+        "category": "city"
+      },
+      {
+        "name": "Quebec City",
+        "category": "historic"
+      },
+      {
+        "name": "Peyto Lake",
+        "category": "nature"
+      },
+      {
+        "name": "Lake Louise",
+        "category": "nature"
+      },
+      {
+        "name": "Prince Edward Island",
+        "category": "island"
+      },
+      {
+        "name": "Whistler Blackcomb",
+        "category": "ski"
+      },
+      {
+        "name": "Bruce Peninsula National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Yoho National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Kootenay National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Algonquin Provincial Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Banff Springs Hotel",
+        "category": "historic"
+      },
+      {
+        "name": "Old Quebec",
+        "category": "historic"
+      },
+      {
+        "name": "Banff Gondola",
+        "category": "adventure"
+      },
+      {
+        "name": "Whistler Mountain",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Robson",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Logan",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Revelstoke National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Algonquin Park",
+        "category": "nature"
+      },
+      {
+        "name": "Bruce Peninsula",
+        "category": "nature"
+      },
+      {
+        "name": "Red River",
+        "category": "nature"
+      },
+      {
+        "name": "St. John's",
+        "category": "city"
+      },
+      {
+        "name": "Churchill",
+        "category": "nature"
+      },
+      {
+        "name": "Gaspé Peninsula",
+        "category": "nature"
+      },
+      {
+        "name": "Manitoulin Island",
+        "category": "island"
+      },
+      {
+        "name": "Haida Gwaii",
+        "category": "island"
+      },
+      {
+        "name": "L'Anse aux Meadows National Historic Site",
+        "category": "unesco"
+      },
+      {
+        "name": "Rideau Canal",
+        "category": "unesco"
+      },
+      {
+        "name": "SGang Gwaay",
+        "category": "unesco"
+      },
+      {
+        "name": "Wood Buffalo National Park",
+        "category": "national_park"
+      }
+    ]
+  },
+  {
+    "country": "Mexico",
+    "destinations": [
+      {
+        "name": "Mexico City",
+        "category": "city"
+      },
+      {
+        "name": "Cancún",
+        "category": "beach"
+      },
+      {
+        "name": "Playa del Carmen",
+        "category": "beach"
+      },
+      {
+        "name": "Los Cabos",
+        "category": "beach"
+      },
+      {
+        "name": "Isla Mujeres",
+        "category": "island"
+      },
+      {
+        "name": "Isla Holbox",
+        "category": "island"
+      },
+      {
+        "name": "Puerto Vallarta",
+        "category": "beach"
+      },
+      {
+        "name": "Acapulco",
+        "category": "beach"
+      },
+      {
+        "name": "Tulum",
+        "category": "beach"
+      },
+      {
+        "name": "Palenque",
+        "category": "historic"
+      },
+      {
+        "name": "Chichen Itza",
+        "category": "historic"
+      },
+      {
+        "name": "Tetitlan",
+        "category": "historic"
+      },
+      {
+        "name": "Tulum",
+        "category": "historic"
+      },
+      {
+        "name": "Popotla",
+        "category": "historic"
+      },
+      {
+        "name": "Uxmal",
+        "category": "historic"
+      },
+      {
+        "name": "Coba",
+        "category": "historic"
+      },
+      {
+        "name": "Tikal",
+        "category": "historic"
+      },
+      {
+        "name": "Copper Canyon",
+        "category": "nature"
+      },
+      {
+        "name": "Barrancas del Cobre",
+        "category": "nature"
+      },
+      {
+        "name": "Valle de Bravo",
+        "category": "nature"
+      },
+      {
+        "name": "Sierra Gorda",
+        "category": "nature"
+      },
+      {
+        "name": "Sian Ka'an",
+        "category": "nature"
+      },
+      {
+        "name": "Revillagigedo Archipelago",
+        "category": "nature"
+      },
+      {
+        "name": "Marias Islands",
+        "category": "nature"
+      },
+      {
+        "name": "La Paz",
+        "category": "city"
+      },
+      {
+        "name": "Guadalajara",
+        "category": "city"
+      },
+      {
+        "name": "Monterrey",
+        "category": "city"
+      },
+      {
+        "name": "Oaxaca",
+        "category": "city"
+      },
+      {
+        "name": "Merida",
+        "category": "city"
+      },
+      {
+        "name": "Leon",
+        "category": "city"
+      },
+      {
+        "name": "Puebla",
+        "category": "city"
+      },
+      {
+        "name": "Veracruz",
+        "category": "city"
+      },
+      {
+        "name": "Ixtapa-Zihuatanejo",
+        "category": "beach"
+      },
+      {
+        "name": "Mazatlan",
+        "category": "beach"
+      },
+      {
+        "name": "Sayulita",
+        "category": "beach"
+      },
+      {
+        "name": "Isla Cozumel",
+        "category": "island"
+      },
+      {
+        "name": "Isla Contoy",
+        "category": "island"
+      },
+      {
+        "name": "Isla Espiritu Santo",
+        "category": "island"
+      },
+      {
+        "name": "Isla de la Mujer",
+        "category": "island"
+      },
+      {
+        "name": "Isla de Cedros",
+        "category": "island"
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "destinations": [
+      {
+        "name": "Rio de Janeiro",
+        "category": "city"
+      },
+      {
+        "name": "São Paulo",
+        "category": "city"
+      },
+      {
+        "name": "Salvador",
+        "category": "city"
+      },
+      {
+        "name": "Brasília",
+        "category": "city"
+      },
+      {
+        "name": "Fortaleza",
+        "category": "city"
+      },
+      {
+        "name": "Recife",
+        "category": "city"
+      },
+      {
+        "name": "Porto Alegre",
+        "category": "city"
+      },
+      {
+        "name": "Curitiba",
+        "category": "city"
+      },
+      {
+        "name": "Florianópolis",
+        "category": "island"
+      },
+      {
+        "name": "Fernando de Noronha",
+        "category": "island"
+      },
+      {
+        "name": "Ilha Grande",
+        "category": "island"
+      },
+      {
+        "name": "Marajó Island",
+        "category": "island"
+      },
+      {
+        "name": "Pantanal",
+        "category": "nature"
+      },
+      {
+        "name": "Amazon Rainforest",
+        "category": "nature"
+      },
+      {
+        "name": "Iguaçu Falls",
+        "category": "nature"
+      },
+      {
+        "name": "Lençóis Maranhenses",
+        "category": "nature"
+      },
+      {
+        "name": "Chapada Diamantina",
+        "category": "nature"
+      },
+      {
+        "name": "Pedra Azul",
+        "category": "nature"
+      },
+      {
+        "name": "Chapada dos Veadeiros",
+        "category": "nature"
+      },
+      {
+        "name": "Ilha do Mel",
+        "category": "island"
+      },
+      {
+        "name": "Ilhéus",
+        "category": "city"
+      },
+      {
+        "name": "Vitória",
+        "category": "city"
+      },
+      {
+        "name": "Campos do Jordão",
+        "category": "ski"
+      },
+      {
+        "name": "Serra Gaucha",
+        "category": "nature"
+      },
+      {
+        "name": "Lençois Paulista",
+        "category": "nature"
+      },
+      {
+        "name": "Serra da Canastra",
+        "category": "nature"
+      },
+      {
+        "name": "Serra do Cipó",
+        "category": "nature"
+      },
+      {
+        "name": "Serra do Mar",
+        "category": "nature"
+      },
+      {
+        "name": "São Francisco River",
+        "category": "nature"
+      },
+      {
+        "name": "Serra da Bocaina National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Pantanal Matogrossense",
+        "category": "national_park"
+      },
+      {
+        "name": "Lençóis Maranhenses National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Chapada dos Guimarães",
+        "category": "nature"
+      },
+      {
+        "name": "Chapada dos Veadeiros",
+        "category": "nature"
+      },
+      {
+        "name": "Vale do Pati",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Nacional da Tijuca",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional da Serra dos Órgãos",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional da Serra Geral",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional do Itatiaia",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional da Chapada dos Veadeiros",
+        "category": "national_park"
+      }
+    ]
+  },
+  {
+    "country": "Argentina",
+    "destinations": [
+      {
+        "name": "Buenos Aires",
+        "category": "city"
+      },
+      {
+        "name": "Iguazu Falls",
+        "category": "nature"
+      },
+      {
+        "name": "Patagonia",
+        "category": "nature"
+      },
+      {
+        "name": "Mendoza",
+        "category": "city"
+      },
+      {
+        "name": "Bariloche",
+        "category": "city"
+      },
+      {
+        "name": "Ushuaia",
+        "category": "city"
+      },
+      {
+        "name": "Cafayate",
+        "category": "city"
+      },
+      {
+        "name": "Córdoba",
+        "category": "city"
+      },
+      {
+        "name": "Mar del Plata",
+        "category": "city"
+      },
+      {
+        "name": "El Chaltén",
+        "category": "nature"
+      },
+      {
+        "name": "Tierra del Fuego",
+        "category": "island"
+      },
+      {
+        "name": "Los Glaciares National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Jujuy",
+        "category": "city"
+      },
+      {
+        "name": "Quebrada de Humahuaca",
+        "category": "nature"
+      },
+      {
+        "name": "Catamarca",
+        "category": "city"
+      },
+      {
+        "name": "Salvador Dalí Museum",
+        "category": "historic"
+      },
+      {
+        "name": "Península Valdés",
+        "category": "nature"
+      },
+      {
+        "name": "Cafayate Wine Region",
+        "category": "nature"
+      },
+      {
+        "name": "Córdoba Mountains",
+        "category": "mountain"
+      },
+      {
+        "name": "Isla Martín García",
+        "category": "island"
+      },
+      {
+        "name": "Cafayate",
+        "category": "city"
+      },
+      {
+        "name": "San Juan",
+        "category": "city"
+      },
+      {
+        "name": "Laguna de los Tres",
+        "category": "nature"
+      },
+      {
+        "name": "San Martín de los Andes",
+        "category": "city"
+      },
+      {
+        "name": "Córdoba",
+        "category": "city"
+      },
+      {
+        "name": "Ischigualasto Provincial Park",
+        "category": "nature"
+      },
+      {
+        "name": "Jujuy",
+        "category": "city"
+      },
+      {
+        "name": "Quebrada de Humahuaca",
+        "category": "nature"
+      },
+      {
+        "name": "Catamarca",
+        "category": "city"
+      },
+      {
+        "name": "Salvador Dalí Museum",
+        "category": "historic"
+      },
+      {
+        "name": "Península Valdés",
+        "category": "nature"
+      },
+      {
+        "name": "Cafayate Wine Region",
+        "category": "nature"
+      },
+      {
+        "name": "Córdoba Mountains",
+        "category": "mountain"
+      },
+      {
+        "name": "Isla Martín García",
+        "category": "island"
+      },
+      {
+        "name": "Cafayate",
+        "category": "city"
+      },
+      {
+        "name": "San Juan",
+        "category": "city"
+      },
+      {
+        "name": "Laguna de los Tres",
+        "category": "nature"
+      },
+      {
+        "name": "San Martín de los Andes",
+        "category": "city"
+      },
+      {
+        "name": "Córdoba",
+        "category": "city"
+      },
+      {
+        "name": "Ischigualasto Provincial Park",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Peru",
+    "destinations": [
+      {
+        "name": "Lima",
+        "category": "city"
+      },
+      {
+        "name": "Cusco",
+        "category": "city"
+      },
+      {
+        "name": "Machu Picchu",
+        "category": "historic"
+      },
+      {
+        "name": "Lake Titicaca",
+        "category": "nature"
+      },
+      {
+        "name": "Nazca Lines",
+        "category": "historic"
+      },
+      {
+        "name": "Colca Canyon",
+        "category": "nature"
+      },
+      {
+        "name": "Amazon Rainforest",
+        "category": "nature"
+      },
+      {
+        "name": "Paracas National Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Huacachina",
+        "category": "desert"
+      },
+      {
+        "name": "Chan Chan",
+        "category": "historic"
+      },
+      {
+        "name": "Sacsayhuamán",
+        "category": "historic"
+      },
+      {
+        "name": "Rainbow Mountain",
+        "category": "nature"
+      },
+      {
+        "name": "Huaraz",
+        "category": "adventure"
+      },
+      {
+        "name": "Huacachina Oasis",
+        "category": "nature"
+      },
+      {
+        "name": "Manu National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Chincha Islands",
+        "category": "island"
+      },
+      {
+        "name": "Tambopata National Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Huayna Picchu",
+        "category": "mountain"
+      },
+      {
+        "name": "Ballestas Islands",
+        "category": "nature"
+      },
+      {
+        "name": "Choquequirao",
+        "category": "historic"
+      },
+      {
+        "name": "Pacaya-Samiria National Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Marañón River",
+        "category": "nature"
+      },
+      {
+        "name": "Cutervo National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Chachapoyas",
+        "category": "city"
+      },
+      {
+        "name": "Iquitos",
+        "category": "city"
+      },
+      {
+        "name": "Puno",
+        "category": "city"
+      },
+      {
+        "name": "Huaraz",
+        "category": "city"
+      },
+      {
+        "name": "Trujillo",
+        "category": "city"
+      },
+      {
+        "name": "Arequipa",
+        "category": "city"
+      },
+      {
+        "name": "Ica",
+        "category": "city"
+      },
+      {
+        "name": "Huánuco Pampa",
+        "category": "historic"
+      },
+      {
+        "name": "Otuzco",
+        "category": "city"
+      },
+      {
+        "name": "Ollantaytambo",
+        "category": "historic"
+      },
+      {
+        "name": "Huamanga",
+        "category": "city"
+      },
+      {
+        "name": "Chancay",
+        "category": "city"
+      },
+      {
+        "name": "Huancayo",
+        "category": "city"
+      },
+      {
+        "name": "Huánuco",
+        "category": "city"
+      },
+      {
+        "name": "Huaraz",
+        "category": "city"
+      },
+      {
+        "name": "Huaraz",
+        "category": "city"
+      },
+      {
+        "name": "Huaraz",
+        "category": "city"
+      }
+    ]
+  },
+  {
+    "country": "Chile",
+    "destinations": [
+      {
+        "name": "Santiago",
+        "category": "city"
+      },
+      {
+        "name": "Valparaíso",
+        "category": "city"
+      },
+      {
+        "name": "Viña del Mar",
+        "category": "city"
+      },
+      {
+        "name": "Punta Arenas",
+        "category": "city"
+      },
+      {
+        "name": "Concepción",
+        "category": "city"
+      },
+      {
+        "name": "Puerto Varas",
+        "category": "city"
+      },
+      {
+        "name": "La Serena",
+        "category": "city"
+      },
+      {
+        "name": "Arica",
+        "category": "city"
+      },
+      {
+        "name": "Rapanui National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Torres del Paine National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lauca National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Juan Fernández Islands",
+        "category": "island"
+      },
+      {
+        "name": "Easter Island",
+        "category": "island"
+      },
+      {
+        "name": "Isla Chiloé",
+        "category": "island"
+      },
+      {
+        "name": "Archipiélago de Juan Fernández",
+        "category": "island"
+      },
+      {
+        "name": "Robinson Crusoe Island",
+        "category": "island"
+      },
+      {
+        "name": "Aconcagua River",
+        "category": "nature"
+      },
+      {
+        "name": "Maipo Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Atacama Desert",
+        "category": "desert"
+      },
+      {
+        "name": "Salar de Atacama",
+        "category": "nature"
+      },
+      {
+        "name": "San Pedro de Atacama",
+        "category": "city"
+      },
+      {
+        "name": "Valle Nevado",
+        "category": "ski"
+      },
+      {
+        "name": "Portillo Ski Resort",
+        "category": "ski"
+      },
+      {
+        "name": "Laguna San Rafael National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Pérez Rosales National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Palomares Desert",
+        "category": "desert"
+      },
+      {
+        "name": "Huaraz",
+        "category": "adventure"
+      },
+      {
+        "name": "Cajón del Maipo",
+        "category": "nature"
+      },
+      {
+        "name": "Casa de Isla Negra",
+        "category": "historic"
+      },
+      {
+        "name": "Viña del Mar Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Constitución Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Playa Brava",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de los Lobos",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de Papudo",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de Ilo",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de Algarrobo",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de Tongoy",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de Matanzas",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de Pichilemu",
+        "category": "beach"
+      },
+      {
+        "name": "Playa de Papudo",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "country": "Colombia",
+    "destinations": [
+      {
+        "name": "Bogotá",
+        "category": "city"
+      },
+      {
+        "name": "Cartagena",
+        "category": "city"
+      },
+      {
+        "name": "Medellín",
+        "category": "city"
+      },
+      {
+        "name": "Santa Marta",
+        "category": "city"
+      },
+      {
+        "name": "Barranquilla",
+        "category": "city"
+      },
+      {
+        "name": "San Andrés",
+        "category": "island"
+      },
+      {
+        "name": "Providencia Island",
+        "category": "island"
+      },
+      {
+        "name": "Tayrona National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Coffee Triangle",
+        "category": "nature"
+      },
+      {
+        "name": "Café de Colombia",
+        "category": "nature"
+      },
+      {
+        "name": "Ciudad Perdida",
+        "category": "historic"
+      },
+      {
+        "name": "Cartagena's Old Town",
+        "category": "historic"
+      },
+      {
+        "name": "Rosario Islands",
+        "category": "island"
+      },
+      {
+        "name": "Minca",
+        "category": "nature"
+      },
+      {
+        "name": "Cocora Valley",
+        "category": "nature"
+      },
+      {
+        "name": "Los Nevados National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "San Agustín Archaeological Park",
+        "category": "historic"
+      },
+      {
+        "name": "Parque Nacional Natural Sierra Nevada de Santa Marta",
+        "category": "national_park"
+      },
+      {
+        "name": "Isla de Malpelo",
+        "category": "nature"
+      },
+      {
+        "name": "Parque Nacional Natural Amacayacu",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Chiribiquete",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural La Paya",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Las Hermosas",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Munchique",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Muriqui",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Pisba",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Serranía de las Quinchas",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Sierra de la Macarena",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Sierra de la Culata",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Tamá",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Tayrona",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Tinigua",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Ubaque",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Uramba Bahía Málaga",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural El Cocuy",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural El Tuparro",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural El Vizcaíno",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural Guacamayos",
+        "category": "national_park"
+      },
+      {
+        "name": "Parque Nacional Natural La Guajira",
+        "category": "national_park"
+      }
+    ]
+  },
+  {
+    "country": "South Africa",
+    "destinations": [
+      {
+        "name": "Cape Town",
+        "category": "city"
+      },
+      {
+        "name": "Durban",
+        "category": "city"
+      },
+      {
+        "name": "Johannesburg",
+        "category": "city"
+      },
+      {
+        "name": "Port Elizabeth",
+        "category": "city"
+      },
+      {
+        "name": "Boulders Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Clifton Beaches",
+        "category": "beach"
+      },
+      {
+        "name": "Robben Island",
+        "category": "island"
+      },
+      {
+        "name": "Table Mountain",
+        "category": "mountain"
+      },
+      {
+        "name": "Kruger National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Addo Elephant National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "iSimangaliso Wetland Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Kgalagadi Transfrontier Park",
+        "category": "national_park"
+      },
+      {
+        "name": "uKhahlamba / Drakensberg Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Vredefort Dome",
+        "category": "unesco"
+      },
+      {
+        "name": "Fossil Hominid Sites of South Africa",
+        "category": "unesco"
+      },
+      {
+        "name": "Cape Floral Region Protected Areas",
+        "category": "unesco"
+      },
+      {
+        "name": "Mapungubwe Cultural Landscape",
+        "category": "unesco"
+      },
+      {
+        "name": "Pilanesberg National Park",
+        "category": "nature"
+      },
+      {
+        "name": "Kgalagadi Transfrontier Park",
+        "category": "nature"
+      },
+      {
+        "name": "Knysna Lagoon",
+        "category": "nature"
+      },
+      {
+        "name": "Garden Route",
+        "category": "nature"
+      },
+      {
+        "name": "Augrabies Falls National Park",
+        "category": "nature"
+      },
+      {
+        "name": "Kalahari Desert",
+        "category": "desert"
+      },
+      {
+        "name": "Namaqualand",
+        "category": "desert"
+      },
+      {
+        "name": "Shark Alley",
+        "category": "adventure"
+      },
+      {
+        "name": "Shark Diving in Gansbaai",
+        "category": "adventure"
+      },
+      {
+        "name": "Bungee Jumping in Bloukrans Bridge",
+        "category": "adventure"
+      },
+      {
+        "name": "Canyoning in the Drakensberg",
+        "category": "adventure"
+      },
+      {
+        "name": "Safari in the Kruger National Park",
+        "category": "adventure"
+      },
+      {
+        "name": "Whale Watching in Hermanus",
+        "category": "adventure"
+      },
+      {
+        "name": "Shark Cage Diving in Gansbaai",
+        "category": "adventure"
+      },
+      {
+        "name": "Scuba Diving in Sodwana Bay",
+        "category": "adventure"
+      },
+      {
+        "name": "Paragliding in the Cederberg",
+        "category": "adventure"
+      },
+      {
+        "name": "Hot Air Ballooning in the Cape Winelands",
+        "category": "adventure"
+      },
+      {
+        "name": "Safari in the Addo Elephant National Park",
+        "category": "adventure"
+      },
+      {
+        "name": "Bungee Jumping in the Bloukrans Bridge",
+        "category": "adventure"
+      },
+      {
+        "name": "Canyoning in the Drakensberg",
+        "category": "adventure"
+      },
+      {
+        "name": "Shark Diving in Gansbaai",
+        "category": "adventure"
+      },
+      {
+        "name": "Safari in the Pilanesberg National Park",
+        "category": "adventure"
+      }
+    ]
+  },
+  {
+    "country": "Morocco",
+    "destinations": [
+      {
+        "name": "Marrakech",
+        "category": "city"
+      },
+      {
+        "name": "Fes",
+        "category": "city"
+      },
+      {
+        "name": "Casablanca",
+        "category": "city"
+      },
+      {
+        "name": "Tangier",
+        "category": "city"
+      },
+      {
+        "name": "Agadir",
+        "category": "city"
+      },
+      {
+        "name": "Chefchaouen",
+        "category": "city"
+      },
+      {
+        "name": "Essaouira",
+        "category": "city"
+      },
+      {
+        "name": "Ouarzazate",
+        "category": "city"
+      },
+      {
+        "name": "Rabat",
+        "category": "city"
+      },
+      {
+        "name": "Meknes",
+        "category": "city"
+      },
+      {
+        "name": "Asilah",
+        "category": "city"
+      },
+      {
+        "name": "Safi",
+        "category": "city"
+      },
+      {
+        "name": "El Jadida",
+        "category": "city"
+      },
+      {
+        "name": "Taza",
+        "category": "city"
+      },
+      {
+        "name": "Nador",
+        "category": "city"
+      },
+      {
+        "name": "Oujda",
+        "category": "city"
+      },
+      {
+        "name": "Tiznit",
+        "category": "city"
+      },
+      {
+        "name": "Tafraout",
+        "category": "city"
+      },
+      {
+        "name": "Sidi Ifni",
+        "category": "city"
+      },
+      {
+        "name": "Taroudant",
+        "category": "city"
+      },
+      {
+        "name": "Al Hoceima",
+        "category": "city"
+      },
+      {
+        "name": "Beni Mellal",
+        "category": "city"
+      },
+      {
+        "name": "Moulay Idriss Zerhoun",
+        "category": "city"
+      },
+      {
+        "name": "Taza",
+        "category": "city"
+      },
+      {
+        "name": "Sidi Kacem",
+        "category": "city"
+      },
+      {
+        "name": "Larache",
+        "category": "city"
+      },
+      {
+        "name": "Ksar El Kebir",
+        "category": "city"
+      },
+      {
+        "name": "Oued Laou",
+        "category": "city"
+      },
+      {
+        "name": "Taza-Al Hoceima-Taounate",
+        "category": "city"
+      },
+      {
+        "name": "Sidi Ifni",
+        "category": "city"
+      },
+      {
+        "name": "Tafraout",
+        "category": "city"
+      },
+      {
+        "name": "Taroudant",
+        "category": "city"
+      },
+      {
+        "name": "Al Hoceima",
+        "category": "city"
+      },
+      {
+        "name": "Beni Mellal",
+        "category": "city"
+      },
+      {
+        "name": "Moulay Idriss Zerhoun",
+        "category": "city"
+      },
+      {
+        "name": "Taza",
+        "category": "city"
+      },
+      {
+        "name": "Sidi Kacem",
+        "category": "city"
+      },
+      {
+        "name": "Larache",
+        "category": "city"
+      },
+      {
+        "name": "Ksar El Kebir",
+        "category": "city"
+      },
+      {
+        "name": "Oued Laou",
+        "category": "city"
+      },
+      {
+        "name": "Taza-Al Hoceima-Taounate",
+        "category": "city"
+      },
+      {
+        "name": "Sidi Ifni",
+        "category": "city"
+      },
+      {
+        "name": "Tafraout",
+        "category": "city"
+      },
+      {
+        "name": "Taroudant",
+        "category": "city"
+      },
+      {
+        "name": "Al Hoceima",
+        "category": "city"
+      },
+      {
+        "name": "Beni Mellal",
+        "category": "city"
+      }
+    ]
+  },
+  {
+    "country": "Egypt",
+    "destinations": [
+      {
+        "name": "Cairo",
+        "category": "city"
+      },
+      {
+        "name": "Giza",
+        "category": "city"
+      },
+      {
+        "name": "Luxor",
+        "category": "city"
+      },
+      {
+        "name": "Aswan",
+        "category": "city"
+      },
+      {
+        "name": "Sharm El Sheikh",
+        "category": "city"
+      },
+      {
+        "name": "Hurghada",
+        "category": "city"
+      },
+      {
+        "name": "Marsa Alam",
+        "category": "city"
+      },
+      {
+        "name": "El Gouna",
+        "category": "city"
+      },
+      {
+        "name": "Siwa Oasis",
+        "category": "oasis"
+      },
+      {
+        "name": "White Desert",
+        "category": "desert"
+      },
+      {
+        "name": "Red Sea Riviera",
+        "category": "beach"
+      },
+      {
+        "name": "Abu Simbel",
+        "category": "historic"
+      },
+      {
+        "name": "Valley of the Kings",
+        "category": "historic"
+      },
+      {
+        "name": "Philae Temple",
+        "category": "historic"
+      },
+      {
+        "name": "Abu Mena",
+        "category": "historic"
+      },
+      {
+        "name": "Mount Sinai",
+        "category": "mountain"
+      },
+      {
+        "name": "St. Catherine's Monastery",
+        "category": "historic"
+      },
+      {
+        "name": "Wadi El Gemal National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Ras Muhammad National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Dolphin House",
+        "category": "nature"
+      },
+      {
+        "name": "Sahl Hasheesh",
+        "category": "beach"
+      },
+      {
+        "name": "El Quseir",
+        "category": "city"
+      },
+      {
+        "name": "Dahab",
+        "category": "adventure"
+      },
+      {
+        "name": "Sharm El Naga",
+        "category": "historic"
+      },
+      {
+        "name": "Edfu",
+        "category": "historic"
+      },
+      {
+        "name": "Kom Ombo",
+        "category": "historic"
+      },
+      {
+        "name": "Dendera Temple Complex",
+        "category": "historic"
+      },
+      {
+        "name": "Abydos",
+        "category": "historic"
+      },
+      {
+        "name": "Faiyum Oasis",
+        "category": "oasis"
+      },
+      {
+        "name": "El Alamein",
+        "category": "historic"
+      },
+      {
+        "name": "El Minya",
+        "category": "city"
+      },
+      {
+        "name": "Beni Suef",
+        "category": "city"
+      },
+      {
+        "name": "Port Said",
+        "category": "city"
+      },
+      {
+        "name": "Ismailia",
+        "category": "city"
+      },
+      {
+        "name": "Suez",
+        "category": "city"
+      },
+      {
+        "name": "Matruh",
+        "category": "city"
+      },
+      {
+        "name": "El Maadi",
+        "category": "city"
+      },
+      {
+        "name": "El Maadi Beach",
+        "category": "beach"
+      },
+      {
+        "name": "El Gouna Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Sahl Hasheesh Beach",
+        "category": "beach"
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destinations": [
+      {
+        "name": "Nairobi",
+        "category": "city"
+      },
+      {
+        "name": "Mombasa",
+        "category": "city"
+      },
+      {
+        "name": "Malindi",
+        "category": "city"
+      },
+      {
+        "name": "Lamu",
+        "category": "city"
+      },
+      {
+        "name": "Watamu",
+        "category": "beach"
+      },
+      {
+        "name": "Diani Beach",
+        "category": "beach"
+      },
+      {
+        "name": "Maasai Mara National Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Serengeti National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lake Nakuru National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Amboseli National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Tsavo West National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Tsavo East National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lake Naivasha",
+        "category": "nature"
+      },
+      {
+        "name": "Hell's Gate National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Mount Kenya",
+        "category": "mountain"
+      },
+      {
+        "name": "Mount Kilimanjaro",
+        "category": "mountain"
+      },
+      {
+        "name": "Shaba National Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Samburu National Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Meru National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lake Turkana",
+        "category": "nature"
+      },
+      {
+        "name": "Shimba Hills National Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Arabuko-Sokoke Forest",
+        "category": "nature"
+      },
+      {
+        "name": "Kakamega Forest",
+        "category": "nature"
+      },
+      {
+        "name": "Kisite-Mpunguti Marine Park",
+        "category": "nature"
+      },
+      {
+        "name": "Malindi Marine National Park",
+        "category": "nature"
+      },
+      {
+        "name": "Lamu Old Town",
+        "category": "historic"
+      },
+      {
+        "name": "Gedi Ruins",
+        "category": "historic"
+      },
+      {
+        "name": "Tsavo River",
+        "category": "nature"
+      },
+      {
+        "name": "Kilwa Kisiwani",
+        "category": "historic"
+      },
+      {
+        "name": "Shungwaya National Monument",
+        "category": "historic"
+      },
+      {
+        "name": "Msambweni",
+        "category": "beach"
+      },
+      {
+        "name": "Likoni",
+        "category": "beach"
+      },
+      {
+        "name": "Kwale",
+        "category": "beach"
+      },
+      {
+        "name": "Kilifi",
+        "category": "beach"
+      },
+      {
+        "name": "Tana Delta",
+        "category": "nature"
+      },
+      {
+        "name": "Nairobi National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Central Island",
+        "category": "nature"
+      },
+      {
+        "name": "Ololokwe",
+        "category": "nature"
+      },
+      {
+        "name": "Kilungu",
+        "category": "nature"
+      },
+      {
+        "name": "Kilungu",
+        "category": "nature"
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destinations": [
+      {
+        "name": "Dar es Salaam",
+        "category": "city"
+      },
+      {
+        "name": "Zanzibar",
+        "category": "island"
+      },
+      {
+        "name": "Arusha",
+        "category": "city"
+      },
+      {
+        "name": "Mount Kilimanjaro",
+        "category": "mountain"
+      },
+      {
+        "name": "Serengeti National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Ngorongoro Crater",
+        "category": "national_park"
+      },
+      {
+        "name": "Stone Town",
+        "category": "historic"
+      },
+      {
+        "name": "Pemba Island",
+        "category": "island"
+      },
+      {
+        "name": "Ruaha National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lake Manyara National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Selous Game Reserve",
+        "category": "national_park"
+      },
+      {
+        "name": "Tanzania National Parks",
+        "category": "unesco"
+      },
+      {
+        "name": "Mafia Island",
+        "category": "island"
+      },
+      {
+        "name": "Zanzibar Archipelago",
+        "category": "island"
+      },
+      {
+        "name": "Mtwara",
+        "category": "city"
+      },
+      {
+        "name": "Mwanza",
+        "category": "city"
+      },
+      {
+        "name": "Dodoma",
+        "category": "city"
+      },
+      {
+        "name": "Tunduru",
+        "category": "city"
+      },
+      {
+        "name": "Lindi",
+        "category": "city"
+      },
+      {
+        "name": "Morogoro",
+        "category": "city"
+      },
+      {
+        "name": "Mtwara",
+        "category": "city"
+      },
+      {
+        "name": "Tanga",
+        "category": "city"
+      },
+      {
+        "name": "Kigoma",
+        "category": "city"
+      },
+      {
+        "name": "Mbeya",
+        "category": "city"
+      },
+      {
+        "name": "Mtwara",
+        "category": "city"
+      },
+      {
+        "name": "Mwanza",
+        "category": "city"
+      },
+      {
+        "name": "Dodoma",
+        "category": "city"
+      },
+      {
+        "name": "Tunduru",
+        "category": "city"
+      },
+      {
+        "name": "Lindi",
+        "category": "city"
+      },
+      {
+        "name": "Morogoro",
+        "category": "city"
+      },
+      {
+        "name": "Mtwara",
+        "category": "city"
+      },
+      {
+        "name": "Tanga",
+        "category": "city"
+      },
+      {
+        "name": "Kigoma",
+        "category": "city"
+      },
+      {
+        "name": "Mbeya",
+        "category": "city"
+      },
+      {
+        "name": "Mtwara",
+        "category": "city"
+      },
+      {
+        "name": "Mwanza",
+        "category": "city"
+      },
+      {
+        "name": "Dodoma",
+        "category": "city"
+      },
+      {
+        "name": "Tunduru",
+        "category": "city"
+      },
+      {
+        "name": "Lindi",
+        "category": "city"
+      },
+      {
+        "name": "Morogoro",
+        "category": "city"
+      },
+      {
+        "name": "Mtwara",
+        "category": "city"
+      },
+      {
+        "name": "Tanga",
+        "category": "city"
+      }
+    ]
+  },
+  {
+    "country": "Australia",
+    "destinations": [
+      {
+        "name": "Sydney",
+        "category": "city"
+      },
+      {
+        "name": "Great Barrier Reef",
+        "category": "nature"
+      },
+      {
+        "name": "Uluru (Ayers Rock)",
+        "category": "nature"
+      },
+      {
+        "name": "Melbourne",
+        "category": "city"
+      },
+      {
+        "name": "Sydney Opera House",
+        "category": "historic"
+      },
+      {
+        "name": "Kakadu National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Fraser Island",
+        "category": "island"
+      },
+      {
+        "name": "Blue Mountains",
+        "category": "nature"
+      },
+      {
+        "name": "Great Ocean Road",
+        "category": "nature"
+      },
+      {
+        "name": "Tasmanian Wilderness",
+        "category": "nature"
+      },
+      {
+        "name": "Port Douglas",
+        "category": "city"
+      },
+      {
+        "name": "Cairns",
+        "category": "city"
+      },
+      {
+        "name": "Whitsunday Islands",
+        "category": "island"
+      },
+      {
+        "name": "Broome",
+        "category": "city"
+      },
+      {
+        "name": "Kangaroo Island",
+        "category": "island"
+      },
+      {
+        "name": "Lamington National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Daintree Rainforest",
+        "category": "nature"
+      },
+      {
+        "name": "Tasman National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Blue Mountains National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Cradle Mountain-Lake St Clair National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Purnululu National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Great Sandy Desert",
+        "category": "desert"
+      },
+      {
+        "name": "Kimberley",
+        "category": "nature"
+      },
+      {
+        "name": "Lord Howe Island",
+        "category": "island"
+      },
+      {
+        "name": "Fraser Island",
+        "category": "island"
+      },
+      {
+        "name": "Kangaroo Island",
+        "category": "island"
+      },
+      {
+        "name": "Tasmania",
+        "category": "island"
+      },
+      {
+        "name": "Fraser Island",
+        "category": "island"
+      },
+      {
+        "name": "Fraser Island",
+        "category": "island"
+      },
+      {
+        "name": "Fraser Island",
+        "category": "island"
+      },
+      {
+        "name": "Great Barrier Reef",
+        "category": "nature"
+      },
+      {
+        "name": "Great Ocean Road",
+        "category": "nature"
+      },
+      {
+        "name": "Daintree Rainforest",
+        "category": "nature"
+      },
+      {
+        "name": "Blue Mountains",
+        "category": "nature"
+      },
+      {
+        "name": "Kimberley",
+        "category": "nature"
+      },
+      {
+        "name": "Purnululu National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Tasman National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Cradle Mountain-Lake St Clair National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Lamington National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Great Sandy Desert",
+        "category": "desert"
+      }
+    ]
+  },
+  {
+    "country": "New Zealand",
+    "destinations": [
+      {
+        "name": "Auckland",
+        "category": "city"
+      },
+      {
+        "name": "Christchurch",
+        "category": "city"
+      },
+      {
+        "name": "Wellington",
+        "category": "city"
+      },
+      {
+        "name": "Queenstown",
+        "category": "city"
+      },
+      {
+        "name": "Rotorua",
+        "category": "city"
+      },
+      {
+        "name": "Milford Sound",
+        "category": "nature"
+      },
+      {
+        "name": "Mount Cook",
+        "category": "mountain"
+      },
+      {
+        "name": "Bay of Islands",
+        "category": "nature"
+      },
+      {
+        "name": "Abel Tasman National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Fiordland National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Tongariro National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Kaikoura",
+        "category": "nature"
+      },
+      {
+        "name": "Waitomo Caves",
+        "category": "nature"
+      },
+      {
+        "name": "Wanaka",
+        "category": "city"
+      },
+      {
+        "name": "Lake Tekapo",
+        "category": "nature"
+      },
+      {
+        "name": "Catlins",
+        "category": "nature"
+      },
+      {
+        "name": "White Island",
+        "category": "nature"
+      },
+      {
+        "name": "Stewart Island",
+        "category": "island"
+      },
+      {
+        "name": "Great Barrier Island",
+        "category": "island"
+      },
+      {
+        "name": "Kapiti Island",
+        "category": "island"
+      },
+      {
+        "name": "Waiheke Island",
+        "category": "island"
+      },
+      {
+        "name": "South Island",
+        "category": "island"
+      },
+      {
+        "name": "North Island",
+        "category": "island"
+      },
+      {
+        "name": "Aoraki/Mount Cook National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Whanganui National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Arthur's Pass National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Westland Tai Poutini National Park",
+        "category": "national_park"
+      },
+      {
+        "name": "Whareorino Forest Park",
+        "category": "nature"
+      },
+      {
+        "name": "Cape Reinga",
+        "category": "nature"
+      },
+      {
+        "name": "Coromandel Peninsula",
+        "category": "nature"
+      },
+      {
+        "name": "Matakana Island",
+        "category": "island"
+      },
+      {
+        "name": "Otago Peninsula",
+        "category": "nature"
+      },
+      {
+        "name": "Punakaiki",
+        "category": "nature"
+      },
+      {
+        "name": "Rainbow Warrior Cove",
+        "category": "nature"
+      },
+      {
+        "name": "Red Rocks Reserve",
+        "category": "nature"
+      },
+      {
+        "name": "Shag Point",
+        "category": "nature"
+      },
+      {
+        "name": "Scenic Circle Track",
+        "category": "adventure"
+      },
+      {
+        "name": "Te Anau",
+        "category": "city"
+      },
+      {
+        "name": "Waipoua Forest",
+        "category": "nature"
+      },
+      {
+        "name": "Whakarewarewa Forest",
+        "category": "nature"
+      }
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "country": "Chile",
+  "destinations": [
+    {
+      "name": "Santiago",
+      "category": "city"
+    },
+    {
+      "name": "Valparaíso",
+      "category": "city"
+    },
+    {
+      "name": "Punta Arenas",
+      "category": "city"
+    },
+    {
+      "name": "Puerto Varas",
+      "category": "city"
+    },
+    {
+      "name": "Concepción",
+      "category": "city"
+    },
+    {
+      "name": "Viña del Mar",
+      "category": "city"
+    },
+    {
+      "name": "La Serena",
+      "category": "city"
+    },
+    {
+      "name": "Arica",
+      "category": "city"
+    },
+    {
+      "name": "Iquique",
+      "category": "city"
+    },
+    {
+      "name": "Antofagasta",
+      "category": "city"
+    },
+    {
+      "name": "Rapa Nui (Easter Island)",
+      "category": "island"
+    },
+    {
+      "name": "Juan Fernández Islands",
+      "category": "island"
+    },
+    {
+      "name": "Chiloé Island",
+      "category": "island"
+    },
+    {
+      "name": "Magallanes Region",
+      "category": "nature"
+    },
+    {
+      "name": "Atacama Desert",
+      "category": "desert"
+    },
+    {
+      "name": "Torres del Paine National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Lauca National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Rapa Nui National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Lauca Biosphere Reserve",
+      "category": "unesco"
+    },
+    {
+      "name": "Radal Siete Tazas",
+      "category": "nature"
+    },
+    {
+      "name": "Valle Nevado",
+      "category": "ski"
+    },
+    {
+      "name": "Portillo Ski Resort",
+      "category": "ski"
+    },
+    {
+      "name": "Elqui Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Maipo Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Casablanca Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Huaquén Polylepis Forests",
+      "category": "nature"
+    },
+    {
+      "name": "San Pedro de Atacama",
+      "category": "historic"
+    },
+    {
+      "name": "Valle del Elqui",
+      "category": "nature"
+    },
+    {
+      "name": "Huasteca de Vallenar",
+      "category": "historic"
+    },
+    {
+      "name": "Paisaje Cultural de Rapa Nui",
+      "category": "unesco"
+    },
+    {
+      "name": "Castro",
+      "category": "historic"
+    },
+    {
+      "name": "Castro-Chiloé Architecture",
+      "category": "historic"
+    },
+    {
+      "name": "Huaso Tradition and Central Valley",
+      "category": "historic"
+    },
+    {
+      "name": "Paisaje Cultural de la Minería del Cobre en el Norte de Chile",
+      "category": "unesco"
+    },
+    {
+      "name": "Región de los Ríos",
+      "category": "nature"
+    },
+    {
+      "name": "Caldera de Tarapacá",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Nacional Lauca",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Lauca",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Torres del Paine",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Rapa Nui",
+      "category": "national_park"
+    }
+  ]
+}

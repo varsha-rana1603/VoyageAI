@@ -1,0 +1,165 @@
+{
+  "country": "Japan",
+  "destinations": [
+    {
+      "name": "Tokyo",
+      "category": "city"
+    },
+    {
+      "name": "Kyoto",
+      "category": "city"
+    },
+    {
+      "name": "Osaka",
+      "category": "city"
+    },
+    {
+      "name": "Hiroshima",
+      "category": "city"
+    },
+    {
+      "name": "Nara",
+      "category": "city"
+    },
+    {
+      "name": "Sapporo",
+      "category": "city"
+    },
+    {
+      "name": "Fukuoka",
+      "category": "city"
+    },
+    {
+      "name": "Okinawa",
+      "category": "island"
+    },
+    {
+      "name": "Hokkaido",
+      "category": "island"
+    },
+    {
+      "name": "Shikoku",
+      "category": "island"
+    },
+    {
+      "name": "Mount Fuji",
+      "category": "mountain"
+    },
+    {
+      "name": "Shiretoko National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Himeji Castle",
+      "category": "historic"
+    },
+    {
+      "name": "Ise Grand Shrine",
+      "category": "historic"
+    },
+    {
+      "name": "Kiyomizu-dera",
+      "category": "historic"
+    },
+    {
+      "name": "Gion District",
+      "category": "historic"
+    },
+    {
+      "name": "Arashiyama Bamboo Grove",
+      "category": "nature"
+    },
+    {
+      "name": "Koya-san",
+      "category": "nature"
+    },
+    {
+      "name": "Kenroku-en Garden",
+      "category": "nature"
+    },
+    {
+      "name": "Kushimoto",
+      "category": "adventure"
+    },
+    {
+      "name": "Izu Peninsula",
+      "category": "adventure"
+    },
+    {
+      "name": "Miyajima",
+      "category": "island"
+    },
+    {
+      "name": "Yakushima",
+      "category": "nature"
+    },
+    {
+      "name": "Shirahama",
+      "category": "beach"
+    },
+    {
+      "name": "Aoshima",
+      "category": "island"
+    },
+    {
+      "name": "Asahidake",
+      "category": "mountain"
+    },
+    {
+      "name": "Koya-san",
+      "category": "nature"
+    },
+    {
+      "name": "Koya-san",
+      "category": "unesco"
+    },
+    {
+      "name": "Shiraoi",
+      "category": "nature"
+    },
+    {
+      "name": "Shiretoko National Park",
+      "category": "unesco"
+    },
+    {
+      "name": "Yakushima",
+      "category": "unesco"
+    },
+    {
+      "name": "Hiroshima Peace Memorial Park",
+      "category": "historic"
+    },
+    {
+      "name": "Nikko National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Shirahama",
+      "category": "beach"
+    },
+    {
+      "name": "Onomichi",
+      "category": "city"
+    },
+    {
+      "name": "Takayama",
+      "category": "city"
+    },
+    {
+      "name": "Kamikochi",
+      "category": "nature"
+    },
+    {
+      "name": "Kumano Kodo",
+      "category": "historic"
+    },
+    {
+      "name": "Kanazawa",
+      "category": "city"
+    },
+    {
+      "name": "Nikko",
+      "category": "city"
+    }
+  ]
+}

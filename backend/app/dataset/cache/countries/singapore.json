@@ -1,0 +1,173 @@
+{
+  "country": "Singapore",
+  "destinations": [
+    {
+      "name": "Marina Bay Sands",
+      "category": "city"
+    },
+    {
+      "name": "Sentosa Island",
+      "category": "island"
+    },
+    {
+      "name": "Gardens by the Bay",
+      "category": "nature"
+    },
+    {
+      "name": "Chinatown",
+      "category": "historic"
+    },
+    {
+      "name": "Little India",
+      "category": "city"
+    },
+    {
+      "name": "Clarke Quay",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Zoo",
+      "category": "nature"
+    },
+    {
+      "name": "Universal Studios Singapore",
+      "category": "adventure"
+    },
+    {
+      "name": "Singapore Botanic Gardens",
+      "category": "nature"
+    },
+    {
+      "name": "Night Safari",
+      "category": "nature"
+    },
+    {
+      "name": "Pulau Ubin",
+      "category": "island"
+    },
+    {
+      "name": "Singapore Flyer",
+      "category": "city"
+    },
+    {
+      "name": "Joo Chiat",
+      "category": "city"
+    },
+    {
+      "name": "Haw Par Villa",
+      "category": "historic"
+    },
+    {
+      "name": "Changi Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Singapore Cable Car",
+      "category": "adventure"
+    },
+    {
+      "name": "Sentosa Beaches",
+      "category": "beach"
+    },
+    {
+      "name": "Singapore River Cruise",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Science Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore Discovery Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore National Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Singapore Botanic Gardens",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore Flyer",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Zoo",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore River Cruise",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Science Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore Discovery Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore National Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Singapore Botanic Gardens",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore Flyer",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Zoo",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore River Cruise",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Science Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore Discovery Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore National Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Singapore Botanic Gardens",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore Flyer",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Zoo",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore River Cruise",
+      "category": "city"
+    },
+    {
+      "name": "Singapore Science Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore Discovery Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Singapore National Museum",
+      "category": "historic"
+    }
+  ]
+}

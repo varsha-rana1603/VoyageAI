@@ -1,0 +1,165 @@
+{
+  "country": "India",
+  "destinations": [
+    {
+      "name": "Mumbai",
+      "category": "city"
+    },
+    {
+      "name": "New Delhi",
+      "category": "city"
+    },
+    {
+      "name": "Varanasi",
+      "category": "city"
+    },
+    {
+      "name": "Agra",
+      "category": "city"
+    },
+    {
+      "name": "Jaipur",
+      "category": "city"
+    },
+    {
+      "name": "Kolkata",
+      "category": "city"
+    },
+    {
+      "name": "Chennai",
+      "category": "city"
+    },
+    {
+      "name": "Bangalore",
+      "category": "city"
+    },
+    {
+      "name": "Goa",
+      "category": "beach"
+    },
+    {
+      "name": "Coorg",
+      "category": "nature"
+    },
+    {
+      "name": "Kerala Backwaters",
+      "category": "nature"
+    },
+    {
+      "name": "Ranthambore National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Sholavaram National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Keoladeo National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Thar Desert",
+      "category": "desert"
+    },
+    {
+      "name": "Leh",
+      "category": "mountain"
+    },
+    {
+      "name": "Sikkim",
+      "category": "mountain"
+    },
+    {
+      "name": "Andaman and Nicobar Islands",
+      "category": "island"
+    },
+    {
+      "name": "Lakshadweep",
+      "category": "island"
+    },
+    {
+      "name": "Rishikesh",
+      "category": "adventure"
+    },
+    {
+      "name": "Kashmir",
+      "category": "nature"
+    },
+    {
+      "name": "Rajasthan Desert Safari",
+      "category": "adventure"
+    },
+    {
+      "name": "Rann of Kutch",
+      "category": "nature"
+    },
+    {
+      "name": "Munnar",
+      "category": "nature"
+    },
+    {
+      "name": "Alleppey",
+      "category": "nature"
+    },
+    {
+      "name": "Ooty",
+      "category": "nature"
+    },
+    {
+      "name": "Darjeeling",
+      "category": "mountain"
+    },
+    {
+      "name": "Ajanta and Ellora Caves",
+      "category": "historic"
+    },
+    {
+      "name": "Hampi",
+      "category": "historic"
+    },
+    {
+      "name": "Mysore",
+      "category": "historic"
+    },
+    {
+      "name": "Udaipur",
+      "category": "historic"
+    },
+    {
+      "name": "Jaisalmer",
+      "category": "historic"
+    },
+    {
+      "name": "Jodhpur",
+      "category": "historic"
+    },
+    {
+      "name": "Amarnath Cave",
+      "category": "nature"
+    },
+    {
+      "name": "Sariska Tiger Reserve",
+      "category": "national_park"
+    },
+    {
+      "name": "Dachigam National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Sundarbans National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Kaziranga National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Jim Corbett National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Meenakshi Temple",
+      "category": "historic"
+    }
+  ]
+}

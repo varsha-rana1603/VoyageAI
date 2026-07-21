@@ -1,0 +1,161 @@
+{
+  "country": "Canada",
+  "destinations": [
+    {
+      "name": "Toronto",
+      "category": "city"
+    },
+    {
+      "name": "Vancouver",
+      "category": "city"
+    },
+    {
+      "name": "Montreal",
+      "category": "city"
+    },
+    {
+      "name": "Niagara Falls",
+      "category": "nature"
+    },
+    {
+      "name": "Banff National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Jasper National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Whistler",
+      "category": "ski"
+    },
+    {
+      "name": "Yoho National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Gros Morne National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Victoria",
+      "category": "city"
+    },
+    {
+      "name": "Lake Louise",
+      "category": "nature"
+    },
+    {
+      "name": "Ottawa",
+      "category": "city"
+    },
+    {
+      "name": "Calgary",
+      "category": "city"
+    },
+    {
+      "name": "Prince Edward Island",
+      "category": "island"
+    },
+    {
+      "name": "Quebec City",
+      "category": "historic"
+    },
+    {
+      "name": "Banff",
+      "category": "city"
+    },
+    {
+      "name": "Whistler Blackcomb",
+      "category": "ski"
+    },
+    {
+      "name": "Bruce Peninsula National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Algonquin Provincial Park",
+      "category": "nature"
+    },
+    {
+      "name": "Kootenay National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Churchill",
+      "category": "nature"
+    },
+    {
+      "name": "Peyto Lake",
+      "category": "nature"
+    },
+    {
+      "name": "Red River",
+      "category": "nature"
+    },
+    {
+      "name": "Manitoulin Island",
+      "category": "island"
+    },
+    {
+      "name": "Cape Breton Island",
+      "category": "island"
+    },
+    {
+      "name": "Banff Springs Hotel",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Robson Provincial Park",
+      "category": "nature"
+    },
+    {
+      "name": "The Canadian Rockies",
+      "category": "mountain"
+    },
+    {
+      "name": "The Bay of Fundy",
+      "category": "nature"
+    },
+    {
+      "name": "The Laurentians",
+      "category": "nature"
+    },
+    {
+      "name": "The Gaspé Peninsula",
+      "category": "nature"
+    },
+    {
+      "name": "The Rocky Mountaineer",
+      "category": "adventure"
+    },
+    {
+      "name": "The Icefields Parkway",
+      "category": "nature"
+    },
+    {
+      "name": "The Cabot Trail",
+      "category": "adventure"
+    },
+    {
+      "name": "The Niagara River",
+      "category": "nature"
+    },
+    {
+      "name": "The Bay of Islands",
+      "category": "nature"
+    },
+    {
+      "name": "The Thousand Islands",
+      "category": "nature"
+    },
+    {
+      "name": "The Fundy Trail Parkway",
+      "category": "adventure"
+    },
+    {
+      "name": "The Cabot Trail",
+      "category": "adventure"
+    }
+  ]
+}

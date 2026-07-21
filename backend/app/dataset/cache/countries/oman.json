@@ -1,0 +1,165 @@
+{
+  "country": "Oman",
+  "destinations": [
+    {
+      "name": "Muscat",
+      "category": "city"
+    },
+    {
+      "name": "Salalah",
+      "category": "city"
+    },
+    {
+      "name": "Nizwa",
+      "category": "city"
+    },
+    {
+      "name": "Wadi Bani Khalid",
+      "category": "nature"
+    },
+    {
+      "name": "Jebel Shams",
+      "category": "mountain"
+    },
+    {
+      "name": "Al Hajar Mountains",
+      "category": "mountain"
+    },
+    {
+      "name": "Wadi Ghul",
+      "category": "nature"
+    },
+    {
+      "name": "Ras Al Jinz",
+      "category": "nature"
+    },
+    {
+      "name": "Oman Turtle Centre",
+      "category": "nature"
+    },
+    {
+      "name": "Khasab",
+      "category": "city"
+    },
+    {
+      "name": "Sur",
+      "category": "city"
+    },
+    {
+      "name": "Wadi Bani Awf",
+      "category": "nature"
+    },
+    {
+      "name": "Al-Ayn Oasis",
+      "category": "nature"
+    },
+    {
+      "name": "Bait Al Zubair Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Muttrah Souq",
+      "category": "historic"
+    },
+    {
+      "name": "Royal Opera House Muscat",
+      "category": "historic"
+    },
+    {
+      "name": "Qurum Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Al-Baleed Archeological Site",
+      "category": "historic"
+    },
+    {
+      "name": "Wadi Shab",
+      "category": "nature"
+    },
+    {
+      "name": "Bimah Sinkhole",
+      "category": "nature"
+    },
+    {
+      "name": "Dhofar Mountains",
+      "category": "mountain"
+    },
+    {
+      "name": "Mirbat",
+      "category": "city"
+    },
+    {
+      "name": "Tanuf",
+      "category": "nature"
+    },
+    {
+      "name": "Wadi Tiwi",
+      "category": "nature"
+    },
+    {
+      "name": "Wadi Bani Khalid Waterfall",
+      "category": "nature"
+    },
+    {
+      "name": "Al-Bustan Citadel",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Hazm Castle",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Jabrin Castle",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Mirani Fort",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Sib Souq",
+      "category": "historic"
+    },
+    {
+      "name": "Al-Suwaiq",
+      "category": "city"
+    },
+    {
+      "name": "Barka",
+      "category": "city"
+    },
+    {
+      "name": "Ibra",
+      "category": "city"
+    },
+    {
+      "name": "Jabal Shams",
+      "category": "mountain"
+    },
+    {
+      "name": "Jabal Akhdar",
+      "category": "mountain"
+    },
+    {
+      "name": "Musandam Peninsula",
+      "category": "nature"
+    },
+    {
+      "name": "Sinaw Island",
+      "category": "island"
+    },
+    {
+      "name": "Masirah Island",
+      "category": "island"
+    },
+    {
+      "name": "Daymaniyat Islands",
+      "category": "island"
+    },
+    {
+      "name": "Dikmah Island",
+      "category": "island"
+    }
+  ]
+}

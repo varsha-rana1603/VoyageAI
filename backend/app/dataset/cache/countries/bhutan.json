@@ -1,0 +1,173 @@
+{
+  "country": "Bhutan",
+  "destinations": [
+    {
+      "name": "Thimphu",
+      "category": "city"
+    },
+    {
+      "name": "Punakha",
+      "category": "city"
+    },
+    {
+      "name": "Paro",
+      "category": "city"
+    },
+    {
+      "name": "Gangtey",
+      "category": "nature"
+    },
+    {
+      "name": "Phobjikha Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Tiger's Nest Monastery",
+      "category": "historic"
+    },
+    {
+      "name": "Tashichho Dzong",
+      "category": "historic"
+    },
+    {
+      "name": "Jigme Dorji National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Royal Manas National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Bumthang",
+      "category": "nature"
+    },
+    {
+      "name": "Punakha Dzong",
+      "category": "historic"
+    },
+    {
+      "name": "Chele La Pass",
+      "category": "mountain"
+    },
+    {
+      "name": "Dochula Pass",
+      "category": "mountain"
+    },
+    {
+      "name": "Haa Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Kurjey Lhakhang",
+      "category": "historic"
+    },
+    {
+      "name": "Gangtey Monastery",
+      "category": "historic"
+    },
+    {
+      "name": "Paro Taktsang (Tiger's Nest)",
+      "category": "historic"
+    },
+    {
+      "name": "Phobjikha Glacier",
+      "category": "nature"
+    },
+    {
+      "name": "Chukha Hydroelectric Plant",
+      "category": "nature"
+    },
+    {
+      "name": "Kurma Backwaters",
+      "category": "nature"
+    },
+    {
+      "name": "Wangdue Phodrang Dzong",
+      "category": "historic"
+    },
+    {
+      "name": "Chukha",
+      "category": "city"
+    },
+    {
+      "name": "Punakha Suspension Bridge",
+      "category": "adventure"
+    },
+    {
+      "name": "Jakar Dzong",
+      "category": "historic"
+    },
+    {
+      "name": "Punakha Suspension Bridge",
+      "category": "adventure"
+    },
+    {
+      "name": "Gangtey Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Ura Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Phobjikha Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Punakha Dzong",
+      "category": "historic"
+    },
+    {
+      "name": "Kurjey Lhakhang",
+      "category": "historic"
+    },
+    {
+      "name": "Gangtey Monastery",
+      "category": "historic"
+    },
+    {
+      "name": "Paro Taktsang (Tiger's Nest)",
+      "category": "historic"
+    },
+    {
+      "name": "Phobjikha Glacier",
+      "category": "nature"
+    },
+    {
+      "name": "Chukha Hydroelectric Plant",
+      "category": "nature"
+    },
+    {
+      "name": "Kurma Backwaters",
+      "category": "nature"
+    },
+    {
+      "name": "Wangdue Phodrang Dzong",
+      "category": "historic"
+    },
+    {
+      "name": "Chukha",
+      "category": "city"
+    },
+    {
+      "name": "Punakha Suspension Bridge",
+      "category": "adventure"
+    },
+    {
+      "name": "Jakar Dzong",
+      "category": "historic"
+    },
+    {
+      "name": "Punakha Suspension Bridge",
+      "category": "adventure"
+    },
+    {
+      "name": "Gangtey Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Ura Valley",
+      "category": "nature"
+    }
+  ]
+}

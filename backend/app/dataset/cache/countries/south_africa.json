@@ -1,0 +1,157 @@
+{
+  "country": "South Africa",
+  "destinations": [
+    {
+      "name": "Cape Town",
+      "category": "city"
+    },
+    {
+      "name": "Durban",
+      "category": "city"
+    },
+    {
+      "name": "Johannesburg",
+      "category": "city"
+    },
+    {
+      "name": "Port Elizabeth",
+      "category": "city"
+    },
+    {
+      "name": "Boulders Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Clifton Beaches",
+      "category": "beach"
+    },
+    {
+      "name": "Robben Island",
+      "category": "island"
+    },
+    {
+      "name": "Table Mountain",
+      "category": "mountain"
+    },
+    {
+      "name": "Kruger National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "iSimangaliso Wetland Park",
+      "category": "national_park"
+    },
+    {
+      "name": "uKhahlamba / Drakensberg Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Vredefort Dome",
+      "category": "unesco"
+    },
+    {
+      "name": "Fossil Hominid Sites of South Africa",
+      "category": "unesco"
+    },
+    {
+      "name": "Cape Floral Region Protected Areas",
+      "category": "unesco"
+    },
+    {
+      "name": "Mapungubwe Cultural Landscape",
+      "category": "unesco"
+    },
+    {
+      "name": "Richtersveld National Park",
+      "category": "nature"
+    },
+    {
+      "name": "Kgalagadi Transfrontier Park",
+      "category": "nature"
+    },
+    {
+      "name": "Addo Elephant National Park",
+      "category": "nature"
+    },
+    {
+      "name": "Karoo National Park",
+      "category": "nature"
+    },
+    {
+      "name": "Pilanesberg National Park",
+      "category": "nature"
+    },
+    {
+      "name": "Kirstenbosch National Botanical Garden",
+      "category": "nature"
+    },
+    {
+      "name": "Castle of Good Hope",
+      "category": "historic"
+    },
+    {
+      "name": "Robben Island",
+      "category": "historic"
+    },
+    {
+      "name": "Durban Botanic Gardens",
+      "category": "historic"
+    },
+    {
+      "name": "The Cradle of Humankind",
+      "category": "historic"
+    },
+    {
+      "name": "Kimberley Big Hole Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Kalahari Desert",
+      "category": "desert"
+    },
+    {
+      "name": "Namaqualand",
+      "category": "desert"
+    },
+    {
+      "name": "Garden Route",
+      "category": "adventure"
+    },
+    {
+      "name": "Shark Cage Diving in Gansbaai",
+      "category": "adventure"
+    },
+    {
+      "name": "Bungee Jumping in Bloukrans Bridge",
+      "category": "adventure"
+    },
+    {
+      "name": "Safari in Sabi Sands Game Reserve",
+      "category": "adventure"
+    },
+    {
+      "name": "Whale Watching in Hermanus",
+      "category": "adventure"
+    },
+    {
+      "name": "Skydiving in Cape Town",
+      "category": "adventure"
+    },
+    {
+      "name": "Scuba Diving in Sodwana Bay",
+      "category": "adventure"
+    },
+    {
+      "name": "Hot Air Ballooning in the Karoo",
+      "category": "adventure"
+    },
+    {
+      "name": "Canyoning in the Drakensberg",
+      "category": "adventure"
+    },
+    {
+      "name": "Surfing in Jeffreys Bay",
+      "category": "adventure"
+    }
+  ]
+}

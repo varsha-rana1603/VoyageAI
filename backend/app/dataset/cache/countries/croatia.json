@@ -1,0 +1,169 @@
+{
+  "country": "Croatia",
+  "destinations": [
+    {
+      "name": "Dubrovnik",
+      "category": "city"
+    },
+    {
+      "name": "Split",
+      "category": "city"
+    },
+    {
+      "name": "Zagreb",
+      "category": "city"
+    },
+    {
+      "name": "Hvar",
+      "category": "island"
+    },
+    {
+      "name": "Korčula",
+      "category": "island"
+    },
+    {
+      "name": "Brač",
+      "category": "island"
+    },
+    {
+      "name": "Plitvička Jezera",
+      "category": "national_park"
+    },
+    {
+      "name": "Krka",
+      "category": "nature"
+    },
+    {
+      "name": "Mljet",
+      "category": "nature"
+    },
+    {
+      "name": "Šibenik",
+      "category": "city"
+    },
+    {
+      "name": "Rovinj",
+      "category": "city"
+    },
+    {
+      "name": "Poreč",
+      "category": "city"
+    },
+    {
+      "name": "Trogir",
+      "category": "historic"
+    },
+    {
+      "name": "Zadar",
+      "category": "city"
+    },
+    {
+      "name": "Vis",
+      "category": "island"
+    },
+    {
+      "name": "Pag",
+      "category": "island"
+    },
+    {
+      "name": "Cres",
+      "category": "island"
+    },
+    {
+      "name": "Lošinj",
+      "category": "island"
+    },
+    {
+      "name": "Kornati",
+      "category": "nature"
+    },
+    {
+      "name": "Biograd na Moru",
+      "category": "city"
+    },
+    {
+      "name": "Ston",
+      "category": "historic"
+    },
+    {
+      "name": "Sinj",
+      "category": "city"
+    },
+    {
+      "name": "Omiš",
+      "category": "city"
+    },
+    {
+      "name": "Kaštela",
+      "category": "city"
+    },
+    {
+      "name": "Rijeka",
+      "category": "city"
+    },
+    {
+      "name": "Pula",
+      "category": "city"
+    },
+    {
+      "name": "Labin",
+      "category": "city"
+    },
+    {
+      "name": "Rovinj",
+      "category": "city"
+    },
+    {
+      "name": "Vis",
+      "category": "island"
+    },
+    {
+      "name": "Pag",
+      "category": "island"
+    },
+    {
+      "name": "Cres",
+      "category": "island"
+    },
+    {
+      "name": "Lošinj",
+      "category": "island"
+    },
+    {
+      "name": "Kornati",
+      "category": "nature"
+    },
+    {
+      "name": "Biograd na Moru",
+      "category": "city"
+    },
+    {
+      "name": "Ston",
+      "category": "historic"
+    },
+    {
+      "name": "Sinj",
+      "category": "city"
+    },
+    {
+      "name": "Omiš",
+      "category": "city"
+    },
+    {
+      "name": "Kaštela",
+      "category": "city"
+    },
+    {
+      "name": "Rijeka",
+      "category": "city"
+    },
+    {
+      "name": "Pula",
+      "category": "city"
+    },
+    {
+      "name": "Labin",
+      "category": "city"
+    }
+  ]
+}

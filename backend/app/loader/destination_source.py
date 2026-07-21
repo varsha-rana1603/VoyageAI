@@ -63,7 +63,7 @@ def iter_destinations():
     candidates = []
 
     with open(
-        DATA_DIR / "cities15000.txt",
+        DATA_DIR / "cities.txt",
         encoding="utf-8"
     ) as f:
 

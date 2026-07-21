@@ -1,0 +1,165 @@
+{
+  "country": "Kenya",
+  "destinations": [
+    {
+      "name": "Nairobi",
+      "category": "city"
+    },
+    {
+      "name": "Mombasa",
+      "category": "city"
+    },
+    {
+      "name": "Malindi",
+      "category": "city"
+    },
+    {
+      "name": "Lamu",
+      "category": "city"
+    },
+    {
+      "name": "Watamu",
+      "category": "beach"
+    },
+    {
+      "name": "Diani Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Maasai Mara National Reserve",
+      "category": "national_park"
+    },
+    {
+      "name": "Serengeti National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Lake Nakuru National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Samburu National Reserve",
+      "category": "national_park"
+    },
+    {
+      "name": "Tsavo West National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Tsavo East National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Hell's Gate National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Lake Naivasha National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Arabuko-Sokoke Forest Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Shimba Hills National Reserve",
+      "category": "nature"
+    },
+    {
+      "name": "Mount Kenya National Park",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Kilimanjaro",
+      "category": "mountain"
+    },
+    {
+      "name": "Lake Turkana",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Nakuru",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Bogoria",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Elementaita",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Magadi",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Baringo",
+      "category": "nature"
+    },
+    {
+      "name": "Lake Victoria",
+      "category": "nature"
+    },
+    {
+      "name": "Lamu Old Town",
+      "category": "historic"
+    },
+    {
+      "name": "Gedi Ruins",
+      "category": "historic"
+    },
+    {
+      "name": "Fort Jesus Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Hyrax Hill",
+      "category": "historic"
+    },
+    {
+      "name": "Kilwa Kisiwani",
+      "category": "historic"
+    },
+    {
+      "name": "Tsavo River",
+      "category": "adventure"
+    },
+    {
+      "name": "Ewaso Ng'iro River",
+      "category": "adventure"
+    },
+    {
+      "name": "Mara River",
+      "category": "adventure"
+    },
+    {
+      "name": "Sabakia",
+      "category": "adventure"
+    },
+    {
+      "name": "Nairobi National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Kakamega Forest",
+      "category": "nature"
+    },
+    {
+      "name": "Kilungu Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Msambweni",
+      "category": "beach"
+    },
+    {
+      "name": "Kisite-Mpunguti Marine Park",
+      "category": "nature"
+    },
+    {
+      "name": "Malindi Marine Park",
+      "category": "nature"
+    }
+  ]
+}

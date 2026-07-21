@@ -1,0 +1,161 @@
+{
+  "country": "Colombia",
+  "destinations": [
+    {
+      "name": "Bogotá",
+      "category": "city"
+    },
+    {
+      "name": "Cartagena",
+      "category": "city"
+    },
+    {
+      "name": "Medellín",
+      "category": "city"
+    },
+    {
+      "name": "Santa Marta",
+      "category": "city"
+    },
+    {
+      "name": "Barranquilla",
+      "category": "city"
+    },
+    {
+      "name": "San Andrés",
+      "category": "island"
+    },
+    {
+      "name": "Providencia Island",
+      "category": "island"
+    },
+    {
+      "name": "Tayrona National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Coffee Cultural Landscape",
+      "category": "unesco"
+    },
+    {
+      "name": "Los Nevados National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Café de Colombia",
+      "category": "nature"
+    },
+    {
+      "name": "Rosario Islands",
+      "category": "island"
+    },
+    {
+      "name": "Cartagena's Old City",
+      "category": "historic"
+    },
+    {
+      "name": "Minca",
+      "category": "nature"
+    },
+    {
+      "name": "Ciudad Perdida (Lost City)",
+      "category": "historic"
+    },
+    {
+      "name": "San Agustín Archaeological Park",
+      "category": "historic"
+    },
+    {
+      "name": "Malpelo Island",
+      "category": "nature"
+    },
+    {
+      "name": "Caño Cristales",
+      "category": "nature"
+    },
+    {
+      "name": "Cocora Valley",
+      "category": "nature"
+    },
+    {
+      "name": "Isla de la Plata",
+      "category": "island"
+    },
+    {
+      "name": "Parque Nacional Natural Sierra Nevada de Santa Marta",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Amacayacu",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Chiribiquete",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Macarena",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural El Cocuy",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural La Paya",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural El Tuparro",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Serranía de las Quinchas",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Sierra de la Macarena",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Sierra Nevada de Cocuy",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Serranía de los Churumbelos Auka-Wasi",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Serranía de las Farallones de Cali",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Sierra de la Culata",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Sierra de Ocaña",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Sierra de San Lucas",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Sierra de la Divisa",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Serranía de los Yariguíes",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Serranía del Perijá",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional Natural Serranía de San Lucas",
+      "category": "national_park"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "country": "Brazil",
+  "destinations": [
+    {
+      "name": "Rio de Janeiro",
+      "category": "city"
+    },
+    {
+      "name": "São Paulo",
+      "category": "city"
+    },
+    {
+      "name": "Salvador",
+      "category": "city"
+    },
+    {
+      "name": "Fortaleza",
+      "category": "city"
+    },
+    {
+      "name": "Brasília",
+      "category": "city"
+    },
+    {
+      "name": "Florianópolis",
+      "category": "city"
+    },
+    {
+      "name": "Curitiba",
+      "category": "city"
+    },
+    {
+      "name": "Recife",
+      "category": "city"
+    },
+    {
+      "name": "Porto Alegre",
+      "category": "city"
+    },
+    {
+      "name": "Belo Horizonte",
+      "category": "city"
+    },
+    {
+      "name": "Manaus",
+      "category": "city"
+    },
+    {
+      "name": "Natal",
+      "category": "city"
+    },
+    {
+      "name": "Vitória",
+      "category": "city"
+    },
+    {
+      "name": "Campo Grande",
+      "category": "city"
+    },
+    {
+      "name": "Ilhéus",
+      "category": "city"
+    },
+    {
+      "name": "Ilhabela",
+      "category": "island"
+    },
+    {
+      "name": "Fernando de Noronha",
+      "category": "island"
+    },
+    {
+      "name": "Marajó Island",
+      "category": "island"
+    },
+    {
+      "name": "Ilha Grande",
+      "category": "island"
+    },
+    {
+      "name": "Ilha do Mel",
+      "category": "island"
+    },
+    {
+      "name": "Pantanal",
+      "category": "nature"
+    },
+    {
+      "name": "Amazon Rainforest",
+      "category": "nature"
+    },
+    {
+      "name": "Iguaçu Falls",
+      "category": "nature"
+    },
+    {
+      "name": "Lençóis Maranhenses",
+      "category": "nature"
+    },
+    {
+      "name": "Chapada Diamantina",
+      "category": "nature"
+    },
+    {
+      "name": "Chapada dos Veadeiros",
+      "category": "nature"
+    },
+    {
+      "name": "Parque Nacional da Tijuca",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Chapada dos Guimarães",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra dos Órgãos",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra Geral",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra do Cipó",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra do Mar",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional do Itatiaia",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Tijuca",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Chapada dos Veadeiros",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra dos Órgãos",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra Geral",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra do Cipó",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional da Serra do Mar",
+      "category": "national_park"
+    },
+    {
+      "name": "Parque Nacional do Itatiaia",
+      "category": "national_park"
+    }
+  ]
+}

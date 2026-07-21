@@ -1,0 +1,169 @@
+{
+  "country": "Spain",
+  "destinations": [
+    {
+      "name": "Barcelona",
+      "category": "city"
+    },
+    {
+      "name": "Madrid",
+      "category": "city"
+    },
+    {
+      "name": "Seville",
+      "category": "city"
+    },
+    {
+      "name": "Granada",
+      "category": "city"
+    },
+    {
+      "name": "Valencia",
+      "category": "city"
+    },
+    {
+      "name": "Bilbao",
+      "category": "city"
+    },
+    {
+      "name": "San Sebastián",
+      "category": "city"
+    },
+    {
+      "name": "Palma de Mallorca",
+      "category": "city"
+    },
+    {
+      "name": "Ibiza",
+      "category": "island"
+    },
+    {
+      "name": "Tenerife",
+      "category": "island"
+    },
+    {
+      "name": "Mallorca",
+      "category": "island"
+    },
+    {
+      "name": "Picos de Europa",
+      "category": "mountain"
+    },
+    {
+      "name": "Sierra Nevada",
+      "category": "mountain"
+    },
+    {
+      "name": "Doñana National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Garajonay National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Cabo de Gata-Níjar Natural Park",
+      "category": "nature"
+    },
+    {
+      "name": "Picos de Europa National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Alt Pirineu",
+      "category": "nature"
+    },
+    {
+      "name": "Alhambra",
+      "category": "historic"
+    },
+    {
+      "name": "Park Güell",
+      "category": "unesco"
+    },
+    {
+      "name": "Sagrada Família",
+      "category": "unesco"
+    },
+    {
+      "name": "Cuenca",
+      "category": "historic"
+    },
+    {
+      "name": "Ronda",
+      "category": "historic"
+    },
+    {
+      "name": "Costa Brava",
+      "category": "beach"
+    },
+    {
+      "name": "Costa del Sol",
+      "category": "beach"
+    },
+    {
+      "name": "La Concha Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Playa de las Catedrales",
+      "category": "beach"
+    },
+    {
+      "name": "Antequera",
+      "category": "historic"
+    },
+    {
+      "name": "Toledo",
+      "category": "historic"
+    },
+    {
+      "name": "Burgos",
+      "category": "historic"
+    },
+    {
+      "name": "Segovia",
+      "category": "historic"
+    },
+    {
+      "name": "Salamanca",
+      "category": "historic"
+    },
+    {
+      "name": "Córdoba",
+      "category": "historic"
+    },
+    {
+      "name": "Aragonese Pyrenees",
+      "category": "mountain"
+    },
+    {
+      "name": "La Palma",
+      "category": "island"
+    },
+    {
+      "name": "La Gomera",
+      "category": "island"
+    },
+    {
+      "name": "El Hierro",
+      "category": "island"
+    },
+    {
+      "name": "Cañón del Río Lobos",
+      "category": "nature"
+    },
+    {
+      "name": "Bardenas Reales",
+      "category": "nature"
+    },
+    {
+      "name": "Sierra de Guara",
+      "category": "nature"
+    },
+    {
+      "name": "Maspalomas",
+      "category": "nature"
+    }
+  ]
+}

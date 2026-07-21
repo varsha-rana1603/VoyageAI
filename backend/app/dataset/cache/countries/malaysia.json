@@ -1,0 +1,165 @@
+{
+  "country": "Malaysia",
+  "destinations": [
+    {
+      "name": "Kuala Lumpur",
+      "category": "city"
+    },
+    {
+      "name": "Penang",
+      "category": "island"
+    },
+    {
+      "name": "Langkawi",
+      "category": "island"
+    },
+    {
+      "name": "Cameron Highlands",
+      "category": "nature"
+    },
+    {
+      "name": "Batu Caves",
+      "category": "historic"
+    },
+    {
+      "name": "Kota Kinabalu",
+      "category": "city"
+    },
+    {
+      "name": "Melaka",
+      "category": "historic"
+    },
+    {
+      "name": "George Town",
+      "category": "city"
+    },
+    {
+      "name": "Mount Kinabalu",
+      "category": "mountain"
+    },
+    {
+      "name": "Perhentian Islands",
+      "category": "island"
+    },
+    {
+      "name": "Taman Negara National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Lang Bawan",
+      "category": "beach"
+    },
+    {
+      "name": "Sepilok",
+      "category": "nature"
+    },
+    {
+      "name": "Bako National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Danum Valley Conservation Area",
+      "category": "nature"
+    },
+    {
+      "name": "Putrajaya",
+      "category": "city"
+    },
+    {
+      "name": "Ipoh",
+      "category": "city"
+    },
+    {
+      "name": "Johor Bahru",
+      "category": "city"
+    },
+    {
+      "name": "Kuah",
+      "category": "city"
+    },
+    {
+      "name": "Malacca River",
+      "category": "historic"
+    },
+    {
+      "name": "Kinabalu Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Tawau",
+      "category": "city"
+    },
+    {
+      "name": "Sipadan",
+      "category": "island"
+    },
+    {
+      "name": "Miri",
+      "category": "city"
+    },
+    {
+      "name": "Kampung Kuantan",
+      "category": "historic"
+    },
+    {
+      "name": "Semporna",
+      "category": "city"
+    },
+    {
+      "name": "Sibu",
+      "category": "city"
+    },
+    {
+      "name": "Sarawak Chamber",
+      "category": "nature"
+    },
+    {
+      "name": "Gunung Mulu National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Pulau Tioman",
+      "category": "island"
+    },
+    {
+      "name": "Kota Baru",
+      "category": "city"
+    },
+    {
+      "name": "Kuching",
+      "category": "city"
+    },
+    {
+      "name": "Kota Tinggi",
+      "category": "city"
+    },
+    {
+      "name": "Desa Dairy Farm",
+      "category": "nature"
+    },
+    {
+      "name": "Cameron Highlands Tea Plantations",
+      "category": "nature"
+    },
+    {
+      "name": "Lankapuri Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Kuah Mosque",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Ophir",
+      "category": "mountain"
+    },
+    {
+      "name": "Kampung Ayer",
+      "category": "historic"
+    },
+    {
+      "name": "Kampung Ayer Mosque",
+      "category": "historic"
+    }
+  ]
+}

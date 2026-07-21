@@ -1,0 +1,165 @@
+{
+  "country": "Indonesia",
+  "destinations": [
+    {
+      "name": "Bali",
+      "category": "island"
+    },
+    {
+      "name": "Jakarta",
+      "category": "city"
+    },
+    {
+      "name": "Yogyakarta",
+      "category": "city"
+    },
+    {
+      "name": "Lombok",
+      "category": "island"
+    },
+    {
+      "name": "Komodo Island",
+      "category": "island"
+    },
+    {
+      "name": "Gili Trawangan",
+      "category": "island"
+    },
+    {
+      "name": "Ubud",
+      "category": "city"
+    },
+    {
+      "name": "Seminyak",
+      "category": "city"
+    },
+    {
+      "name": "Sanur",
+      "category": "city"
+    },
+    {
+      "name": "Mount Bromo",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Rinjani",
+      "category": "mountain"
+    },
+    {
+      "name": "Borobudur",
+      "category": "unesco"
+    },
+    {
+      "name": "Prambanan",
+      "category": "unesco"
+    },
+    {
+      "name": "Ujung Kulon National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Komodo National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Tanah Lot",
+      "category": "historic"
+    },
+    {
+      "name": "Ijen Crater",
+      "category": "nature"
+    },
+    {
+      "name": "Raja Ampat",
+      "category": "island"
+    },
+    {
+      "name": "Bintan Island",
+      "category": "island"
+    },
+    {
+      "name": "Batam",
+      "category": "island"
+    },
+    {
+      "name": "Belitung Island",
+      "category": "island"
+    },
+    {
+      "name": "Lake Toba",
+      "category": "nature"
+    },
+    {
+      "name": "Balicasag Island",
+      "category": "island"
+    },
+    {
+      "name": "Tidore Island",
+      "category": "island"
+    },
+    {
+      "name": "Sumba Island",
+      "category": "island"
+    },
+    {
+      "name": "Sumbawa",
+      "category": "island"
+    },
+    {
+      "name": "Nusa Penida",
+      "category": "island"
+    },
+    {
+      "name": "Bintan Lagoon",
+      "category": "nature"
+    },
+    {
+      "name": "Pangandaran Beach",
+      "category": "beach"
+    },
+    {
+      "name": "Pura Lempuyang",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Semeru",
+      "category": "mountain"
+    },
+    {
+      "name": "Mount Agung",
+      "category": "mountain"
+    },
+    {
+      "name": "Tanah Lot Temple",
+      "category": "historic"
+    },
+    {
+      "name": "Bali Safari & Marine Park",
+      "category": "nature"
+    },
+    {
+      "name": "Candi Prambanan",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Merapi",
+      "category": "mountain"
+    },
+    {
+      "name": "Sentani Lake",
+      "category": "nature"
+    },
+    {
+      "name": "Kelimutu National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Sangihe Islands",
+      "category": "island"
+    },
+    {
+      "name": "Wakatobi National Park",
+      "category": "national_park"
+    }
+  ]
+}

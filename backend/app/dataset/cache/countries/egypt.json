@@ -1,0 +1,161 @@
+{
+  "country": "Egypt",
+  "destinations": [
+    {
+      "name": "Cairo",
+      "category": "city"
+    },
+    {
+      "name": "Giza",
+      "category": "city"
+    },
+    {
+      "name": "Alexandria",
+      "category": "city"
+    },
+    {
+      "name": "Sharm El Sheikh",
+      "category": "city"
+    },
+    {
+      "name": "Hurghada",
+      "category": "city"
+    },
+    {
+      "name": "Luxor",
+      "category": "city"
+    },
+    {
+      "name": "Aswan",
+      "category": "city"
+    },
+    {
+      "name": "Dahab",
+      "category": "city"
+    },
+    {
+      "name": "El Gouna",
+      "category": "city"
+    },
+    {
+      "name": "Siwa Oasis",
+      "category": "oasis"
+    },
+    {
+      "name": "White Desert",
+      "category": "desert"
+    },
+    {
+      "name": "Red Sea Coast",
+      "category": "beach"
+    },
+    {
+      "name": "Philae Temple",
+      "category": "historic"
+    },
+    {
+      "name": "Valley of the Kings",
+      "category": "historic"
+    },
+    {
+      "name": "Abu Simbel",
+      "category": "historic"
+    },
+    {
+      "name": "Mount Sinai",
+      "category": "mountain"
+    },
+    {
+      "name": "St. Catherine's Monastery",
+      "category": "historic"
+    },
+    {
+      "name": "Sahl Hasheesh",
+      "category": "beach"
+    },
+    {
+      "name": "El Alamein",
+      "category": "historic"
+    },
+    {
+      "name": "Ras Muhammad National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Wadi El Gemal National Park",
+      "category": "national_park"
+    },
+    {
+      "name": "Dolphin House Museum",
+      "category": "historic"
+    },
+    {
+      "name": "Cave of Swimmers",
+      "category": "historic"
+    },
+    {
+      "name": "Sharm El Naga",
+      "category": "historic"
+    },
+    {
+      "name": "Temple of Edfu",
+      "category": "historic"
+    },
+    {
+      "name": "Temple of Kom Ombo",
+      "category": "historic"
+    },
+    {
+      "name": "Temple of Karnak",
+      "category": "historic"
+    },
+    {
+      "name": "Temple of Hatshepsut",
+      "category": "historic"
+    },
+    {
+      "name": "Abu Mena",
+      "category": "historic"
+    },
+    {
+      "name": "Memphis",
+      "category": "historic"
+    },
+    {
+      "name": "Saqqara",
+      "category": "historic"
+    },
+    {
+      "name": "Faiyum Oasis",
+      "category": "nature"
+    },
+    {
+      "name": "Rashid (Rosetta)",
+      "category": "city"
+    },
+    {
+      "name": "El Maadi",
+      "category": "city"
+    },
+    {
+      "name": "El Maadi Beach",
+      "category": "beach"
+    },
+    {
+      "name": "El-Qantarah el-Sharqiyya",
+      "category": "historic"
+    },
+    {
+      "name": "El-Balyana",
+      "category": "city"
+    },
+    {
+      "name": "El-Mahalla El-Kubra",
+      "category": "city"
+    },
+    {
+      "name": "El-Mahalla El-Kubra Beach",
+      "category": "beach"
+    }
+  ]
+}
