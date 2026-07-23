@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     # Embedding model used for both traveller profiles and destinations.
     # Must stay identical across both or cosine similarity is meaningless.
     embedding_model_name: str = "all-MiniLM-L6-v2"
-    embedding_dim: int = 384
+    embedding_dimensions: int = 384
 
     # Scoring weights (Phase 1: rule-based, see app/ml/scoring.py)
     weight_style_match: float = 0.35

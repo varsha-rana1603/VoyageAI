@@ -47,7 +47,7 @@ class Destination(Base):
     # loader's crowd_level_from_rating_count() for the explicit caveat.
     typical_crowd_level: Mapped[str] = mapped_column(String, nullable=False)  # low | medium | high
 
-    destination_embedding: Mapped[list | None] = mapped_column(Vector(settings.embedding_dim), nullable=True)
+    destination_embedding: Mapped[list | None] = mapped_column(Vector(settings.embedding_dimensions), nullable=True)
 
     # Source tracking -- lets the loader upsert idempotently instead of only
     # ever inserting, and makes stale-data refresh possible later.
@@ -57,3 +57,5 @@ class Destination(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
     trips = relationship("Trip", back_populates="destination")
+    attractions = relationship("Attraction", back_populates="destination")
+    accommodations = relationship("Accommodation", back_populates="destination")

@@ -29,7 +29,7 @@ def _enrich_and_upsert(db: Session, destination, country: str) -> str:
     existing = (
         db.query(Destination)
         .filter(
-            # Destination.name == destination.name,
+            Destination.name == destination.name,
             Destination.country == country,
         )
         .first()

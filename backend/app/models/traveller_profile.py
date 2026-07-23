@@ -34,7 +34,7 @@ class TravellerProfile(Base):
     trip_duration_days: Mapped[int | None] = mapped_column(Integer, nullable=True)
     raw_conversation: Mapped[list | None] = mapped_column(JSONB, nullable=True, default=list)
 
-    profile_embedding: Mapped[list | None] = mapped_column(Vector(settings.embedding_dim), nullable=True)
+    profile_embedding: Mapped[list | None] = mapped_column(Vector(settings.embedding_dimensions), nullable=True)
 
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)

@@ -22,7 +22,6 @@ def main():
     created = updated = skipped = 0
 
     for country_data in countries:
-
         
 
         print(f"\n=== {country_data.country} ===")
@@ -35,7 +34,7 @@ def main():
         created += c
         updated += u
         skipped += s
-
+ 
     print()
     print("=" * 60)
     print("INGESTION COMPLETE")

@@ -4,6 +4,8 @@ from app.database import Base, engine
 from app.models.destination import Destination
 from app.models.trip import Trip
 from app.models.user import User
+from app.models.attraction import Attraction
+from app.models.accommodation import Accommodation
 
 Base.metadata.create_all(bind=engine)
 

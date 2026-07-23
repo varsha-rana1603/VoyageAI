@@ -25,6 +25,6 @@ class Attraction(BaseModel):
     indoor: bool | None = None
     family_friendly: bool | None = None
     tags: list[str] = []
-    if_free: bool | None = None
+    is_free: bool | None = None
     
     

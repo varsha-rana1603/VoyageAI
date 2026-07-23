@@ -30,6 +30,21 @@ FIELD_MASK = ",".join(
     ]
 )
 
+ATTRACTION_FIELD_MASK = ",".join(
+    [
+        "places.id",
+        "places.displayName",
+        "places.location",
+        "places.types",
+        "places.rating",
+        "places.userRatingCount",
+        "places.editorialSummary",
+        "places.regularOpeningHours",
+        "places.websiteUri",
+        "places.photos",
+    ]
+)
+
 DETAILS_FIELD_MASK = ",".join(
     [
         "id",
@@ -158,30 +173,77 @@ def normalize_place(place: dict) -> dict:
         ),
     }
 
-async def get_hotels(
-    city,
-    latitude,
-    longitude
-):
-
-    params = {
-
-        "location":
-        f"{latitude},{longitude}",
-
-        "radius":5000,
-
-        "type":"lodging",
-
-        "key":settings.google_places_api_key
-    }
+HOTEL_FIELD_MASK = ",".join(
+    [
+        "places.id",
+        "places.displayName",
+        "places.location",
+        "places.types",
+        "places.rating",
+        "places.userRatingCount",
+        "places.priceLevel",
+        "places.websiteUri",
+        "places.photos",
+    ]
+)
 
 
-    response = httpx.get(
-        f"{PLACES_BASE_URL}:searchNearby",
-        settings.google_places_api_key,
-        params=params
+def search_destination_accommodations(
+    query: str,
+    limit: int = 20,
+) -> list[dict]:
+    """
+    Text Search, not Nearby Search - matches search_destination_attractions.
+
+    Switched from an earlier Nearby Search (radius circle from the
+    destination's city-center coordinates) after realizing that
+    coordinate is a single point from destination ingestion, and a
+    fixed-radius circle from it misses hotels in sprawling cities or
+    tourist areas away from the nominal "center". Text Search lets
+    Google's own relevance ranking handle "hotels across this whole
+    city" instead of an arbitrary circle.
+    """
+    response = httpx.post(
+        f"{PLACES_BASE_URL}:searchText",
+        headers=_headers(HOTEL_FIELD_MASK),
+        json={
+            "textQuery": query,
+            "maxResultCount": limit,
+        },
+        timeout=20.0,
     )
 
+    if response.status_code != 200:
+        raise PlacesLookupError(
+            f"Accommodation search failed for '{query}': "
+            f"{response.status_code} {response.text}"
+        )
 
-    return response.json()["results"]
+    return response.json().get("places", [])
+
+def search_destination_attractions(
+    query: str,
+    limit: int = 30,
+) -> list[dict]:
+    """
+    Search Google Places for attractions within a destination.
+    Returns the raw list of Google Places.
+    """
+
+    response = httpx.post(
+        f"{PLACES_BASE_URL}:searchText",
+        headers=_headers(ATTRACTION_FIELD_MASK),
+        json={
+            "textQuery": query,
+            "maxResultCount": limit,
+        },
+        timeout=20.0,
+    )
+
+    if response.status_code != 200:
+        raise PlacesLookupError(
+            f"Attraction search failed for '{query}': "
+            f"{response.status_code} {response.text}"
+        )
+
+    return response.json().get("places", [])
