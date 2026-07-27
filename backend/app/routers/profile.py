@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.models.traveller_profile import TravellerProfile
-from backend.app.schemas.chat import ConversationMessageIn, ConversationMessageOut, TravellerProfileOut
+from app.schemas.chat import ConversationMessageIn, ConversationMessageOut, TravellerProfileOut
 from app.services.profile_service import ProfileService
 
 router = APIRouter(prefix="/api/profile", tags=["profile"])

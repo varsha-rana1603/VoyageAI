@@ -10,13 +10,26 @@ below rather than touching Google Places itself.
 
 from sqlalchemy.orm import Session
 
+from app.models.destination import Destination
 from app.models.attraction import Attraction as AttractionORM
-from app.trip_planner.domain.attraction import Attraction as AttractionDomain
-from app.trip_planner.providers.places.google_places import get_destination_attractions
-from app.dataset.attractions.attraction_normalizer import normalize_attraction
-from app.dataset.attractions.attraction_enrich import enrich_attractions
-from app.dataset.attractions.attraction_mapper import domain_to_orm
+from app.conversation.user_profile import UserProfile
 
+from app.trip_planner.domain.attraction import Attraction as AttractionDomain
+
+from app.trip_planner.providers.places.google_places import (
+    generate_search_queries,
+    get_destination_attractions,
+)
+
+from app.dataset.attractions.attraction_normalizer import (
+    normalize_attraction,
+)
+from app.dataset.attractions.attraction_enrich import (
+    enrich_attractions,
+)
+from app.dataset.attractions.attraction_mapper import (
+    domain_to_orm,
+)
 
 def upsert_attractions(
     db: Session,
@@ -62,31 +75,31 @@ def upsert_attractions(
 
 def ingest_attractions_for_destination(
     db: Session,
-    destination_id: int,
-    destination: str,
-    country: str,
+    destination: Destination,
+    user_profile: UserProfile,
 ) -> list[AttractionORM]:
-    """
-    The single entrypoint trip_planner.attractions.loader calls on a
-    cache-miss. Everything Google-Places-related is contained here -
-    the loader never sees a raw place dict or the Places client.
 
-    NOTE (open question, unresolved): this runs synchronously. A cold
-    cache means the caller blocks on a live Places call + enrichment.
-    Revisit if this needs to become an async job with a "data not
-    ready yet" response in the meantime.
-    """
-    places = get_destination_attractions(destination=destination, country=country)
+    search_queries = generate_search_queries(user_profile)
 
-    domain_attractions = [normalize_attraction(place) for place in places]
+    print("\nGenerated search queries:")
+    for query in search_queries:
+        print(f"  • {query}")
+
+    places = get_destination_attractions(
+    latitude=destination.latitude,
+    longitude=destination.longitude,
+    search_queries=search_queries,
+)
+
+    domain_attractions = [
+        normalize_attraction(place)
+        for place in places
+    ]
+
     enriched = enrich_attractions(domain_attractions)
-
-    # TODO: embedding generation goes here, reusing the existing
-    # sentence-transformers pipeline from destination ingestion -
-    # not written here since I haven't seen that code yet.
 
     return upsert_attractions(
         db=db,
-        destination_id=destination_id,
+        destination_id=destination.id,
         attractions=enriched,
     )

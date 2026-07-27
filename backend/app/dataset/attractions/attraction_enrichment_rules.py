@@ -1,9 +1,9 @@
 """
 Rule-based inference for fields Google Places doesn't provide directly.
 Same style as compute_importance / compute_popularity: deterministic
-lookup by attraction_type, no LLM calls, no external API calls.
+lookup by category, no LLM calls, no external API calls.
 
-Deliberately return None (not a guess) when attraction_type isn't in
+Deliberately return None (not a guess) when category isn't in
 any known set — "unknown" is a real, useful signal downstream (e.g.
 the itinerary generator can treat unknown indoor/outdoor as
 weather-agnostic rather than silently assuming one or the other).
@@ -40,12 +40,12 @@ OUTDOOR_TYPES = {
 
 
 def infer_indoors(attraction: Attraction) -> bool | None:
-    attraction_type = attraction.attraction_type
+    category = attraction.category
 
-    if attraction_type in INDOOR_TYPES:
+    if category in INDOOR_TYPES:
         return True
 
-    if attraction_type in OUTDOOR_TYPES:
+    if category in OUTDOOR_TYPES:
         return False
 
     return None
@@ -74,12 +74,12 @@ NOT_FAMILY_FRIENDLY_TYPES = {
 
 
 def infer_family_friendly(attraction: Attraction) -> bool | None:
-    attraction_type = attraction.attraction_type
+    category = attraction.category
 
-    if attraction_type in FAMILY_FRIENDLY_TYPES:
+    if category in FAMILY_FRIENDLY_TYPES:
         return True
 
-    if attraction_type in NOT_FAMILY_FRIENDLY_TYPES:
+    if category in NOT_FAMILY_FRIENDLY_TYPES:
         return False
 
     return None
@@ -99,7 +99,7 @@ POPULARITY_TAG_THRESHOLD = 0.75
 
 
 def infer_tags(attraction: Attraction) -> list[str]:
-    tags: list[str] = [attraction.attraction_type]
+    tags: list[str] = [attraction.category]
 
     if attraction.rating is not None and attraction.rating >= RATING_TAG_THRESHOLD:
         tags.append("highly_rated")

@@ -32,7 +32,7 @@ def estimate_visit_duration(attraction: Attraction) -> int:
     Temporary heuristic. Later this value will come directly
     from the Attraction database.
     """
-    return DEFAULT_DURATIONS.get(attraction.attraction_type, 120)
+    return DEFAULT_DURATIONS.get(attraction.category, 120)
 
 
 def compute_importance(attractions: list[Attraction]) -> None:
@@ -82,7 +82,7 @@ def enrich_attractions(attractions: list[Attraction]) -> list[Attraction]:
 
     for attraction in attractions:
         attraction.popularity_score = compute_popularity(attraction)        
-        attraction.estimated_visit_duration_minutes = estimate_visit_duration(
+        attraction.visit_duration_minutes = estimate_visit_duration(
             attraction
         )
         attraction.indoor = infer_indoors(attraction)

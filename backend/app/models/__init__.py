@@ -5,7 +5,9 @@ relationship("User")) gets resolved -- otherwise whichever model happens
 to get imported first triggers a KeyError/InvalidRequestError for any
 sibling model it references that hasn't been imported yet.
 """
-from app.models.user import User  # noqa: F401
-from app.models.traveller_profile import TravellerProfile  # noqa: F401
-from app.models.destination import Destination  # noqa: F401
-from app.models.trip import Trip  # noqa: F401
+from app.models.user import User
+from app.models.traveller_profile import TravellerProfile
+from app.models.destination import Destination
+from app.models.trip import Trip
+from app.models.attraction import Attraction
+from app.models.accommodation import Accommodation

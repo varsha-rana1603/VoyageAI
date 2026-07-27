@@ -5,7 +5,7 @@ the schema needs to evolve without dropping data.
 
 Run with: python init_db.py
 """
-from backend.app.models import TravellerProfile
+from app.models import TravellerProfile
 from sqlalchemy import text
 
 from app.database import Base, engine

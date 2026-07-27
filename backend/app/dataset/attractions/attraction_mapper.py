@@ -6,8 +6,8 @@ This is the one place that should know about both shapes. Ingestion code
 should never manually construct an ORM Attraction from a domain object.
 
 Field mismatches this resolves:
-- attraction_type (domain)      -> category (ORM)
-- estimated_visit_duration_minutes (domain) -> visit_duration_minutes (ORM)
+- category (domain)      -> category (ORM)
+- visit_duration_minutes (domain) -> visit_duration_minutes (ORM)
 - coordinates.latitude/.longitude (domain)  -> latitude, longitude (ORM)
 - estimated_ticket_price (domain, Money)    -> ticket_information (ORM, JSONB)
   -> not populated yet (per Varsha, deferred) - always passes None for now.
@@ -37,7 +37,7 @@ def domain_to_orm(
     orm.google_place_id = domain.google_place_id
 
     orm.name = domain.name
-    orm.category = domain.attraction_type
+    orm.category = domain.category
     orm.description = domain.description
 
     orm.latitude = domain.coordinates.latitude
@@ -48,7 +48,7 @@ def domain_to_orm(
     orm.popularity_score = domain.popularity_score
     orm.importance = domain.importance
 
-    orm.visit_duration_minutes = domain.estimated_visit_duration_minutes
+    orm.visit_duration_minutes = domain.visit_duration_minutes
 
     # Not populated yet - see TODO above.
     orm.ticket_information = None

@@ -191,18 +191,7 @@ HOTEL_FIELD_MASK = ",".join(
 def search_destination_accommodations(
     query: str,
     limit: int = 20,
-) -> list[dict]:
-    """
-    Text Search, not Nearby Search - matches search_destination_attractions.
-
-    Switched from an earlier Nearby Search (radius circle from the
-    destination's city-center coordinates) after realizing that
-    coordinate is a single point from destination ingestion, and a
-    fixed-radius circle from it misses hotels in sprawling cities or
-    tourist areas away from the nominal "center". Text Search lets
-    Google's own relevance ranking handle "hotels across this whole
-    city" instead of an arbitrary circle.
-    """
+) -> list[dict]:    
     response = httpx.post(
         f"{PLACES_BASE_URL}:searchText",
         headers=_headers(HOTEL_FIELD_MASK),
@@ -212,6 +201,8 @@ def search_destination_accommodations(
         },
         timeout=20.0,
     )
+
+    # print("RESPONSE: ", response.json().get("places"))
 
     if response.status_code != 200:
         raise PlacesLookupError(
@@ -223,11 +214,19 @@ def search_destination_accommodations(
 
 def search_destination_attractions(
     query: str,
-    limit: int = 30,
+    latitude: float,
+    longitude: float,
+    radius_meters: int = 20_000,
+    limit: int = 20,
 ) -> list[dict]:
     """
-    Search Google Places for attractions within a destination.
-    Returns the raw list of Google Places.
+    Search Google Places for attractions within a circular radius.
+
+    Example:
+        query="bookstores"
+        latitude=41.9028
+        longitude=12.4964
+        radius_meters=20000
     """
 
     response = httpx.post(
@@ -236,6 +235,15 @@ def search_destination_attractions(
         json={
             "textQuery": query,
             "maxResultCount": limit,
+            "locationBias": {
+                "circle": {
+                    "center": {
+                        "latitude": latitude,
+                        "longitude": longitude,
+                    },
+                    "radius": radius_meters,
+                }
+            },
         },
         timeout=20.0,
     )

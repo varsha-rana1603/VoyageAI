@@ -19,6 +19,9 @@ class UserProfile(BaseModel):
     crowd_preference: Optional[str] = None
 
     accommodation_type: Optional[str] = None
+    exploration_interests: List[str] = []
+    must_visit: List[str] = []
+    
 
     traveller_count: Optional[int] = None
 

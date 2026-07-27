@@ -13,7 +13,7 @@ def normalize_attraction(place: dict) -> Attraction:
     return Attraction(
         name=place["displayName"]["text"],
         google_place_id=place["id"],
-        attraction_type=place.get("types", ["unknown"])[0],
+        category=place.get("types", ["unknown"])[0],
         description=None,
         coordinates=Coordinates(
             latitude=place["location"]["latitude"],
@@ -23,7 +23,7 @@ def normalize_attraction(place: dict) -> Attraction:
         review_count=place.get("userRatingCount"),
         popularity_score=None,
         importance=None,
-        estimated_visit_duration_minutes=None,
+        visit_duration_minutes=None,
         estimated_ticket_price=None,
         opening_hours=(
             place.get("regularOpeningHours", {}).get("weekdayDescriptions", [])
