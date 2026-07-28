@@ -119,3 +119,151 @@ def infer_tags(attraction: Attraction) -> list[str]:
         tags.append("indoor")
 
     return tags
+
+def infer_experience_scores(
+    attraction: Attraction
+):
+
+    text = (
+        attraction.name.lower()
+        + " "
+        + (attraction.category or "").lower()
+        + " "
+        + " ".join(attraction.tags or []).lower()
+        + " "
+        + (attraction.description or "").lower()
+    )
+
+
+    historical = 0.0
+    architecture = 0.0
+    photography = 0.0
+    crowd = 0.0
+    hidden_gem = 0.0
+
+
+    # -------------------------
+    # Historical intelligence
+    # -------------------------
+
+    historical_keywords = [
+        "castle",
+        "museum",
+        "temple",
+        "shrine",
+        "palace",
+        "fort",
+        "historic",
+        "heritage",
+        "old",
+        "ancient",
+        "monument",
+        "memorial",
+    ]
+
+    historical_matches = sum(
+        keyword in text
+        for keyword in historical_keywords
+    )
+
+    historical = min(
+        historical_matches / 3,
+        1.0
+    )
+
+
+    # -------------------------
+    # Architecture intelligence
+    # -------------------------
+
+    architecture_keywords = [
+        "castle",
+        "palace",
+        "temple",
+        "shrine",
+        "church",
+        "cathedral",
+        "tower",
+        "bridge",
+        "street",
+        "district",
+        "building",
+        "historic",
+    ]
+
+    architecture_matches = sum(
+        keyword in text
+        for keyword in architecture_keywords
+    )
+
+    architecture = min(
+        architecture_matches / 3,
+        1.0
+    )
+
+
+    # -------------------------
+    # Photography intelligence
+    # -------------------------
+
+    photography_keywords = [
+        "view",
+        "viewpoint",
+        "scenic",
+        "garden",
+        "park",
+        "hill",
+        "mountain",
+        "lake",
+        "river",
+        "corridor",
+        "street",
+        "bridge",
+        "sunset",
+        "landscape",
+        "nature",
+    ]
+
+    photography_matches = sum(
+        keyword in text
+        for keyword in photography_keywords
+    )
+
+    photography = min(
+        photography_matches / 3,
+        1.0
+    )
+
+
+    # -------------------------
+    # Crowd intelligence
+    # -------------------------
+
+    reviews = attraction.review_count or 0
+
+    crowd = min(
+        reviews / 50000,
+        1.0
+    )
+
+
+    # -------------------------
+    # Hidden gem
+    # -------------------------
+
+    rating = attraction.rating or 0
+
+    if reviews < 1000 and rating >= 4:
+        hidden_gem = 0.8
+
+    elif reviews < 10000 and rating >= 4:
+        hidden_gem = 0.5
+
+
+    return (
+        historical,
+        architecture,
+        photography,
+        crowd,
+        hidden_gem,
+    )

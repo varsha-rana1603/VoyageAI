@@ -10,25 +10,27 @@ from sqlalchemy import (
     ForeignKey,
     Integer,
     String,
-    Text
+    Text,
 )
 from sqlalchemy.dialects.postgresql import JSONB, UUID
 from sqlalchemy.orm import relationship
 
-from app.database import Base
 from app.config import settings
+from app.database import Base
 
 
 class Accommodation(Base):
     __tablename__ = "accommodations"
 
-    # -----------------------------
+    # --------------------------------------------------
     # Identity
-    # -----------------------------
-    id = Column(Integer, primary_key=True)
+    # --------------------------------------------------
 
-    # UUID, not Integer - destinations.id is UUID (see attractions.destination_id
-    # for the bug this caused last time when this was assumed to be int).
+    id = Column(
+        Integer,
+        primary_key=True,
+    )
+
     destination_id = Column(
         UUID(as_uuid=True),
         ForeignKey("destinations.id"),
@@ -43,58 +45,198 @@ class Accommodation(Base):
         index=True,
     )
 
-    # -----------------------------
+    # --------------------------------------------------
     # Basic Information
-    # -----------------------------
-    name = Column(String, nullable=False)
+    # --------------------------------------------------
 
-    lodging_type = Column(String)  # "hotel" | "hostel" | "guest_house" | etc
-
-    description = Column(String)
-
-    website = Column(String)
-
-    latitude = Column(Float, nullable=False)
-
-    longitude = Column(Float, nullable=False)
-
-    # -----------------------------
-    # Google Signal
-    # -----------------------------
-    rating = Column(Float)
-
-    review_count = Column(Integer)
-
-    # -----------------------------
-    # Trip Planning Metadata
-    # -----------------------------
-    price_tier = Column(String)  # "budget" | "mid_range" | "luxury"
-    tags = Column(JSONB)
-    planner_metadata = Column(JSONB)
-
-    amenities = Column(JSONB)
-
-    pool = Column(Boolean)
-
-    spa = Column(Boolean)
-
-    family_friendly = Column(Boolean)
-
-    business_friendly = Column(Boolean)
-
-    # -----------------------------
-    # AI Metadata
-    # -----------------------------
-    accommodation_embedding = Column(
-        Vector(settings.embedding_dimensions)
+    name = Column(
+        String,
+        nullable=False,
     )
 
-    metadata_json = Column(JSONB)
-    embedding_text = Column(Text)
+    lodging_type = Column(
+        String,
+    )
 
-    # -----------------------------
+    description = Column(
+        String,
+    )
+
+    website = Column(
+        String,
+    )
+
+    latitude = Column(
+        Float,
+        nullable=False,
+    )
+
+    longitude = Column(
+        Float,
+        nullable=False,
+    )
+
+    # --------------------------------------------------
+    # Google Signals
+    # --------------------------------------------------
+
+    rating = Column(
+        Float,
+    )
+
+    review_count = Column(
+        Integer,
+    )
+
+    star_rating = Column(
+        Integer,
+    )
+
+    # --------------------------------------------------
+    # AI Enrichment
+    # --------------------------------------------------
+
+    brand_name = Column(
+        String,
+    )
+
+    brand_tier = Column(
+        String,
+    )
+
+    hotel_category = Column(
+        String,
+    )
+
+    luxury_positioning = Column(
+        Float,
+    )
+
+    location_type = Column(
+        String,
+    )
+
+    location_quality_score = Column(
+        Float,
+    )
+
+    quality_score = Column(
+        Float,
+    )
+
+    semantic_features = Column(
+        JSONB,
+    )
+
+    enrichment_confidence = Column(
+        Float,
+    )
+
+    enrichment_source = Column(
+        String,
+    )
+
+    # --------------------------------------------------
+    # Pricing
+    # --------------------------------------------------
+
+    estimated_price_per_night = Column(
+        Float,
+    )
+
+    currency = Column(
+        String,
+        default="USD",
+    )
+
+    pricing_confidence = Column(
+        Float,
+    )
+
+    # --------------------------------------------------
+    # Location Intelligence
+    # --------------------------------------------------
+
+    distance_from_city_center_km = Column(
+        Float,
+    )
+
+    distance_to_metro_m = Column(
+        Float,
+    )
+
+    distance_to_main_attractions_km = Column(
+        Float,
+    )
+
+    average_travel_time_minutes = Column(
+        Float,
+    )
+
+    # --------------------------------------------------
+    # Amenities
+    # --------------------------------------------------
+
+    amenities = Column(
+        JSONB,
+    )
+
+    tags = Column(
+        JSONB,
+    )
+
+    best_for = Column(
+        JSONB,
+    )
+
+    pool = Column(
+        Boolean,
+    )
+
+    spa = Column(
+        Boolean,
+    )
+
+    family_friendly = Column(
+        Boolean,
+    )
+
+    business_friendly = Column(
+        Boolean,
+    )
+
+    # --------------------------------------------------
+    # Images / Planner Metadata
+    # --------------------------------------------------
+
+    photos = Column(
+        JSONB,
+    )
+
+    planner_metadata = Column(
+        JSONB,
+    )
+
+    metadata_json = Column(
+        JSONB,
+    )
+
+    # --------------------------------------------------
+    # Embeddings
+    # --------------------------------------------------
+
+    embedding_text = Column(
+        Text,
+    )
+
+    accommodation_embedding = Column(
+        Vector(settings.embedding_dimensions),
+    )
+
+    # --------------------------------------------------
     # Audit
-    # -----------------------------
+    # --------------------------------------------------
+
     created_at = Column(
         DateTime,
         default=datetime.utcnow,
@@ -105,6 +247,10 @@ class Accommodation(Base):
         default=datetime.utcnow,
         onupdate=datetime.utcnow,
     )
+
+    # --------------------------------------------------
+    # Relationships
+    # --------------------------------------------------
 
     destination = relationship(
         "Destination",

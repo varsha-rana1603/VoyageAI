@@ -49,18 +49,26 @@ class AttractionLike(Protocol):
     category: str
     latitude: float
     longitude: float
-
-    popularity_score: float
-    importance: str  # tier value, e.g. "iconic" | "notable" | "local" — confirm exact strings used
-    rating: Optional[float]
-    review_count: Optional[int]
-
-    visit_duration_minutes: int
-    is_free: Optional[bool]
-    indoor: Optional[bool]
-    family_friendly: Optional[bool]
-
+    popularity_score: float | None
+    importance: str | None
+    rating: float | None
+    review_count: int | None
+    visit_duration_minutes: int | None
+    is_free: bool | None
+    indoor: bool | None
+    family_friendly: bool | None
     tags: list[str]
+    # -------------------------
+    # Intelligence features
+    # -------------------------
+    historical_score: float | None
+    architecture_score: float | None
+    photography_score: float | None
+    crowd_score: float | None
+    hidden_gem_score: float | None
+    estimated_cost: float | None = None
+    best_visit_times: list[str] = []
+    experience_tags: list[str] = []
 
 
 @runtime_checkable
@@ -110,3 +118,16 @@ class RankedAttraction(BaseModel):
     popularity_score: float
     family_friendly: bool | None
     is_free: bool | None
+    iconic_score: float = 0
+    destination_fit_score: float = 0
+    tourist_priority_score: float = 0
+    category_quality_score: float = 0
+    historical_score: float = 0
+    architecture_score: float = 0
+    photography_score: float = 0
+    crowd_score: float = 0
+    hidden_gem_score: float = 0
+    opening_hours: dict | list[str] | None = None
+    estimated_cost: float = 0
+    best_visit_times: list[str] = []
+    experience_tags: list[str] = []

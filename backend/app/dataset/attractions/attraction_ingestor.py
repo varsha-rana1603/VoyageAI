@@ -77,6 +77,7 @@ def ingest_attractions_for_destination(
     db: Session,
     destination: Destination,
     user_profile: UserProfile,
+    destination_profile,
 ) -> list[AttractionORM]:
 
     search_queries = generate_search_queries(user_profile)
@@ -97,6 +98,20 @@ def ingest_attractions_for_destination(
     ]
 
     enriched = enrich_attractions(domain_attractions)
+
+    for a in enriched[:5]:
+        print(
+            "\nDEBUG ENRICHED:",
+            a.name,
+            {
+                "history": a.historical_score,
+                "architecture": a.architecture_score,
+                "photo": a.photography_score,
+                "crowd": a.crowd_score,
+                "hidden": a.hidden_gem_score,
+                "tags": a.tags,
+            }
+        )
 
     return upsert_attractions(
         db=db,

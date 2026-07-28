@@ -26,5 +26,14 @@ class Attraction(BaseModel):
     family_friendly: bool | None = None
     tags: list[str] = []
     is_free: bool | None = None
+    #Intelligence Layer
+    historical_score: float | None = None
+    architecture_score: float | None = None
+    photography_score: float | None = None
+    crowd_score: float | None = None
+    hidden_gem_score: float | None = None
+    experience_tags: list[str] = []
+    best_visit_times: list[str] = []
+    estimated_cost: float | None = None
     
     
