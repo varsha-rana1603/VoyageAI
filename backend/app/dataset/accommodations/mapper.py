@@ -76,6 +76,22 @@ def domain_to_orm(
 
     orm.quality_score = domain.quality_score
 
+    # ---------------------------------------------------------
+    # Semantic Scores
+    # ---------------------------------------------------------
+
+    orm.luxury_score = domain.luxury_score
+
+    orm.business_score = domain.business_score
+
+    orm.family_score = domain.family_score
+
+    orm.romantic_score = domain.romantic_score
+
+    orm.wellness_score = domain.wellness_score
+
+    orm.budget_score = domain.budget_score
+    
     orm.semantic_features = (
         domain.semantic_features
     )
@@ -98,7 +114,7 @@ def domain_to_orm(
 
     orm.currency = domain.currency
 
-    orm.price_confidence = (
+    orm.pricing_confidence = (
         domain.pricing_confidence
     )
 
@@ -124,10 +140,8 @@ def domain_to_orm(
     orm.distance_to_metro_m = (
         domain.distance_to_nearest_metro_km
     )
-
-    # Computed later by the planner
-    orm.distance_to_main_attractions_km = None
-    orm.average_travel_time_minutes = None
+    orm.distance_to_main_attractions_km = domain.distance_to_main_attractions_km
+    orm.average_travel_time_minutes = domain.average_travel_time_minutes
 
     # ---------------------------------------------------------
     # Amenities

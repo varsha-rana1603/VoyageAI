@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 
 from app.database import SessionLocal
 from app.models.destination import Destination
+from app.models.accommodation import Accommodation
 
 from .ingestor import ingest_accommodations
 
@@ -34,6 +35,30 @@ def load_destination_accommodations(
             f"Accommodation Loader | {destination.name}"
         )
         print("=" * 80)
+
+        # ---------------------------------------------------------
+        # Reuse existing accommodations if already ingested
+        # ---------------------------------------------------------
+
+        existing = (
+            db.query(Accommodation)
+            .filter(
+                Accommodation.destination_id == destination_id,
+            )
+            .all()
+        )
+
+        if existing:
+            print(
+                f"\nFound {len(existing)} existing accommodations."
+            )
+            print("Skipping ingestion.")
+
+            return existing
+
+        # ---------------------------------------------------------
+        # Otherwise ingest
+        # ---------------------------------------------------------
 
         accommodations = ingest_accommodations(
             db=db,

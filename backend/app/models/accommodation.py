@@ -124,6 +124,34 @@ class Accommodation(Base):
         Float,
     )
 
+    # --------------------------------------------------
+    # Semantic Scores
+    # --------------------------------------------------
+
+    luxury_score = Column(
+        Float,
+    )
+
+    business_score = Column(
+        Float,
+    )
+
+    family_score = Column(
+        Float,
+    )
+
+    romantic_score = Column(
+        Float,
+    )
+
+    wellness_score = Column(
+        Float,
+    )
+
+    budget_score = Column(
+        Float,
+    )
+
     semantic_features = Column(
         JSONB,
     )

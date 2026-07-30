@@ -86,9 +86,9 @@ def generate_json(
         max_tokens=max_tokens,
     )
 
-    print("\n========== RAW LLM RESPONSE ==========")
-    print(text)
-    print("======================================\n")
+    # print("\n========== RAW LLM RESPONSE ==========")
+    # print(text)
+    # print("======================================\n")
             
     
 

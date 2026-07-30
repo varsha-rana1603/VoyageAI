@@ -33,7 +33,7 @@ from .enricher import enrich_accommodations
 from .mapper import domain_to_orm
 from .normalizer import normalize_accommodations
 from app.dataset.accommodations.enrichment.pricing import estimate_prices
-
+from .enrichment.location.geoapify_client import GeoapifyClient
 
 def ingest_accommodations(
     *,
@@ -43,6 +43,7 @@ def ingest_accommodations(
     """
     Ingest accommodations for a destination.
     """
+    geoapify = GeoapifyClient()
 
     print(f"\nSearching accommodations for {destination.name}...")
 
@@ -81,6 +82,8 @@ def ingest_accommodations(
 
     accommodations = enrich_accommodations(
         accommodations,
+        destination,
+        geoapify
     )
 
     print("Enrichment complete.")

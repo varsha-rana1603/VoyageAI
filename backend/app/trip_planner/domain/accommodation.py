@@ -79,6 +79,10 @@ class Accommodation(BaseModel):
 
     distance_to_nearest_metro_km: float | None = None
 
+    distance_to_main_attractions_km: float | None = None
+
+    average_travel_time_minutes: float | None = None
+
     planner_metadata: dict[str, Any] = Field(
         default_factory=dict
     )
