@@ -19,6 +19,8 @@ class Settings(BaseSettings):
     # Google Places API (new, not legacy) -- destination name/coords/terrain/description.
     google_places_api_key: str = ""
 
+    geoapify_api_key: str = ""
+
     # Open-Meteo climate API needs no key -- historical monthly normals, free.
     open_meteo_base_url: str = "https://archive-api.open-meteo.com/v1/archive"
 

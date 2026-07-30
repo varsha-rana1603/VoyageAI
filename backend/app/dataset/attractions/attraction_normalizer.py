@@ -10,28 +10,41 @@ from app.trip_planner.domain.common import Coordinates
 
 
 def normalize_attraction(place: dict) -> Attraction:
+
+    types = place.get("types", [])
+
     return Attraction(
-        name=place["displayName"]["text"],
-        google_place_id=place["id"],
-        category=place.get("types", ["unknown"])[0],
+        name = place["displayName"]["text"],
+        google_place_id = place["id"],
+        category = types[0] if types else "unknown",
         description=None,
         coordinates=Coordinates(
-            latitude=place["location"]["latitude"],
-            longitude=place["location"]["longitude"],
+            latitude = place["location"]["latitude"],
+            longitude = place["location"]["longitude"],
         ),
-        rating=place.get("rating"),
-        review_count=place.get("userRatingCount"),
+        rating = place.get("rating"),
+        review_count = place.get("userRatingCount"),
         popularity_score=None,
         importance=None,
         visit_duration_minutes=None,
         estimated_ticket_price=None,
-        opening_hours=(
-            place.get("regularOpeningHours", {}).get("weekdayDescriptions", [])
-        ),
+        opening_hours=
+            (
+                place.get(
+                    "regularOpeningHours",
+                    {}
+                )
+                .get(
+                    "weekdayDescriptions",
+                    []
+                )
+            ),
         indoor=None,
         family_friendly=None,
-        website=place.get("websiteUri"),
-        # photo_references=[photo["name"] for photo in place.get("photos", [])],
-        tags=place.get("types", []),
+        website=
+            place.get("websiteUri"),
+        tags=types,
+        experience_tags=types,
         is_free=None,
+
     )

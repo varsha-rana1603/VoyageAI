@@ -86,4 +86,16 @@ def generate_json(
         max_tokens=max_tokens,
     )
 
-    return json.loads(text)
+    # print("\n========== RAW LLM RESPONSE ==========")
+    # print(text)
+    # print("======================================\n")
+            
+    
+
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        print("\n========== RAW LLM RESPONSE ==========")
+        print(text)
+        print("======================================\n")
+        raise

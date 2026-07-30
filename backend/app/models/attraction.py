@@ -83,6 +83,27 @@ class Attraction(Base):
 
     is_free = Column(Boolean)
 
+        # -----------------------------
+    # Experience Intelligence
+    # -----------------------------
+
+    historical_score = Column(Float)
+
+    architecture_score = Column(Float)
+
+    photography_score = Column(Float)
+
+    crowd_score = Column(Float)
+
+    hidden_gem_score = Column(Float)
+
+
+    experience_tags = Column(JSONB)
+
+    best_visit_times = Column(JSONB)
+
+    estimated_cost = Column(Float)
+
     # -----------------------------
     # AI Metadata
     # -----------------------------

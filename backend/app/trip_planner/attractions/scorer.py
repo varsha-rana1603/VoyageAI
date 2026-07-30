@@ -42,7 +42,6 @@ _IMPORTANCE_SCORE = {
     "local": 0.35,
 }
 
-
 def travel_style_match(attraction, profile):
 
     if not profile.travel_styles:

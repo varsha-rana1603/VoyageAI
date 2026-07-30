@@ -188,25 +188,42 @@ HOTEL_FIELD_MASK = ",".join(
 )
 
 
-def search_destination_accommodations(
-    query: str,
-    limit: int = 20,
-) -> list[dict]:    
+def search_nearby_accommodations(
+    latitude: float,
+    longitude: float,
+    radius_meters: int = 15000,
+    max_results: int = 20,
+) -> list[dict]:
+    """
+    Search nearby accommodations using the Google Places Nearby Search API.
+
+    Returns hotels, resorts, hostels, guest houses, etc.
+    """
+
     response = httpx.post(
-        f"{PLACES_BASE_URL}:searchText",
+        f"{PLACES_BASE_URL}:searchNearby",
         headers=_headers(HOTEL_FIELD_MASK),
         json={
-            "textQuery": query,
-            "maxResultCount": limit,
+            "includedTypes": [
+                "lodging",
+            ],
+            "maxResultCount": max_results,
+            "locationRestriction": {
+                "circle": {
+                    "center": {
+                        "latitude": latitude,
+                        "longitude": longitude,
+                    },
+                    "radius": radius_meters,
+                }
+            },
         },
-        timeout=20.0,
+        timeout=20,
     )
-
-    # print("RESPONSE: ", response.json().get("places"))
 
     if response.status_code != 200:
         raise PlacesLookupError(
-            f"Accommodation search failed for '{query}': "
+            f"Accommodation search failed: "
             f"{response.status_code} {response.text}"
         )
 
